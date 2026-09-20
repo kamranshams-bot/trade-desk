@@ -3,6 +3,7 @@ name: Daily brief
 on:
   schedule:
     # 05:00 UTC = 09:00 Dubai (UTC+4, no daylight saving). Mon-Fri.
+    # GitHub may start scheduled runs 5-30+ minutes late at busy times.
     - cron: "0 5 * * 1-5"
   workflow_dispatch:
     inputs:
@@ -23,6 +24,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    outputs:
+      updated: ${{ steps.gen.outputs.updated }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -31,6 +34,7 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt
       - name: Generate brief
+        id: gen
         run: python scripts/update.py
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -43,21 +47,25 @@ jobs:
           MAIL_TO: ${{ secrets.MAIL_TO }}
           MAIL_FROM: ${{ secrets.MAIL_FROM }}
       - name: Save data.json
+        if: steps.gen.outputs.updated == 'true'
         run: |
           git config user.name "brief-bot"
           git config user.email "brief-bot@users.noreply.github.com"
           git add data.json
           git diff --cached --quiet || (git commit -m "Daily brief $(date -u +%F)" && git push)
       - name: Assemble site
+        if: steps.gen.outputs.updated == 'true'
         run: |
           mkdir _site
           cp index.html data.json manifest.webmanifest sw.js icon-192.png icon-512.png _site/
       - uses: actions/upload-pages-artifact@v3
+        if: steps.gen.outputs.updated == 'true'
         with:
           path: _site
 
   deploy:
     needs: build
+    if: needs.build.outputs.updated == 'true'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
