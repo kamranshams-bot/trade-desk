@@ -1,0 +1,67 @@
+name: Daily brief
+
+on:
+  schedule:
+    # 05:00 UTC = 09:00 Dubai (UTC+4, no daylight saving). Mon-Fri.
+    - cron: "0 5 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Run even if no new trading day (use for the first run)"
+        default: "true"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily-brief
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Generate brief
+        run: python scripts/update.py
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
+          FORCE: ${{ inputs.force }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+          MAIL_FROM: ${{ secrets.MAIL_FROM }}
+      - name: Save data.json
+        run: |
+          git config user.name "brief-bot"
+          git config user.email "brief-bot@users.noreply.github.com"
+          git add data.json
+          git diff --cached --quiet || (git commit -m "Daily brief $(date -u +%F)" && git push)
+      - name: Assemble site
+        run: |
+          mkdir _site
+          cp index.html data.json manifest.webmanifest sw.js icon-192.png icon-512.png _site/
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
