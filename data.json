@@ -1,229 +1,223 @@
 {
- "asOf": "Seed data · Friday 18 Sep 2026 close · for the Monday 21 Sep 2026 session",
+ "asOf": "Updated Sun 20 Sep 2026, 11:52 Dubai · prices from 2026-09-18 close · for the Mon 21 Sep session",
+ "kicker": "Dubai desk · US open 5:30pm Dubai (9:30am ET)",
+ "barDate": "2026-09-18",
+ "sessionDate": "2026-09-21",
  "stats": [
   [
-   "Fed funds",
-   "3.75–4.00%",
-   "hiked 16 Sep"
+   "S&P 500 (SPY)",
+   "+0.13%",
+   "last session"
+  ],
+  [
+   "Nasdaq-100 (QQQ)",
+   "+0.63%",
+   "last session"
   ],
   [
    "10-yr yield",
-   "~5%",
-   "5.04% peak"
+   "5.00%",
+   "+1.0% day"
   ],
   [
-   "Oil",
-   "> $100",
-   "diesel ~$6.30"
+   "Oil (WTI)",
+   "$96",
+   "-5.7% day"
   ],
   [
    "Bitcoin",
-   "~$81.2k",
-   "Sat 19 Sep"
+   "$80,316",
+   "-1.1% day"
   ],
   [
-   "Fri close",
-   "SPY +0.14%",
-   "QQQ +0.57%"
+   "VIX",
+   "14.8",
+   "-4.1% day"
   ]
  ],
- "items": [
-  {
-   "t": "CRWD",
-   "name": "CrowdStrike",
-   "sector": "Cybersecurity",
-   "group": "core",
-   "ref": 247.2,
-   "refNote": "record high",
-   "week": 16.1,
-   "news": "Best S&P 500 performer last week (+16.1%). Investors read the AI-safety debate as a lasting driver of security spending. Stephens raised its target to $280 and BofA to $260 (Neutral).",
-   "entry": "Hold/break above $247.50, or dip to $241–243",
-   "entryMid": 242,
-   "stop": 237,
-   "t1": 252,
-   "t2": 257,
-   "exit": "$252 (half), $257 (rest)",
-   "risk": "Extended after a 16% week; watch for a gap-and-fade. The break-above entry has a poor reward-to-risk; the pullback entry is better."
-  },
-  {
-   "t": "PANW",
-   "name": "Palo Alto Networks",
-   "sector": "Cybersecurity",
-   "group": "context",
-   "week": 9.7,
-   "news": "Rallied with CrowdStrike on the AI-security theme. Context only, no trade plan."
-  },
-  {
-   "t": "FTNT",
-   "name": "Fortinet",
-   "sector": "Cybersecurity",
-   "group": "context",
-   "week": 8.5,
-   "news": "Rallied with CrowdStrike on the AI-security theme. Context only, no trade plan."
-  },
-  {
-   "t": "COIN",
-   "name": "Coinbase",
-   "sector": "Crypto & fintech",
-   "group": "core",
-   "ref": 193.8,
-   "week": 10.9,
-   "news": "Bitcoin cleared $80,000 in its strongest week in years (about $81,200 on Saturday) and the SEC granted an innovation exemption for tokenized-stock trading.",
-   "entry": "Dip to $190–192, or break above $196 with BTC above $80k",
-   "entryMid": 191,
-   "stop": 185.5,
-   "t1": 199,
-   "t2": 204,
-   "exit": "$199 (half), $204 (rest)",
-   "risk": "Crypto trades 24/7, so check BTC on Sunday night. Skip the trade if BTC falls below $78k. The CLARITY Act failure in the Senate is a headwind."
-  },
-  {
-   "t": "HOOD",
-   "name": "Robinhood",
-   "sector": "Crypto & fintech",
-   "group": "sector",
-   "ref": 119.6,
-   "week": 8.9,
-   "news": "Rallied with crypto after Bitcoin cleared $80,000 and the SEC's tokenized-stock exemption. A high-beta cousin of COIN, so it doubles up crypto exposure.",
-   "entry": "Dip to $117–119, or break above $121",
-   "entryMid": 118,
-   "stop": 114,
-   "t1": 124,
-   "t2": 128,
-   "exit": "$124 (half), $128 (rest)",
-   "risk": "Moves with Bitcoin and COIN; don't size both at full risk."
-  },
-  {
-   "t": "GNRC",
-   "name": "Generac",
-   "sector": "Industrials",
-   "group": "core",
-   "ref": 207,
-   "refNote": "Thu close $207.23",
-   "week": 9.8,
-   "news": "Long-term Amazon data-center generator agreement worth up to $8B, with $2.4B of deliveries in 2027–28. Amazon received a warrant at about $201. Cantor Overweight ($333), Canaccord Buy ($375), Wells Fargo Overweight ($280).",
-   "entry": "Dip holding $205–208, or reclaim of $215 on volume",
-   "entryMid": 206.5,
-   "stop": 199,
-   "t1": 216,
-   "t2": 224,
-   "exit": "$216 (half), $224 (rest)",
-   "risk": "Spiked to $231.89 on Thursday, then faded. Volatility is high, so use smaller size. Stop sits below the warrant strike."
-  },
-  {
-   "t": "NVDA",
-   "name": "Nvidia",
-   "sector": "Semiconductors",
-   "group": "sector",
-   "ref": 221.8,
-   "week": null,
-   "news": "No fresh company news found; this is a sector-momentum trade. Nasdaq-100 tech led Friday, with Alphabet and Meta strong. Lower conviction than the core ideas.",
-   "entry": "Dip to $219–221, or break above $224 on volume",
-   "entryMid": 220,
-   "stop": 216,
-   "t1": 227,
-   "t2": 231,
-   "exit": "$227 (half), $231 (rest)",
-   "risk": "Chip stocks are sensitive to the 5% 10-year yield; a bond sell-off hits them first."
-  },
-  {
-   "t": "RVTY",
-   "name": "Revvity",
-   "sector": "Healthcare",
-   "group": "sector",
-   "ref": 146.7,
-   "week": 14.9,
-   "news": "Highest level since January 2023 after KeyBanc raised its target to $165 (Overweight) and it agreed to buy Human Cell Design (GLP-1 / diabetes research; closing expected Q4).",
-   "entry": "Pullback to $144–146, or break above $149",
-   "entryMid": 145,
-   "stop": 141,
-   "t1": 151,
-   "t2": 155,
-   "exit": "$151 (half), $155 (rest)",
-   "risk": "Extended after a big week; the consensus target is well below the price, so a pullback is likely."
-  },
-  {
-   "t": "OXY",
-   "name": "Occidental Petroleum",
-   "sector": "Energy",
-   "group": "sector",
-   "ref": 59,
-   "week": -4.1,
-   "approx": true,
-   "news": "Oil above $100 and record diesel keep energy near record highs. Analyst average target about $68; quarterly dividend of $0.28 payable 15 Oct. Weekly change is approximate.",
-   "entry": "Hold above $58.50, or dip to $58–59",
-   "entryMid": 58.5,
-   "stop": 57.2,
-   "t1": 60.4,
-   "t2": 62,
-   "exit": "$60.40 (half), $62 (rest)",
-   "risk": "Any Middle East ceasefire headline can drop oil and the sector fast."
-  },
-  {
-   "t": "ONDS",
-   "name": "Ondas",
-   "sector": "Low-priced (under $10)",
-   "group": "low",
-   "ref": 7.39,
-   "week": 2.2,
-   "news": "A US Army order of more than $50M under a $982M multi-year contract; backlog about $757M; Needham reiterated Buy ($19 target). Short interest reported near 40%, which can fuel squeezes and sharp reversals. Averages about 80M shares a day.",
-   "entry": "Hold near $7.15–7.30, or break above $7.55",
-   "entryMid": 7.22,
-   "stop": 6.95,
-   "t1": 7.9,
-   "t2": 8.4,
-   "exit": "$7.90 (half), $8.40 (rest)",
-   "risk": "Down about 40% from its 52-week high of $15.28; dilution risk from past equity raises."
-  },
-  {
-   "t": "NIO",
-   "name": "NIO",
-   "sector": "Low-priced (under $10)",
-   "group": "low",
-   "ref": 3.65,
-   "week": null,
-   "news": "Speculative bounce only. Near its 52-week low ($3.55) and below its 50- and 200-day averages. Positives: SUV share gains in China and higher oil helping EV appeal. Negatives: RBC downgrade, continued losses, no buyback.",
-   "entry": "Hold above $3.60, or reclaim $3.72",
-   "entryMid": 3.62,
-   "stop": 3.5,
-   "t1": 3.85,
-   "t2": 4,
-   "exit": "$3.85 (half), $4.00 (rest)",
-   "risk": "In a downtrend; the setup fails on a close under $3.55."
-  },
-  {
-   "t": "JBHT",
-   "name": "J.B. Hunt",
-   "sector": "Freight",
-   "group": "avoid",
-   "week": -13.2,
-   "news": "Warned Q3 profit will fall 5–10% on fuel and driver costs; diesel is up about 70% in a year. Avoid, or fade weak bounces only. No levels given."
-  }
- ],
- "kicker": "Dubai desk · US open 5:30pm Dubai (9:30am ET)",
- "barDate": "2026-09-18",
  "notes": [
-  "Fed hiked 25bp on 16 Sep, the first hike since 2023; most officials pencil in at least one more this year.",
-  "Oil above $100 and diesel at a record keep energy strong and freight weak.",
-  "Bitcoin cleared $80,000; the CLARITY Act failed in the Senate this week."
+  "Fed hiked 25bp to 3.75%-4.00% on Sept 16 (first hike since 2023, 12-0 vote); dot plot shows a split committee on 2027, with markets pricing meaningful odds of one more 2026 hike, keeping the tape in a higher-for-longer, ",
+  "Index action last week was split: S&P 500 and Dow were on pace for a losing week while Nasdaq was set for a third gain in four weeks as chip/tech names led the post-Fed bounce.",
+  "Crude remains elevated with Brent near $103 and WTI near $101 amid renewed Saudi-Houthi fighting near the Bab al-Mandeb strait and Iranian rhetoric tying Strait of Hormuz access to US/Israeli leadership changes, keeping ",
+  "Bitcoin is holding a bullish technical structure near $81,200, above its 20/50/200-day EMAs, though momentum is decelerating intraday.",
+  "A US-China summit slated for this week is being flagged as a potential macro wildcard that could swing sentiment either way.",
+  "Earnings flow is thin this week (inter-season lull), so single-name catalysts (index adds, trial data, PE-buyout chatter, analyst calls) are likely to dominate over macro data for day-trading setups."
  ],
  "calendar": [
-  "Mon: no major earnings or data.",
-  "Tue: AZO, THO, KBH · Wed: CTAS, PAYX, GIS · Thu: DRI, new home sales.",
-  "IPOs: no major US pricing confirmed. Check the Nasdaq/NYSE IPO calendar."
+  "Bloom Energy (BE) officially joins the S&P 500 effective Monday, Sept 21 — a mechanical index-fund buying catalyst for the Monday open.",
+  "Earnings this week: Cracker Barrel, MillerKnoll, Stitch Fix (Mon AMC); AutoZone, General Mills, Thor Industries, Worthington (Tue); Darden, Paychex, TD SYNNEX (Thu BMO); Costco, Lennar, Abivax (Thu AMC).",
+  "Orion180 (OIG), a Florida-based homeowners/flood insurer, priced its IPO on Sept 17 and began trading on Nasdaq Sept 18, raising up to ~$340M.",
+  "No major scheduled earnings before Monday's open; next FOMC meeting isn't until Oct 28, so macro data releases and geopolitical headlines (Middle East, US-China summit) are the main scheduled risk events this week.",
+  "Oil-supply headlines (Saudi pipeline/refinery disruptions, Strait of Hormuz rhetoric) remain a live, day-to-day catalyst for energy names."
  ],
  "avoid": [
   {
-   "t": "JBHT",
-   "reason": "warned Q3 profit will fall 5–10% and dropped 13.2% last week; diesel up about 70% in a year."
+   "t": "NKE",
+   "reason": "Telsey Advisory Group maintained only a Market Perform rating and cut its price target on Nike from $47 to $44."
   },
   {
-   "t": "KNX/ODFL/XPO/LSTR",
-   "reason": "freight peers under the same fuel and driver-cost pressure. Only fade weak bounces."
+   "t": "RIVN",
+   "reason": "Citigroup initiated coverage on Rivian with a Neutral rating and a $18 price target, signaling limited near-term upside conviction from a major bank."
   },
   {
-   "t": "CHTR / GLW / GM / F",
-   "reason": "Charter (Wolfe downgrade), Corning ($2B equity offering), GM and Ford down about 4–5% last week."
+   "t": "BWIN",
+   "reason": "William Blair downgraded Baldwin Insurance from Outperform to Market Perform."
+  },
+  {
+   "t": "ACVA",
+   "reason": "Needham downgraded ACV Auctions to Hold from Buy and removed its prior $9 price target."
+  },
+  {
+   "t": "EXEL",
+   "reason": "Exelixis shares slipped after the FDA extended the NDA review for cancer drug zanzalintinib to March 2027, pushing out a key catalyst."
+  }
+ ],
+ "items": [
+  {
+   "t": "BE",
+   "name": "Bloom Energy Corp",
+   "sector": "Industrials/Energy Tech",
+   "group": "core",
+   "ref": 265.63,
+   "refNote": "close 2026-09-18",
+   "week": -3.7,
+   "news": "Bloom Energy is set to join the S&P 500 effective Monday, September 21, which typically forces passive index funds to buy shares on the effective date. The fuel-cell maker has been a major beneficiary of the AI data-center power buildout and is already up roughly 190% year-to-date.",
+   "risk": "Index-inclusion pops can fade quickly once passive buying is absorbed, especially after such a large YTD run-up.",
+   "sources": [
+    "https://www.cnbc.com/2026/09/07/stock-market-tuesday-live-updates.html"
+   ],
+   "entry": "Dip to $256.68–262.94, or break above $288.00 on volume",
+   "entryMid": 259.81,
+   "stop": 249.07,
+   "t1": 277.71,
+   "t2": 288.45,
+   "exit": "$277.71 (half), $288.45 (rest)"
+  },
+  {
+   "t": "ROIV",
+   "name": "Roivant Sciences Ltd",
+   "sector": "Healthcare",
+   "group": "core",
+   "ref": 39.77,
+   "refNote": "close 2026-09-18",
+   "week": -2.6,
+   "news": "Shares rallied 24% after subsidiary Pulmovant reported Phase 2 data showing a clinically meaningful, statistically significant reduction in pulmonary vascular resistance for mosliciguat in patients with pulmonary hypertension associated with interstitial lung disease. This is a genuine binary clinical catalyst with a large single-day move that could see continuation or profit-taking Monday.",
+   "risk": "Biotech data-driven pops are prone to sharp reversals on profit-taking or scrutiny of trial details/small sample sizes.",
+   "sources": [
+    "https://www.cnbc.com/2026/09/07/stock-market-tuesday-live-updates.html"
+   ],
+   "entry": "Dip to $38.91–39.51, or break above $41.60 on volume",
+   "entryMid": 39.21,
+   "stop": 38.17,
+   "t1": 40.93,
+   "t2": 41.97,
+   "exit": "$40.93 (half), $41.97 (rest)"
+  },
+  {
+   "t": "INTC",
+   "name": "Intel Corp",
+   "sector": "Technology/Semiconductors",
+   "group": "core",
+   "ref": 108.6,
+   "refNote": "close 2026-09-18",
+   "week": 5.5,
+   "news": "Intel jumped in Friday's session amid broad semiconductor strength, and Tigress Financial reiterated a Buy rating while raising its price target from $118 to $145. Chip stocks broadly outperformed as the SOXX ETF also rallied.",
+   "risk": "Semiconductor momentum can reverse fast on any AI-capex or guidance disappointment from peers.",
+   "sources": [
+    "https://www.cnbc.com/2026/09/07/stock-market-tuesday-live-updates.html",
+    "https://www.benzinga.com/analyst-stock-ratings"
+   ],
+   "entry": "Dip to $105.80–107.76, or break above $111.37 on volume",
+   "entryMid": 106.78,
+   "stop": 103.42,
+   "t1": 112.38,
+   "t2": 115.73,
+   "exit": "$112.38 (half), $115.73 (rest)"
+  },
+  {
+   "t": "MRVL",
+   "name": "Marvell Technology Inc",
+   "sector": "Technology",
+   "group": "sector",
+   "ref": 244.25,
+   "refNote": "close 2026-09-18",
+   "week": 3.5,
+   "news": "BofA reiterated a Buy on Marvell with a $365 price target, arguing the custom AI silicon opportunity could reach $300 billion by 2030. The stock has already nearly tripled in 2026 on AI infrastructure demand.",
+   "risk": "Stock has run very hard already, making it vulnerable to any AI capex growth-rate disappointment or broader tech pullback.",
+   "sources": [
+    "https://www.benzinga.com/analyst-stock-ratings/upgrades"
+   ],
+   "entry": "Dip to $238.08–242.40, or break above $247.89 on volume",
+   "entryMid": 240.24,
+   "stop": 232.83,
+   "t1": 252.58,
+   "t2": 259.99,
+   "exit": "$252.58 (half), $259.99 (rest)"
+  },
+  {
+   "t": "XOM",
+   "name": "Exxon Mobil Corp",
+   "sector": "Energy",
+   "group": "sector",
+   "ref": 163.54,
+   "refNote": "close 2026-09-18",
+   "week": -1.5,
+   "news": "Brent and WTI remain above $100 a barrel for a second straight week as Saudi-Houthi fighting near the Bab al-Mandeb strait and renewed Iranian rhetoric around the Strait of Hormuz keep a geopolitical risk premium in crude. Major integrated producers are direct beneficiaries of sustained triple-digit oil.",
+   "risk": "Any de-escalation headline or diplomatic breakthrough could sharply reverse the oil-driven bid.",
+   "sources": [
+    "https://www.thenationalnews.com/business/energy/2026/09/18/oil-on-track-to-remain-above-100-for-second-straight-week-as-middle-east-tensions-simmer/"
+   ],
+   "entry": "Dip to $161.59–162.96, or break above $169.64 on volume",
+   "entryMid": 162.28,
+   "stop": 159.94,
+   "t1": 166.17,
+   "t2": 168.5,
+   "exit": "$166.17 (half), $168.50 (rest)"
+  },
+  {
+   "t": "NKE",
+   "name": "NKE",
+   "sector": "Avoid / fade",
+   "group": "avoid",
+   "ref": 35.51,
+   "week": -3.5,
+   "news": "Telsey Advisory Group maintained only a Market Perform rating and cut its price target on Nike from $47 to $44. No levels given."
+  },
+  {
+   "t": "RIVN",
+   "name": "RIVN",
+   "sector": "Avoid / fade",
+   "group": "avoid",
+   "ref": 14.99,
+   "week": -6.5,
+   "news": "Citigroup initiated coverage on Rivian with a Neutral rating and a $18 price target, signaling limited near-term upside conviction from a major bank. No levels given."
+  },
+  {
+   "t": "BWIN",
+   "name": "BWIN",
+   "sector": "Avoid / fade",
+   "group": "avoid",
+   "ref": 31.93,
+   "week": 7.7,
+   "news": "William Blair downgraded Baldwin Insurance from Outperform to Market Perform. No levels given."
+  },
+  {
+   "t": "ACVA",
+   "name": "ACVA",
+   "sector": "Avoid / fade",
+   "group": "avoid",
+   "ref": 10.48,
+   "week": 0.7,
+   "news": "Needham downgraded ACV Auctions to Hold from Buy and removed its prior $9 price target. No levels given."
+  },
+  {
+   "t": "EXEL",
+   "name": "EXEL",
+   "sector": "Avoid / fade",
+   "group": "avoid",
+   "ref": 58.36,
+   "week": 4.0,
+   "news": "Exelixis shares slipped after the FDA extended the NDA review for cancer drug zanzalintinib to March 2027, pushing out a key catalyst. No levels given."
   }
  ]
 }
