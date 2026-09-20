@@ -38,8 +38,20 @@ DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "data.json")
 try:
     import holidays
     NYSE = holidays.financial_holidays("NYSE", years=range(2026, 2031))
-except Exception:  # library missing: fall back to weekends only
-    NYSE = {}
+except Exception:  # library missing: use a built-in NYSE holiday list (2026-2027)
+    NYSE = {dt.date.fromisoformat(x) for x in (
+        "2026-01-01", "2026-01-19", "2026-02-16", "2026-04-03", "2026-05-25",
+        "2026-06-19", "2026-07-03", "2026-09-07", "2026-11-26", "2026-12-25",
+        "2027-01-01", "2027-01-18", "2027-02-15", "2027-03-26", "2027-05-31",
+        "2027-06-18", "2027-07-05", "2027-09-06", "2027-11-25", "2027-12-24")}
+
+
+def set_output(updated):
+    """Tell the GitHub workflow whether a new brief was written (deploy only then)."""
+    path = os.environ.get("GITHUB_OUTPUT")
+    if path:
+        with open(path, "a") as f:
+            f.write(f"updated={'true' if updated else 'false'}\n")
 
 
 def is_session(d):
@@ -301,6 +313,7 @@ def send_email(data):
 
 # ---- main ---------------------------------------------------------------------
 def main():
+    set_output(False)
     now_et, now_dxb = dt.datetime.now(ET), dt.datetime.now(DXB)
     if not FORCE and not is_session(now_et.date()):
         print("Not a US trading day; nothing to do.")
@@ -338,6 +351,7 @@ def main():
     }
     with open(DATA_PATH, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=1, ensure_ascii=False)
+    set_output(True)
     print(f"Wrote {len(picks)} picks, {len(avoid)} avoids.")
     try:
         send_email(data)
