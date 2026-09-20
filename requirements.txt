@@ -1,0 +1,4 @@
+anthropic>=0.50.0
+yfinance>=0.2.54
+pandas>=2.0
+holidays>=0.60
