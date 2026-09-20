@@ -118,7 +118,7 @@ def find_json(text):
 def ask_claude(session, open_dubai):
     client = anthropic.Anthropic()
     messages = [{"role": "user", "content": build_prompt(session, open_dubai)}]
-    tools = [{"type": SEARCH_TOOL, "name": "web_search", "max_uses": 8}]
+    tools = [{"type": SEARCH_TOOL, "name": "web_search", "max_uses": 15}]
     for _ in range(5):  # allow continuation if the server pauses a long turn
         resp = client.messages.create(model=MODEL, max_tokens=8000, system=SYSTEM,
                                       messages=messages, tools=tools)
