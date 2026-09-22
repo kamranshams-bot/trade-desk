@@ -1,302 +1,248 @@
 {
- "asOf": "Updated Sun 20 Sep 2026, 11:56 Dubai · prices from 2026-09-18 close · for the Mon 21 Sep session",
+ "asOf": "Updated Tue 22 Sep 2026, 09:15 Dubai · prices from 2026-09-21 close · for the Tue 22 Sep session",
  "kicker": "Dubai desk · US open 5:30pm Dubai (9:30am ET)",
- "barDate": "2026-09-18",
- "sessionDate": "2026-09-21",
+ "barDate": "2026-09-21",
+ "sessionDate": "2026-09-22",
  "stats": [
   [
    "S&P 500 (SPY)",
-   "+0.13%",
+   "+1.55%",
    "last session"
   ],
   [
    "Nasdaq-100 (QQQ)",
-   "+0.63%",
+   "+2.88%",
    "last session"
   ],
   [
    "10-yr yield",
-   "5.00%",
-   "+1.0% day"
+   "4.96%",
+   "-0.7% day"
   ],
   [
    "Oil (WTI)",
-   "$96",
-   "-5.7% day"
+   "$93",
+   "-2.5% day"
   ],
   [
    "Bitcoin",
-   "$80,303",
-   "-1.1% day"
+   "$85,287",
+   "+5.1% day"
   ],
   [
    "VIX",
-   "14.8",
-   "-4.1% day"
+   "14.9",
+   "+0.4% day"
   ]
  ],
  "notes": [
-  "Fed delivered its first rate hike in three years on Sept 17 (25bp) and signaled more tightening may follow, with markets pricing high odds of another move by the Oct 28/Dec 9 meetings.",
-  "10-year Treasury yield has pushed above 5% (highest since 2007) and the Bank of Japan hiked to 1.25%, its highest since 1995, adding to a global tightening backdrop.",
-  "Crude remains historically elevated (WTI ~$99-100, Brent ~$103) on the ongoing US-Iran war and Strait of Hormuz disruption, though prices have eased slightly as Saudi Arabia works to restore pipeline flows.",
-  "Bitcoin is trading near $81K, up roughly 5% on the week, shrugging off both the Fed hike and the Senate's failure to pass crypto market-structure legislation (Clarity Act) on Sept 16.",
-  "Equity tape is choppy: Nasdaq finished the week higher on a semiconductor rebound after an early-week selloff tied to AI-labs calling for a slowdown in frontier model development, while the Dow lost over 1.5% on rate jit",
-  "Geopolitical risk stays high heading into Monday: Iran says the Strait of Hormuz stays closed until its conditions are met, and Houthi-Saudi fighting has flared near Riyadh, keeping an energy/defense bid in the market."
+  "Fed hiked rates 25bp to 3.75%-4% on Sept 16 (first hike since 2023) and signaled at least one more hike this year, keeping Chair Warsh focused on inflation over growth.",
+  "Wall Street just posted its best session since early August: S&P 500 +1.49% and Nasdaq Composite +2.26% to a record close, led by an AI-stock rally (AMD topped $1T market cap, Intel +12%, Meta +11%).",
+  "Oil has fallen for four straight sessions (Brent near $100, WTI ~$95.5) on hopes of US-Iran de-escalation and record Hormuz oil/LNG flows, even as the broader 2026 Iran war keeps crude well above pre-war levels.",
+  "Bitcoin spiked above $86,000 on a cascade of short covering (>$300M in shorts liquidated) as risk appetite improved alongside falling oil and yields.",
+  "Trump-Xi summit at the White House on Sept 24 is the week's biggest macro event, aiming to extend the Busan trade truce (tariffs, rare earths, soybeans, Taiwan arms, AI safety all on the table).",
+  "Quarter-end 'window dressing' flows and a dollar index at six-week highs post-Fed add to potential intraday volatility this week."
  ],
  "calendar": [
-  "Earnings docket is thin Monday (no major reports); heavier days are Tuesday (AutoZone, General Mills, KB Home, Cintas) and Thursday (Darden, Costco, Paychex, Lennar, TD Synnex).",
-  "IPO watch: Orion180 (OIG) began trading Sept 18 at $12 and closed its debut week roughly 2-3% below issue price; CVC-backed Bamboo Insurance is slated to go public next week targeting a ~$3.24B valuation.",
-  "M&A/contract flow to track: Copart's $1.9B deal for ACV Auctions, the $7.7B take-private of The Baldwin Group, and Independence Realty's $2.14B acquisition of Centerspace remain in the news cycle.",
-  "Fed speakers and any Middle East ceasefire/escalation headlines are the key macro swing factors this week given the thin earnings calendar.",
-  "Carry-over analyst actions from Friday session (JPMorgan upgrades on Tyson and Recursion, BTIG upgrade on Etsy, Tigress price-target hike on Intel) are likely to still be in focus Monday morning."
+  "Tue Sep 22 (today): AutoZone (AZO), THOR Industries (THO) and MillerKnoll report before the open; KB Home (KBH) and Worthington Enterprises report after the close.",
+  "Wed Sep 23: General Mills (GIS), Cintas (CTAS), Paychex (PAYX) and Cracker Barrel report before the open; Meta's Connect 2026 keynote (new AI glasses, 'Phoenix' MR device) at 4pm PT/7pm ET.",
+  "Thu Sep 24: Trump hosts Xi Jinping at the White House for a high-stakes trade/Taiwan/AI summit; Costco (COST) and Darden Restaurants (DRI) report; new home sales data; FDA advisory panel votes on Grail's Galleri multi-ca",
+  "Fri Sep 25: August durable goods orders and final University of Michigan consumer sentiment.",
+  "Mon Sep 28: Jefferies Financial Group (JEF) earnings.",
+  "US IPO calendar is quiet this week domestically; no major US listings are pricing, in contrast to a busy week of new issues in the Indian market."
  ],
  "avoid": [
   {
-   "t": "RKLB",
-   "reason": "Rocket Lab was the worst-performing Nasdaq 100 stock after SpaceX announced it would push back its Starship launch date, weighing on space-sector sentiment."
+   "t": "AZO",
+   "reason": "AutoZone reports fiscal Q4 earnings before today's open into a backdrop of recent same-store-sales slowdown and multiple analysts (Oppenheimer, Wells Fargo, Barclays, Citi) cutting price targets ahead of the print."
   },
   {
-   "t": "RIVN",
-   "reason": "Citigroup initiated coverage with a Neutral rating and an $18 price target, a tepid view on the EV maker."
+   "t": "KBH",
+   "reason": "KB Home reports Q3 results after today's close with consensus EPS of $0.90 versus $1.61 a year ago, and Wells Fargo maintains an Underweight rating into the print."
   },
   {
-   "t": "BWIN",
-   "reason": "William Blair downgraded Baldwin Insurance to Market Perform from Outperform."
+   "t": "AMC",
+   "reason": "AMC Entertainment is on track to extend losses for a seventh straight trading day."
   },
   {
-   "t": "IBM",
-   "reason": "IBM was among the Dow's biggest laggards Friday, falling over 3%."
+   "t": "PRTH",
+   "reason": "Lake Street downgraded Priority Technology Holdings to Hold and cut its price target from $13 to $8.05."
   },
   {
-   "t": "NKE",
-   "reason": "Telsey Advisory Group maintained a Market Perform rating and cut its Nike price target to $44 from $47."
+   "t": "SBGI",
+   "reason": "Sinclair's hostile takeover bid for Scripps was rejected, removing a key M&A catalyst for the stock."
   }
  ],
  "items": [
   {
-   "t": "AAPL",
-   "name": "Apple Inc.",
+   "t": "META",
+   "name": "Meta Platforms",
    "sector": "Technology",
    "group": "core",
-   "ref": 336.13,
-   "refNote": "close 2026-09-18",
-   "week": 1.2,
-   "news": "Evercore ISI raised its price target to $380 from $365 and reiterated an outperform rating, arguing the new iPhone lineup should drive a better-than-expected refresh cycle with pricing upside from ASP increases and richer memory configurations.",
-   "risk": "A high-multiple mega-cap can lag if Treasury yields keep climbing or broad tech sentiment sours.",
+   "ref": 741.25,
+   "refNote": "close 2026-09-21",
+   "week": 11.4,
+   "news": "Meta's new Muse AI agent has topped app-store charts and helped drive the stock's 11% single-day surge as investors position ahead of Meta's Sept 23-24 Connect keynote unveiling new AI glasses and a 'Phoenix' mixed-reality device. Citi has reiterated a Buy rating, citing bullishness on the AI glasses strategy following early hands-on demos.",
+   "risk": "Stock has already run up sharply into the event, raising 'sell-the-news' risk if the hardware reveal underwhelms.",
    "sources": [
-    "https://www.cnbc.com/2026/09/17/stock-market-today-live-updates.html"
+    "https://www.tradingkey.com/analysis/stocks/us-stocks/262178809-meta-connect-2026-muse-ai-agent-smart-glasses-event-tradingkey",
+    "https://finance.yahoo.com/news/meta-meta-ai-glasses-could-210657334.html"
    ],
-   "entry": "Dip to $332.28–334.97, or break above $338.49 on volume",
-   "entryMid": 333.63,
-   "stop": 329.01,
-   "t1": 341.33,
-   "t2": 345.95,
-   "exit": "$341.33 (half), $345.95 (rest)"
+   "entry": "Dip to $727.58–737.15, or break above $753.00 on volume",
+   "entryMid": 732.36,
+   "stop": 715.96,
+   "t1": 759.7,
+   "t2": 776.11,
+   "exit": "$759.70 (half), $776.11 (rest)"
   },
   {
-   "t": "VLO",
-   "name": "Valero Energy Corp.",
-   "sector": "Energy",
+   "t": "AMD",
+   "name": "Advanced Micro Devices",
+   "sector": "Technology",
    "group": "core",
-   "ref": 413.28,
-   "refNote": "close 2026-09-18",
-   "week": 5.9,
-   "news": "US refiners have more than doubled this year as a global fuel squeeze - over 7 million bpd of refined product capacity offline in the Middle East and Russia - has outpaced the rally in crude itself.",
-   "risk": "Any Hormuz de-escalation or ceasefire headline could sharply compress refining margins and reverse the trade quickly.",
+   "ref": 615.52,
+   "refNote": "close 2026-09-21",
+   "week": 24.7,
+   "news": "AMD topped a $1 trillion market cap as Meta's Muse app fueled the AI-chip trade broadening beyond Nvidia, with hedge-fund ownership of the name rising through Q2. AMD has posted record data-center revenue this year on the back of its OpenAI and Anthropic GPU deals.",
+   "risk": "Valuation is extended after outsized 2026 gains, making the stock sensitive to any AI capex disappointment.",
    "sources": [
-    "https://finance.yahoo.com/energy/articles/global-fuel-squeeze-triggers-u-220000201.html"
+    "https://www.bloomberg.com/news/articles/2026-09-20/us-stock-futures-up-ahead-of-talks-dollar-steady-markets-wrap",
+    "https://www.benzinga.com/analyst-stock-ratings/upgrades"
    ],
-   "entry": "Dip to $406.42–411.22, or break above $416.66 on volume",
-   "entryMid": 408.82,
-   "stop": 400.6,
-   "t1": 422.53,
-   "t2": 430.76,
-   "exit": "$422.53 (half), $430.76 (rest)"
+   "entry": "Dip to $602.76–611.69, or break above $618.07 on volume",
+   "entryMid": 607.22,
+   "stop": 591.91,
+   "t1": 632.75,
+   "t2": 648.06,
+   "exit": "$632.75 (half), $648.06 (rest)"
   },
   {
    "t": "INTC",
-   "name": "Intel Corp.",
-   "sector": "Technology/Semiconductors",
+   "name": "Intel Corp",
+   "sector": "Technology",
    "group": "core",
-   "ref": 108.6,
-   "refNote": "close 2026-09-18",
-   "week": 5.5,
-   "news": "Tigress Financial reiterated a Buy on Intel and raised its price target to $145 from $118, part of a broader semiconductor rebound after the sector's AI-slowdown-driven selloff earlier in the week.",
-   "risk": "Semis remain sensitive to any renewed AI-capex-slowdown headlines or a hawkish Fed repricing that hits high-beta tech.",
+   "ref": 121.78,
+   "refNote": "close 2026-09-21",
+   "week": 25.3,
+   "news": "Intel jumped 12% Monday to close at $121.78 on renewed enthusiasm for its foundry strategy, reports of SK Hynix partnership talks for its Ohio fab, and a Tigress Financial price-target hike to $145; a TipRanks report noted Intel currently has enough chip supply for only about half its clients.",
+   "risk": "The stock has run from the high-$80s to over $120 in weeks, leaving it vulnerable to a sharp pullback on any semis-sector wobble.",
    "sources": [
-    "https://www.benzinga.com/analyst-stock-ratings"
+    "https://seekingalpha.com/news/4645185-tech-strength-sends-intel-higher-by-12",
+    "https://www.techi.com/intc-forecast-12-percent-rally-clears-120/",
+    "https://www.cnn.com/markets/stocks/INTC"
    ],
-   "entry": "Dip to $105.80–107.76, or break above $111.37 on volume",
-   "entryMid": 106.78,
-   "stop": 103.42,
-   "t1": 112.38,
-   "t2": 115.73,
-   "exit": "$112.38 (half), $115.73 (rest)"
+   "entry": "Dip to $118.51–120.80, or break above $124.73 on volume",
+   "entryMid": 119.65,
+   "stop": 115.73,
+   "t1": 126.2,
+   "t2": 130.12,
+   "exit": "$126.20 (half), $130.12 (rest)"
   },
   {
-   "t": "RXRX",
-   "name": "Recursion Pharmaceuticals",
+   "t": "ARM",
+   "name": "Arm Holdings",
+   "sector": "Technology",
+   "group": "sector",
+   "ref": 322.9,
+   "refNote": "close 2026-09-21",
+   "week": 35.1,
+   "news": "Arm shares jumped alongside Intel as Meta's Muse AI agent app drove renewed interest in server-processor demand tied to the broader AI buildout.",
+   "risk": "Move is tied to sentiment/momentum rather than company-specific news, so it can fade quickly if the AI-chip rally stalls.",
+   "sources": [
+    "https://www.cnn.com/markets/stocks/INTC"
+   ],
+   "entry": "Dip to $314.07–320.25, or break above $324.67 on volume",
+   "entryMid": 317.16,
+   "stop": 306.57,
+   "t1": 334.82,
+   "t2": 345.41,
+   "exit": "$334.82 (half), $345.41 (rest)"
+  },
+  {
+   "t": "SMMT",
+   "name": "Summit Therapeutics",
+   "sector": "Healthcare",
+   "group": "sector",
+   "ref": 16.9,
+   "refNote": "close 2026-09-21",
+   "week": -8.3,
+   "news": "Reports indicate the U.S. Treasury is drafting rules to protect pharmaceutical licensing deals with Chinese companies, which would mitigate geopolitical risk for Summit's lead cancer candidate in-licensed from Akeso ahead of a November 2026 FDA action date.",
+   "risk": "Clinical/regulatory-stage biotech carries binary risk around any trial or FDA-timeline news.",
+   "sources": [
+    "https://pro.thestreet.com/markets/stocks/premarket"
+   ],
+   "entry": "Dip to $16.36–16.74, or break above $18.47 on volume",
+   "entryMid": 16.55,
+   "stop": 15.9,
+   "t1": 17.63,
+   "t2": 18.27,
+   "exit": "$17.63 (half), $18.27 (rest)"
+  },
+  {
+   "t": "GLND",
+   "name": "Greenland Energy",
    "sector": "Low-priced (under $10)",
    "group": "low",
-   "ref": 3.83,
-   "refNote": "close 2026-09-18",
-   "week": 19.7,
-   "news": "J.P. Morgan upgraded Recursion on its lead program, sending shares up nearly 17% in the same session.",
-   "risk": "Clinical-stage biotech moves can reverse fast on any follow-up data or funding concerns.",
+   "ref": 2.88,
+   "refNote": "close 2026-09-21",
+   "week": 136.1,
+   "news": "Greenland Energy surged over 140% in premarket Monday after President Trump announced a security pact granting the U.S. permanent access on Greenland, with the deal expected to be formally signed during this week's UN General Assembly; investors are speculating on greater U.S.-backed resource development on the island.",
+   "risk": "Extremely volatile, low-float speculative name that has already moved multiples higher on no confirmed commercial deal, making a sharp reversal likely.",
    "sources": [
-    "https://seekingalpha.com/news/3668588-dialog-semiconductor-beats-on-revenue"
+    "https://www.cnbc.com/2026/09/21/greenland-trump-denmark-deal-stocks-mining.html",
+    "https://www.benzinga.com/trading-ideas/movers/26/09/61907836/greenland-stocks-explode-after-trumps-denmark-deal-grml-up-245"
    ],
-   "entry": "Dip to $3.72–3.80, or break above $3.85 on volume",
-   "entryMid": 3.76,
-   "stop": 3.63,
-   "t1": 3.97,
-   "t2": 4.1,
-   "exit": "$3.97 (half), $4.10 (rest)"
+   "entry": "Dip to $2.76–2.84, or break above $3.39 on volume",
+   "entryMid": 2.8,
+   "stop": 2.66,
+   "t1": 3.04,
+   "t2": 3.18,
+   "exit": "$3.04 (half), $3.18 (rest)"
   },
   {
-   "t": "TSN",
-   "name": "Tyson Foods",
-   "sector": "Consumer Staples",
-   "group": "sector",
-   "ref": 52.77,
-   "refNote": "close 2026-09-18",
-   "week": -0.4,
-   "news": "JPMorgan upgraded Tyson to Overweight, arguing that emerging chicken feed-cost headwinds are already well understood and could be offset by industry-wide production cuts, with beef earnings potentially turning higher.",
-   "risk": "Commodity input costs (feed, cattle) are volatile and could pressure margins faster than expected.",
-   "sources": [
-    "https://investrade.com/market-review-september-18-2026/"
-   ],
-   "entry": "Dip to $52.06–52.56, or break above $54.24 on volume",
-   "entryMid": 52.31,
-   "stop": 51.46,
-   "t1": 53.72,
-   "t2": 54.57,
-   "exit": "$53.72 (half), $54.57 (rest)"
-  },
-  {
-   "t": "CHYM",
-   "name": "Chime Financial",
-   "sector": "Financials/Fintech",
-   "group": "sector",
-   "ref": 30.33,
-   "refNote": "close 2026-09-18",
-   "week": -8.1,
-   "news": "Goldman Sachs maintained its Buy rating on Chime Financial and raised its price target to $37, a positive read-through for digital-banking growth.",
-   "risk": "Fintech/neobank names are rate-sensitive and can be volatile around any regulatory or credit-quality headline.",
-   "sources": [
-    "https://www.benzinga.com/analyst-stock-ratings"
-   ],
-   "entry": "Dip to $29.53–30.09, or break above $34.58 on volume",
-   "entryMid": 29.81,
-   "stop": 28.85,
-   "t1": 31.41,
-   "t2": 32.38,
-   "exit": "$31.41 (half), $32.38 (rest)"
-  },
-  {
-   "t": "KTOS",
-   "name": "Kratos Defense & Security Solutions",
-   "sector": "Industrials/Defense",
-   "group": "sector",
-   "ref": 47.46,
-   "refNote": "close 2026-09-18",
-   "week": 1.6,
-   "news": "Stifel named Kratos among the key beneficiaries of a 2026 'Year of the Drones' inflection in US military spending toward unmanned and autonomous platforms, a thesis reinforced by heightened Middle East tensions.",
-   "risk": "Defense budget headlines and program-award timing can be lumpy, and the stock has already re-rated sharply this year.",
-   "sources": [
-    "https://prismmarketview.com/2026-seen-as-year-of-the-drones-as-u-s-military-spending-shifts-stifel-says/"
-   ],
-   "entry": "Dip to $46.40–47.14, or break above $49.46 on volume",
-   "entryMid": 46.77,
-   "stop": 45.5,
-   "t1": 48.89,
-   "t2": 50.17,
-   "exit": "$48.89 (half), $50.17 (rest)"
-  },
-  {
-   "t": "BBAI",
-   "name": "BigBear.ai Holdings",
-   "sector": "Low-priced (under $10)",
-   "group": "low",
-   "ref": 2.8,
-   "refNote": "close 2026-09-18",
-   "week": -2.4,
-   "news": "BigBear.ai builds decision and vision software for national-security and supply-chain customers; recent quarterly revenue grew double digits with gross margin expansion, and it continues to draw attention as a low-priced AI/defense name with active government-contract catalysts.",
-   "risk": "Low-priced, high-beta name with a history of sharp swings and dilution risk; position size accordingly.",
-   "sources": [
-    "https://stockstotrade.com/ai-penny-stocks/"
-   ],
-   "entry": "Dip to $2.74–2.78, or break above $2.94 on volume",
-   "entryMid": 2.76,
-   "stop": 2.68,
-   "t1": 2.89,
-   "t2": 2.97,
-   "exit": "$2.89 (half), $2.97 (rest)"
-  },
-  {
-   "t": "RCAT",
-   "name": "Red Cat Holdings",
-   "sector": "Low-priced (under $10)",
-   "group": "low",
-   "ref": 6.75,
-   "refNote": "close 2026-09-18",
-   "week": -15.2,
-   "news": "Red Cat is one of the small-cap drone makers directly tied to the Pentagon's accelerating shift toward unmanned systems spending, a theme Stifel and other desks have flagged as a multi-year tailwind.",
-   "risk": "Micro-cap defense-tech names can be extremely volatile and news-driven with thin fundamentals.",
-   "sources": [
-    "https://www.barchart.com/story/news/35496855/u-s-governments-spending-on-defense-contracts-for-drones-leading-to-a-projected-47-billion-market-by-2032"
-   ],
-   "entry": "Dip to $6.51–6.68, or break above $8.15 on volume",
-   "entryMid": 6.59,
-   "stop": 6.31,
-   "t1": 7.07,
-   "t2": 7.36,
-   "exit": "$7.07 (half), $7.36 (rest)"
-  },
-  {
-   "t": "RKLB",
-   "name": "RKLB",
+   "t": "AZO",
+   "name": "AZO",
    "sector": "Avoid / fade",
    "group": "avoid",
-   "ref": 64.57,
-   "week": 2.6,
-   "news": "Rocket Lab was the worst-performing Nasdaq 100 stock after SpaceX announced it would push back its Starship launch date, weighing on space-sector sentiment. No levels given."
+   "ref": 2803.25,
+   "week": -5.5,
+   "news": "AutoZone reports fiscal Q4 earnings before today's open into a backdrop of recent same-store-sales slowdown and multiple analysts (Oppenheimer, Wells Fargo, Barclays, Citi) cutting price targets ahead of the print. No levels given."
   },
   {
-   "t": "RIVN",
-   "name": "RIVN",
+   "t": "KBH",
+   "name": "KBH",
    "sector": "Avoid / fade",
    "group": "avoid",
-   "ref": 14.99,
-   "week": -6.5,
-   "news": "Citigroup initiated coverage with a Neutral rating and an $18 price target, a tepid view on the EV maker. No levels given."
+   "ref": 47.86,
+   "week": -3.4,
+   "news": "KB Home reports Q3 results after today's close with consensus EPS of $0.90 versus $1.61 a year ago, and Wells Fargo maintains an Underweight rating into the print. No levels given."
   },
   {
-   "t": "BWIN",
-   "name": "BWIN",
+   "t": "AMC",
+   "name": "AMC",
    "sector": "Avoid / fade",
    "group": "avoid",
-   "ref": 31.93,
-   "week": 7.7,
-   "news": "William Blair downgraded Baldwin Insurance to Market Perform from Outperform. No levels given."
+   "ref": 2.89,
+   "week": 15.6,
+   "news": "AMC Entertainment is on track to extend losses for a seventh straight trading day. No levels given."
   },
   {
-   "t": "IBM",
-   "name": "IBM",
+   "t": "PRTH",
+   "name": "PRTH",
    "sector": "Avoid / fade",
    "group": "avoid",
-   "ref": 229.55,
-   "week": -5.6,
-   "news": "IBM was among the Dow's biggest laggards Friday, falling over 3%. No levels given."
+   "ref": 7.8,
+   "week": 29.9,
+   "news": "Lake Street downgraded Priority Technology Holdings to Hold and cut its price target from $13 to $8.05. No levels given."
   },
   {
-   "t": "NKE",
-   "name": "NKE",
+   "t": "SBGI",
+   "name": "SBGI",
    "sector": "Avoid / fade",
    "group": "avoid",
-   "ref": 35.51,
-   "week": -3.5,
-   "news": "Telsey Advisory Group maintained a Market Perform rating and cut its Nike price target to $44 from $47. No levels given."
+   "ref": 13.21,
+   "week": -8.2,
+   "news": "Sinclair's hostile takeover bid for Scripps was rejected, removing a key M&A catalyst for the stock. No levels given."
   }
  ]
 }
