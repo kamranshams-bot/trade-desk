@@ -1,248 +1,254 @@
 {
- "asOf": "Updated Tue 22 Sep 2026, 09:15 Dubai · prices from 2026-09-21 close · for the Tue 22 Sep session",
+ "asOf": "Updated Tue 29 Sep 2026, 09:17 Dubai · prices from 2026-09-28 close · for the Tue 29 Sep session",
  "kicker": "Dubai desk · US open 5:30pm Dubai (9:30am ET)",
- "barDate": "2026-09-21",
- "sessionDate": "2026-09-22",
+ "barDate": "2026-09-28",
+ "sessionDate": "2026-09-29",
  "stats": [
   [
    "S&P 500 (SPY)",
-   "+1.55%",
+   "-0.74%",
    "last session"
   ],
   [
    "Nasdaq-100 (QQQ)",
-   "+2.88%",
+   "-1.07%",
    "last session"
   ],
   [
    "10-yr yield",
-   "4.96%",
-   "-0.7% day"
+   "5.24%",
+   "+1.1% day"
   ],
   [
    "Oil (WTI)",
-   "$93",
-   "-2.5% day"
+   "$94",
+   "+1.7% day"
   ],
   [
    "Bitcoin",
-   "$85,287",
-   "+5.1% day"
+   "$83,242",
+   "-1.4% day"
   ],
   [
    "VIX",
-   "14.9",
-   "+0.4% day"
+   "16.1",
+   "+8.1% day"
   ]
  ],
  "notes": [
-  "Fed hiked rates 25bp to 3.75%-4% on Sept 16 (first hike since 2023) and signaled at least one more hike this year, keeping Chair Warsh focused on inflation over growth.",
-  "Wall Street just posted its best session since early August: S&P 500 +1.49% and Nasdaq Composite +2.26% to a record close, led by an AI-stock rally (AMD topped $1T market cap, Intel +12%, Meta +11%).",
-  "Oil has fallen for four straight sessions (Brent near $100, WTI ~$95.5) on hopes of US-Iran de-escalation and record Hormuz oil/LNG flows, even as the broader 2026 Iran war keeps crude well above pre-war levels.",
-  "Bitcoin spiked above $86,000 on a cascade of short covering (>$300M in shorts liquidated) as risk appetite improved alongside falling oil and yields.",
-  "Trump-Xi summit at the White House on Sept 24 is the week's biggest macro event, aiming to extend the Busan trade truce (tariffs, rare earths, soybeans, Taiwan arms, AI safety all on the table).",
-  "Quarter-end 'window dressing' flows and a dollar index at six-week highs post-Fed add to potential intraday volatility this week."
+  "Oil is the dominant driver: Brent/WTI stayed elevated after the US-Iran standoff over the Strait of Hormuz, even as Trump signaled openness to easing sanctions for nuclear concessions and Saudi Arabia restarted its east-",
+  "Treasury yields hit multi-year highs Monday — the 10-year touched a fresh 19-year peak near 5.27% and the 30-year jumped to 5.55% — as traders brace for the Fed to keep tightening into elevated inflation.",
+  "Major indices fell Monday with over 65% of S&P 500 issues lower; only Health Care, Staples and Energy sectors advanced while Financials, Industrials and Communication Services led declines.",
+  "Gold sold off sharply (roughly -3% to -4%) on rate-hike bets while Bitcoin also declined, and the VIX rose nearly 10% as risk appetite cooled.",
+  "Nvidia unveiled an 'Open Agent Safety Platform' backed by 100+ partners (Microsoft, JPMorgan, Palantir, CrowdStrike, Cisco, Oracle) after AI-agent 'containment breach' incidents at OpenAI, Anthropic, Meta and Google rais",
+  "Meta pulled back over 4% Monday (its worst day in a month) as investors took profits after a ~25% September run and last week's Muse Charm device debut."
  ],
  "calendar": [
-  "Tue Sep 22 (today): AutoZone (AZO), THOR Industries (THO) and MillerKnoll report before the open; KB Home (KBH) and Worthington Enterprises report after the close.",
-  "Wed Sep 23: General Mills (GIS), Cintas (CTAS), Paychex (PAYX) and Cracker Barrel report before the open; Meta's Connect 2026 keynote (new AI glasses, 'Phoenix' MR device) at 4pm PT/7pm ET.",
-  "Thu Sep 24: Trump hosts Xi Jinping at the White House for a high-stakes trade/Taiwan/AI summit; Costco (COST) and Darden Restaurants (DRI) report; new home sales data; FDA advisory panel votes on Grail's Galleri multi-ca",
-  "Fri Sep 25: August durable goods orders and final University of Michigan consumer sentiment.",
-  "Mon Sep 28: Jefferies Financial Group (JEF) earnings.",
-  "US IPO calendar is quiet this week domestically; no major US listings are pricing, in contrast to a busy week of new issues in the Indian market."
+  "Carnival (CCL) reports fiscal Q3 results before today's open, with Street looking for EPS near $1.35-$1.36 on ~$8.4B revenue; the stock carries a Street 'Strong Buy' consensus and a 4-for-4 EPS-beat streak.",
+  "Wednesday brings ADP private payrolls, August PCE inflation, GDP third estimate, and earnings from Micron (MU), Nike (NKE), Conagra (CAG) and Levi Strauss (LEVI).",
+  "Thursday: ISM Manufacturing PMI and S&P Global final September PMI, alongside more earnings.",
+  "Friday caps the week with September Nonfarm Payrolls — the key labor-market print investors are watching all week.",
+  "Bristol-Myers Squibb faces an FDA decision around Sept. 30 on expanding Camzyos to adolescents with obstructive hypertrophic cardiomyopathy.",
+  "Multiple Fed speakers are on the calendar this week following recent hawkish commentary, adding to rate-hike repricing risk."
  ],
  "avoid": [
   {
-   "t": "AZO",
-   "reason": "AutoZone reports fiscal Q4 earnings before today's open into a backdrop of recent same-store-sales slowdown and multiple analysts (Oppenheimer, Wells Fargo, Barclays, Citi) cutting price targets ahead of the print."
+   "t": "PEP",
+   "reason": "Deutsche Bank downgraded PepsiCo to Hold from Buy on Sept. 28 and cut its price target to $138 from $155."
   },
   {
-   "t": "KBH",
-   "reason": "KB Home reports Q3 results after today's close with consensus EPS of $0.90 versus $1.61 a year ago, and Wells Fargo maintains an Underweight rating into the print."
+   "t": "RBLX",
+   "reason": "Jefferies downgraded Roblox to Underperform from Hold on Sept. 28 with an unchanged $38 price target."
   },
   {
-   "t": "AMC",
-   "reason": "AMC Entertainment is on track to extend losses for a seventh straight trading day."
+   "t": "META",
+   "reason": "Meta shares fell more than 4% Monday on profit-taking after a ~25% September rally, on pace for its worst day in over a month."
   },
   {
-   "t": "PRTH",
-   "reason": "Lake Street downgraded Priority Technology Holdings to Hold and cut its price target from $13 to $8.05."
-  },
-  {
-   "t": "SBGI",
-   "reason": "Sinclair's hostile takeover bid for Scripps was rejected, removing a key M&A catalyst for the stock."
+   "t": "BWIN",
+   "reason": "William Blair downgraded Baldwin Insurance to Market Perform from Outperform."
   }
  ],
  "items": [
   {
-   "t": "META",
-   "name": "Meta Platforms",
+   "t": "NVDA",
+   "name": "NVIDIA Corp",
    "sector": "Technology",
    "group": "core",
-   "ref": 741.25,
-   "refNote": "close 2026-09-21",
-   "week": 11.4,
-   "news": "Meta's new Muse AI agent has topped app-store charts and helped drive the stock's 11% single-day surge as investors position ahead of Meta's Sept 23-24 Connect keynote unveiling new AI glasses and a 'Phoenix' mixed-reality device. Citi has reiterated a Buy rating, citing bullishness on the AI glasses strategy following early hands-on demos.",
-   "risk": "Stock has already run up sharply into the event, raising 'sell-the-news' risk if the hardware reveal underwhelms.",
+   "ref": 228.86,
+   "refNote": "close 2026-09-28",
+   "week": 0.7,
+   "news": "Nvidia launched its Open Agent Safety Platform on Sept. 28, combining software guardrails (OpenShell) and hardware-level monitoring (Sentry via BlueField-4 DPUs) to contain autonomous AI agents. More than 100 organizations including Microsoft, JPMorgan Chase, Palantir, CrowdStrike and Palo Alto Networks are working with the platform, and Nvidia said it could have prevented a July containment breach involving AI agents.",
+   "risk": "Premarket reaction was mixed (some reports show a modest dip) and shares are already up sharply for the year, leaving room for profit-taking on a 'sell the news' reaction.",
    "sources": [
-    "https://www.tradingkey.com/analysis/stocks/us-stocks/262178809-meta-connect-2026-muse-ai-agent-smart-glasses-event-tradingkey",
-    "https://finance.yahoo.com/news/meta-meta-ai-glasses-could-210657334.html"
+    "https://www.gurufocus.com/news/9099377/nvidia-launches-open-agent-safety-platform-to-enhance-ai-security-nvda",
+    "https://stocktwits.com/news-articles/markets/equity/nvidia-launches-open-agent-safety-platform-with-microsoft-anthropic-palantir-on-board/cZMSrgyRBQJ"
    ],
-   "entry": "Dip to $727.58–737.15, or break above $753.00 on volume",
-   "entryMid": 732.36,
-   "stop": 715.96,
-   "t1": 759.7,
-   "t2": 776.11,
-   "exit": "$759.70 (half), $776.11 (rest)"
+   "entry": "Dip to $226.27–228.08, or break above $233.21 on volume",
+   "entryMid": 227.18,
+   "stop": 224.08,
+   "t1": 232.35,
+   "t2": 235.45,
+   "exit": "$232.35 (half), $235.45 (rest)"
   },
   {
-   "t": "AMD",
-   "name": "Advanced Micro Devices",
-   "sector": "Technology",
+   "t": "CCL",
+   "name": "Carnival Corporation & plc",
+   "sector": "Consumer Discretionary (Travel/Leisure)",
    "group": "core",
-   "ref": 615.52,
-   "refNote": "close 2026-09-21",
-   "week": 24.7,
-   "news": "AMD topped a $1 trillion market cap as Meta's Muse app fueled the AI-chip trade broadening beyond Nvidia, with hedge-fund ownership of the name rising through Q2. AMD has posted record data-center revenue this year on the back of its OpenAI and Anthropic GPU deals.",
-   "risk": "Valuation is extended after outsized 2026 gains, making the stock sensitive to any AI capex disappointment.",
+   "ref": 22.14,
+   "refNote": "close 2026-09-28",
+   "week": -0.8,
+   "news": "Carnival reports fiscal Q3 2026 results before today's open, with consensus near $1.35-$1.36 EPS on about $8.4B revenue. The cruise operator has beaten Zacks estimates in each of its last four quarters (average surprise of ~18%) and carries a Street 'Strong Buy' consensus from 20 of 27 covering analysts.",
+   "risk": "Analysts have been trimming EPS estimates recently on the crude-oil rally raising fuel costs, so a soft Q4 guide or fuel-cost commentary could trigger a sharp post-earnings swing in either direction.",
    "sources": [
-    "https://www.bloomberg.com/news/articles/2026-09-20/us-stock-futures-up-ahead-of-talks-dollar-steady-markets-wrap",
-    "https://www.benzinga.com/analyst-stock-ratings/upgrades"
+    "https://www.inkl.com/news/earnings-preview-what-to-expect-from-carnivals-report",
+    "https://finance.yahoo.com/markets/stocks/articles/carnival-post-q3-earnings-play-135200552.html"
    ],
-   "entry": "Dip to $602.76–611.69, or break above $618.07 on volume",
-   "entryMid": 607.22,
-   "stop": 591.91,
-   "t1": 632.75,
-   "t2": 648.06,
-   "exit": "$632.75 (half), $648.06 (rest)"
+   "entry": "Dip to $21.77–22.03, or break above $23.35 on volume",
+   "entryMid": 21.9,
+   "stop": 21.46,
+   "t1": 22.64,
+   "t2": 23.08,
+   "exit": "$22.64 (half), $23.08 (rest)"
   },
   {
-   "t": "INTC",
-   "name": "Intel Corp",
-   "sector": "Technology",
+   "t": "LBRT",
+   "name": "Liberty Energy Inc",
+   "sector": "Energy",
    "group": "core",
-   "ref": 121.78,
-   "refNote": "close 2026-09-21",
-   "week": 25.3,
-   "news": "Intel jumped 12% Monday to close at $121.78 on renewed enthusiasm for its foundry strategy, reports of SK Hynix partnership talks for its Ohio fab, and a Tigress Financial price-target hike to $145; a TipRanks report noted Intel currently has enough chip supply for only about half its clients.",
-   "risk": "The stock has run from the high-$80s to over $120 in weeks, leaving it vulnerable to a sharp pullback on any semis-sector wobble.",
+   "ref": 18.95,
+   "refNote": "close 2026-09-28",
+   "week": 0.5,
+   "news": "Barclays upgraded Liberty Energy to Overweight from Equal-Weight on Sept. 28 with a $27 price target, joining a recent wave of upgrades from Goldman Sachs, BofA, Morgan Stanley, UBS, Stifel and RBC pointing to a completions-cycle inflection and growth in its Power business. The move comes as oil prices stay elevated on the Iran/Strait of Hormuz standoff.",
+   "risk": "Oilfield-services stocks remain highly levered to crude prices and any Iran de-escalation or oil pullback could quickly unwind the current sentiment tailwind.",
    "sources": [
-    "https://seekingalpha.com/news/4645185-tech-strength-sends-intel-higher-by-12",
-    "https://www.techi.com/intc-forecast-12-percent-rally-clears-120/",
-    "https://www.cnn.com/markets/stocks/INTC"
+    "https://www.gurufocus.com/news/9100102/lbrt-upgraded-by-barclays-rating-raised-to-overweight",
+    "https://simplywall.st/stocks/us/energy/nyse-lbrt/liberty-energy"
    ],
-   "entry": "Dip to $118.51–120.80, or break above $124.73 on volume",
-   "entryMid": 119.65,
-   "stop": 115.73,
-   "t1": 126.2,
-   "t2": 130.12,
-   "exit": "$126.20 (half), $130.12 (rest)"
+   "entry": "Dip to $18.45–18.80, or break above $19.80 on volume",
+   "entryMid": 18.62,
+   "stop": 18.02,
+   "t1": 19.63,
+   "t2": 20.23,
+   "exit": "$19.63 (half), $20.23 (rest)"
   },
   {
-   "t": "ARM",
-   "name": "Arm Holdings",
-   "sector": "Technology",
+   "t": "RCL",
+   "name": "Royal Caribbean Group",
+   "sector": "Consumer Discretionary (Travel)",
    "group": "sector",
-   "ref": 322.9,
-   "refNote": "close 2026-09-21",
-   "week": 35.1,
-   "news": "Arm shares jumped alongside Intel as Meta's Muse AI agent app drove renewed interest in server-processor demand tied to the broader AI buildout.",
-   "risk": "Move is tied to sentiment/momentum rather than company-specific news, so it can fade quickly if the AI-chip rally stalls.",
+   "ref": 242.59,
+   "refNote": "close 2026-09-28",
+   "week": -3.1,
+   "news": "Bank of America upgraded Royal Caribbean to Buy from Neutral on Sept. 28 with a $330 price target, a sector-positive call that lands the same week cruise-peer Carnival reports earnings.",
+   "risk": "Cruise operators share exposure to rising fuel costs from the current oil rally, which could pressure margins across the group.",
    "sources": [
-    "https://www.cnn.com/markets/stocks/INTC"
+    "https://finance.yahoo.com/markets/stocks/articles/monday-top-wall-street-analyst-121206803.html"
    ],
-   "entry": "Dip to $314.07–320.25, or break above $324.67 on volume",
-   "entryMid": 317.16,
-   "stop": 306.57,
-   "t1": 334.82,
-   "t2": 345.41,
-   "exit": "$334.82 (half), $345.41 (rest)"
+   "entry": "Dip to $237.55–241.08, or break above $261.66 on volume",
+   "entryMid": 239.32,
+   "stop": 233.27,
+   "t1": 249.39,
+   "t2": 255.43,
+   "exit": "$249.39 (half), $255.43 (rest)"
   },
   {
-   "t": "SMMT",
-   "name": "Summit Therapeutics",
-   "sector": "Healthcare",
+   "t": "FSLR",
+   "name": "First Solar Inc",
+   "sector": "Industrials/Materials (Solar)",
    "group": "sector",
-   "ref": 16.9,
-   "refNote": "close 2026-09-21",
-   "week": -8.3,
-   "news": "Reports indicate the U.S. Treasury is drafting rules to protect pharmaceutical licensing deals with Chinese companies, which would mitigate geopolitical risk for Summit's lead cancer candidate in-licensed from Akeso ahead of a November 2026 FDA action date.",
-   "risk": "Clinical/regulatory-stage biotech carries binary risk around any trial or FDA-timeline news.",
+   "ref": 172.97,
+   "refNote": "close 2026-09-28",
+   "week": -13.4,
+   "news": "KeyBanc upgraded First Solar to Sector Weight from Underweight on Sept. 28, marking an improved sentiment shift for the solar-module maker.",
+   "risk": "The upgrade is to a neutral 'Sector Weight,' not Overweight, and solar equities remain sensitive to interest-rate direction and policy headlines.",
    "sources": [
-    "https://pro.thestreet.com/markets/stocks/premarket"
+    "https://finance.yahoo.com/markets/stocks/articles/monday-top-wall-street-analyst-121206803.html"
    ],
-   "entry": "Dip to $16.36–16.74, or break above $18.47 on volume",
-   "entryMid": 16.55,
-   "stop": 15.9,
-   "t1": 17.63,
-   "t2": 18.27,
-   "exit": "$17.63 (half), $18.27 (rest)"
+   "entry": "Dip to $167.62–171.37, or break above $202.46 on volume",
+   "entryMid": 169.49,
+   "stop": 163.08,
+   "t1": 180.19,
+   "t2": 186.61,
+   "exit": "$180.19 (half), $186.61 (rest)"
   },
   {
-   "t": "GLND",
-   "name": "Greenland Energy",
+   "t": "SNOW",
+   "name": "Snowflake Inc",
+   "sector": "Technology (Software)",
+   "group": "sector",
+   "ref": 328.12,
+   "refNote": "close 2026-09-28",
+   "week": -3.3,
+   "news": "Phillip Securities initiated Snowflake with a Buy rating and $423 price target on Sept. 28, adding a fresh bullish voice in enterprise software.",
+   "risk": "New coverage initiations carry less market-moving weight than established-analyst upgrades, and high-multiple software names are vulnerable to the current rise in yields.",
+   "sources": [
+    "https://finance.yahoo.com/markets/stocks/articles/monday-top-wall-street-analyst-121206803.html"
+   ],
+   "entry": "Dip to $321.15–326.03, or break above $348.61 on volume",
+   "entryMid": 323.59,
+   "stop": 315.23,
+   "t1": 337.53,
+   "t2": 345.89,
+   "exit": "$337.53 (half), $345.89 (rest)"
+  },
+  {
+   "t": "NAT",
+   "name": "Nordic American Tankers Ltd",
    "sector": "Low-priced (under $10)",
    "group": "low",
-   "ref": 2.88,
-   "refNote": "close 2026-09-21",
-   "week": 136.1,
-   "news": "Greenland Energy surged over 140% in premarket Monday after President Trump announced a security pact granting the U.S. permanent access on Greenland, with the deal expected to be formally signed during this week's UN General Assembly; investors are speculating on greater U.S.-backed resource development on the island.",
-   "risk": "Extremely volatile, low-float speculative name that has already moved multiples higher on no confirmed commercial deal, making a sharp reversal likely.",
+   "ref": 7.79,
+   "refNote": "close 2026-09-28",
+   "week": -2.6,
+   "news": "Crude tanker stocks including Nordic American Tankers, Frontline and DHT Holdings have surged this year as the Iran conflict and Strait of Hormuz disruption force longer voyage routes, tightening effective vessel supply and lifting charter rates; shipping names have been hitting multi-year highs as the disruption persists.",
+   "risk": "Tanker rates are highly cyclical and geopolitical premiums can fade quickly if Hormuz tensions ease or a ceasefire/sanctions deal advances.",
    "sources": [
-    "https://www.cnbc.com/2026/09/21/greenland-trump-denmark-deal-stocks-mining.html",
-    "https://www.benzinga.com/trading-ideas/movers/26/09/61907836/greenland-stocks-explode-after-trumps-denmark-deal-grml-up-245"
+    "https://finviz.com/news/334400/tankers-surge-on-rising-oil-prices-fro-nat-dht-add-to-massive-2026-returns",
+    "https://www.cnbc.com/2026/09/03/shipping-hormuz-tankers-earnings-freight-rates-iran-trump-crude-china-stocks.html"
    ],
-   "entry": "Dip to $2.76–2.84, or break above $3.39 on volume",
-   "entryMid": 2.8,
-   "stop": 2.66,
-   "t1": 3.04,
-   "t2": 3.18,
-   "exit": "$3.04 (half), $3.18 (rest)"
+   "entry": "Dip to $7.63–7.74, or break above $7.98 on volume",
+   "entryMid": 7.69,
+   "stop": 7.5,
+   "t1": 8.0,
+   "t2": 8.19,
+   "exit": "$8.00 (half), $8.19 (rest)"
   },
   {
-   "t": "AZO",
-   "name": "AZO",
+   "t": "PEP",
+   "name": "PEP",
    "sector": "Avoid / fade",
    "group": "avoid",
-   "ref": 2803.25,
-   "week": -5.5,
-   "news": "AutoZone reports fiscal Q4 earnings before today's open into a backdrop of recent same-store-sales slowdown and multiple analysts (Oppenheimer, Wells Fargo, Barclays, Citi) cutting price targets ahead of the print. No levels given."
+   "ref": 128.5,
+   "week": -0.8,
+   "news": "Deutsche Bank downgraded PepsiCo to Hold from Buy on Sept. 28 and cut its price target to $138 from $155. No levels given."
   },
   {
-   "t": "KBH",
-   "name": "KBH",
+   "t": "RBLX",
+   "name": "RBLX",
    "sector": "Avoid / fade",
    "group": "avoid",
-   "ref": 47.86,
-   "week": -3.4,
-   "news": "KB Home reports Q3 results after today's close with consensus EPS of $0.90 versus $1.61 a year ago, and Wells Fargo maintains an Underweight rating into the print. No levels given."
+   "ref": 41.86,
+   "week": -18.3,
+   "news": "Jefferies downgraded Roblox to Underperform from Hold on Sept. 28 with an unchanged $38 price target. No levels given."
   },
   {
-   "t": "AMC",
-   "name": "AMC",
+   "t": "META",
+   "name": "META",
    "sector": "Avoid / fade",
    "group": "avoid",
-   "ref": 2.89,
-   "week": 15.6,
-   "news": "AMC Entertainment is on track to extend losses for a seventh straight trading day. No levels given."
+   "ref": 715.62,
+   "week": -3.5,
+   "news": "Meta shares fell more than 4% Monday on profit-taking after a ~25% September rally, on pace for its worst day in over a month. No levels given."
   },
   {
-   "t": "PRTH",
-   "name": "PRTH",
+   "t": "BWIN",
+   "name": "BWIN",
    "sector": "Avoid / fade",
    "group": "avoid",
-   "ref": 7.8,
-   "week": 29.9,
-   "news": "Lake Street downgraded Priority Technology Holdings to Hold and cut its price target from $13 to $8.05. No levels given."
-  },
-  {
-   "t": "SBGI",
-   "name": "SBGI",
-   "sector": "Avoid / fade",
-   "group": "avoid",
-   "ref": 13.21,
-   "week": -8.2,
-   "news": "Sinclair's hostile takeover bid for Scripps was rejected, removing a key M&A catalyst for the stock. No levels given."
+   "ref": 31.82,
+   "week": -0.2,
+   "news": "William Blair downgraded Baldwin Insurance to Market Perform from Outperform. No levels given."
   }
  ]
 }
