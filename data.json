@@ -1,263 +1,294 @@
 {
- "asOf": "Updated Thu 08 Oct 2026, 09:18 Dubai · prices from 2026-10-07 close · for the Thu 08 Oct session",
+ "asOf": "Updated Fri 09 Oct 2026, 09:18 Dubai · prices from 2026-10-08 close · for the Fri 09 Oct session",
  "kicker": "Dubai desk · US open 5:30pm Dubai (9:30am ET)",
- "barDate": "2026-10-07",
- "sessionDate": "2026-10-08",
+ "barDate": "2026-10-08",
+ "sessionDate": "2026-10-09",
  "stats": [
   [
    "S&P 500 (SPY)",
-   "-0.24%",
+   "-0.42%",
    "last session"
   ],
   [
    "Nasdaq-100 (QQQ)",
-   "-0.25%",
+   "-1.34%",
    "last session"
   ],
   [
    "10-yr yield",
-   "5.28%",
-   "+0.2% day"
+   "5.23%",
+   "-0.9% day"
   ],
   [
    "Oil (WTI)",
    "$90",
-   "+1.9% day"
+   "-1.2% day"
   ],
   [
    "Bitcoin",
-   "$82,802",
-   "-3.2% day"
+   "$82,414",
+   "-1.0% day"
   ],
   [
    "VIX",
-   "15.1",
-   "+0.5% day"
+   "15.4",
+   "+2.2% day"
   ]
  ],
  "notes": [
-  "S&P 500 closed above 7,800 for the first time Tuesday on chip-stock strength, but the market retreated Wednesday as the 10-year Treasury yield pushed back toward 5.31% and the 30-year toward 5.68%, keeping rate-sensitive",
-  "FOMC minutes from the Sept 15-16 meeting (released Oct 7) reinforced hawkish rate-hike expectations after the Fed's 25bp hike to 3.75%-4.00%; the next decision is Oct 28, with futures still pricing meaningful odds of ano",
-  "Oil remains elevated, with Brent trading near/above $100-102 amid an escalating Iran/Strait of Hormuz conflict, including recent tanker strikes and rejected diplomatic proposals, keeping energy a relative-strength pocket",
-  "Bitcoin broke back below $83,000, extending declines on hawkish Fed minutes and roughly $550 million in leveraged long liquidations, dragging crypto-adjacent equities lower.",
-  "Thursday's pre-market tone is defensive: index futures are lower, VIX is up, small caps (IWM/Russell 2000) and industrials are the weakest spots, while Healthcare is showing the best relative strength.",
-  "Q3 earnings season is just getting started; the heavy reporting week (big banks, UNH, JNJ) doesn't begin until Oct 13, so today's tape is driven more by macro/yields/oil than by a dense earnings slate."
+  "Risk-off tone into Friday: Nasdaq 100 suffered its worst day in seven weeks on Thursday (-1.4%) and a chipmaker gauge slumped 3.4% after a Financial Times report revived doubts about OpenAI's revenue and the sustainabili",
+  "Treasury yields remain elevated, with the 10-year hovering near multi-decade highs (~5.2-5.3%) and the 30-year near 5.6%, pressuring high-multiple growth and tech names.",
+  "Oil is the swing factor: Brent spiked above $104-105 and WTI near $92-93 after reports the White House asked the Pentagon to prep Iran strike options before the midterms; Trump later said strikes won't come before the mi",
+  "Crypto is soft in sympathy with the risk-off/rate backdrop: Bitcoin slipped to roughly $81,000-$82,000, down from recent highs, as the broader crypto market cap fell about 2.5%.",
+  "Q3 earnings season is just beginning (big banks start the week of Oct 12), with FactSet projecting ~29.5% y/y S&P 500 EPS growth, which would be a third straight quarter above 25% if realized."
  ],
  "calendar": [
-  "Before the open Thursday: PepsiCo (PEP) and Progressive (PGR) report; Tilray (TLRY) and Helen of Troy (HELE) also post results.",
-  "8:30am ET Thursday: Initial and Continuing Jobless Claims are the main scheduled U.S. data catalyst.",
-  "Friday: Delta Air Lines (DAL) earnings plus preliminary University of Michigan consumer sentiment.",
-  "IPO watch: TRex Bio (TRXB), an Eli Lilly-backed autoimmune/inflammatory biotech, is pricing Oct 8 with a planned Nasdaq debut Oct 9; Retension Pharmaceuticals (RTSN) is also in the pricing window this week.",
-  "Next big catalyst week is Oct 13, when JPMorgan, Goldman Sachs, Wells Fargo, Citigroup, UnitedHealth and Johnson & Johnson kick off large-cap earnings season.",
-  "Next FOMC rate decision is Oct 28, 2026; current fed funds target range is 3.75%-4.00% after September's 25bp hike."
+  "Delta Air Lines (DAL) reported Q3 results before Friday's open and topped estimates, with shares already reacting positively intraday Thursday into the print.",
+  "PepsiCo (PEP) reported Thursday morning with an EPS beat and raised FY2026 revenue growth guidance to the high end of its range.",
+  "Levi Strauss (LEVI) reported Wednesday after the close; EPS beat (helped by tariff refunds) but revenue missed and guidance was trimmed, sending shares sharply lower into Thursday/Friday.",
+  "CMS released 2027 Medicare Advantage Star Ratings on Oct 8, causing a major divergence: Humana (HUM) surged on a rating upgrade while Alignment Healthcare (ALHC) tumbled on a downgrade.",
+  "Two Nasdaq IPOs are pricing/starting to trade this week: TRex Bio (TRXB, Eli Lilly-backed biotech) and Retension Pharmaceuticals (RTSN), both listing around Oct 9.",
+  "Geopolitical risk remains a live catalyst for energy/oil-sensitive names: reports of potential US strikes on Iran before the Nov 3 midterms are driving crude volatility."
  ],
  "avoid": [
   {
-   "t": "STZ",
-   "reason": "Constellation Brands fell about 5% even after beating on EPS/revenue because full-year profit guidance came in below estimates and beer volumes (Modelo, Corona) continued declining."
+   "t": "LEVI",
+   "reason": "Shares fell sharply despite an EPS beat because the beat leaned on a one-time tariff refund while revenue missed and the company narrowed its full-year revenue growth outlook to the low end on U.S. DTC weakness."
   },
   {
-   "t": "BMNR",
-   "reason": "BitMine Immersion Technologies was down sharply pre-market as Bitcoin broke below $83,000 on hawkish Fed minutes and roughly $550 million in crypto long liquidations."
+   "t": "BULL",
+   "reason": "Webull plunged roughly 20-30% this week after a bipartisan House committee report found the brokerage structurally tied to China's government, triggering multiple shareholder securities-law investigations."
   },
   {
-   "t": "XPEV",
-   "reason": "JPMorgan downgraded XPeng to Neutral from Overweight and cut its price target to $11.50 from $24."
+   "t": "ALHC",
+   "reason": "Alignment Healthcare tumbled over 20% after CMS's newly published 2027 Medicare Advantage Star Ratings showed a sharp reversal lower for the insurer, the opposite move seen in rival Humana."
   },
   {
-   "t": "NFLX",
-   "reason": "Wells Fargo downgraded Netflix to Underweight with a $57 target, citing a weaker content slate and falling viewership."
-  },
-  {
-   "t": "SPCX",
-   "reason": "Shares fell more than 2% pre-open after reports the company is seeking to raise $40 billion to fund chip purchases from Nvidia, raising dilution/spending concerns."
+   "t": "MU",
+   "reason": "Micron is at the center of the AI-capex-doubt selloff that sank the Nasdaq 100's chipmaker gauge 3.4% on fears about OpenAI's revenue sustainability and the broader AI spending boom."
   }
  ],
  "items": [
   {
-   "t": "CEG",
-   "name": "Constellation Energy",
-   "sector": "Utilities / Clean Energy",
+   "t": "HUM",
+   "name": "Humana Inc.",
+   "sector": "Healthcare",
    "group": "core",
-   "ref": 299.59,
-   "refNote": "close 2026-10-07",
-   "week": 17.9,
-   "news": "Constellation climbed after Amazon agreed to buy 690 megawatts of output from its Calvert Cliffs nuclear plant under a 20-year contract tied to more than $3 billion in plant investment. Bloomberg also reported Google is nearing a separate nuclear supply deal with Constellation worth $1 billion or more.",
-   "risk": "Nuclear/AI power-deal enthusiasm is a crowded trade and shares could give back gains quickly on any delay or denial of the rumored Google agreement.",
+   "ref": 387.12,
+   "refNote": "close 2026-10-08",
+   "week": 2.0,
+   "news": "Humana's largest Medicare Advantage contract (H5216) was upgraded from 3.5 to 4 stars in CMS's newly released 2027 Star Ratings, restoring eligibility for federal quality bonus payments. Shares surged as much as 13-16% after the Oct 8 announcement, with Cantor Fitzgerald also upgrading the stock to Overweight citing improved Stars confidence.",
+   "risk": "A large portion of the positive catalyst may already be priced in after the after-hours spike, and the ratings impact payments only starting in 2028.",
    "sources": [
-    "https://www.investing.com/news/stock-market-news/premarket-movers-constellation-zscaler-rise-while-nike-falls-4934073"
+    "https://www.gurufocus.com/news/9116346/humana-hum-shares-surge-after-medicare-advantage-plan-upgrade-to-4-stars",
+    "https://finance.yahoo.com/healthcare/articles/humana-soars-alignment-healthcare-sinks-211245601.html"
    ],
-   "entry": "Dip to $293.01–297.62, or break above $309.80 on volume",
-   "entryMid": 295.32,
-   "stop": 287.43,
-   "t1": 308.47,
-   "t2": 316.36,
-   "exit": "$308.47 (half), $316.36 (rest)"
+   "entry": "Dip to $379.53–384.84, or break above $410.01 on volume",
+   "entryMid": 382.19,
+   "stop": 373.08,
+   "t1": 397.37,
+   "t2": 406.47,
+   "exit": "$397.37 (half), $406.47 (rest)"
   },
   {
-   "t": "FLUT",
-   "name": "Flutter Entertainment",
-   "sector": "Consumer Discretionary / Online Gaming",
+   "t": "PLTR",
+   "name": "Palantir Technologies Inc.",
+   "sector": "Technology",
    "group": "core",
-   "ref": 75.85,
-   "refNote": "close 2026-10-07",
-   "week": 1.8,
-   "news": "Flutter, the FanDuel parent, rose almost 3% in Wednesday's pre-market after Citi upgraded the stock to Buy from Neutral.",
-   "risk": "A single broker upgrade can fade quickly in a risk-off tape, and the stock is sensitive to U.S. sports-betting tax/regulatory headlines.",
+   "ref": 198.78,
+   "refNote": "close 2026-10-08",
+   "week": 4.6,
+   "news": "Goldman Sachs upgraded Palantir to Buy from Neutral on Oct 8 with a $230 price target (~18% upside), citing expanding demand for sovereign AI and custom applications, a day after another analyst initiated coverage at $250.",
+   "risk": "Valuation remains extremely rich (roughly 50x forward sales), and the stock is trading within a broader AI-sector selloff tied to OpenAI revenue doubts.",
    "sources": [
-    "https://www.cnbc.com/2026/10/07/stocks-making-the-biggest-moves-premarket-stz-flut-neog.html"
+    "https://www.benzinga.com/analyst-stock-ratings/upgrades/26/10/62245215/palantir-gets-goldman-sachs-upgrade-as-sovereign-ai-opens-new-market",
+    "https://www.gurufocus.com/news/9115911/goldman-sachs-upgrades-palantir-pltr-to-buy-with-230-price-target"
    ],
-   "entry": "Dip to $73.83–75.25, or break above $78.58 on volume",
-   "entryMid": 74.54,
-   "stop": 72.12,
-   "t1": 78.57,
-   "t2": 80.99,
-   "exit": "$78.57 (half), $80.99 (rest)"
+   "entry": "Dip to $195.87–197.91, or break above $204.44 on volume",
+   "entryMid": 196.89,
+   "stop": 193.39,
+   "t1": 202.71,
+   "t2": 206.21,
+   "exit": "$202.71 (half), $206.21 (rest)"
   },
   {
-   "t": "XPO",
-   "name": "XPO Inc.",
-   "sector": "Industrials / Transportation",
+   "t": "DAL",
+   "name": "Delta Air Lines Inc.",
+   "sector": "Industrials",
    "group": "core",
-   "ref": 180.36,
-   "refNote": "close 2026-10-07",
+   "ref": 82.14,
+   "refNote": "close 2026-10-08",
+   "week": -2.4,
+   "news": "Delta reported Q3 2026 results before Friday's open; reported EPS of $2.01 came in well above the softened consensus near $1.76-1.88 amid elevated fuel-cost concerns, and shares were already up nearly 4% intraday as the print approached.",
+   "risk": "Rising oil prices from Middle East tensions are a direct fuel-cost headwind for airlines, and the stock has historically shown mixed one-day earnings reactions (roughly 40% positive over the last 5 years).",
+   "sources": [
+    "https://www.marketbeat.com/earnings/reports/2026-10-9-delta-air-lines-inc-stock/",
+    "https://www.trefis.com/stock/dal/articles/617914/delta-air-lines-reports-soon-how-has-the-stock-reacted-to-past-earnings/2026-10-08"
+   ],
+   "entry": "Dip to $80.91–81.77, or break above $86.17 on volume",
+   "entryMid": 81.34,
+   "stop": 79.86,
+   "t1": 83.8,
+   "t2": 85.28,
+   "exit": "$83.80 (half), $85.28 (rest)"
+  },
+  {
+   "t": "MRVL",
+   "name": "Marvell Technology Inc.",
+   "sector": "Technology",
+   "group": "sector",
+   "ref": 274.66,
+   "refNote": "close 2026-10-08",
    "week": 2.5,
-   "news": "A sell-side analyst upgraded XPO to Buy from Neutral this week after its pullback from the $230 area, citing an upbeat outlook heading into Q3 earnings with opportunities for share gains and pricing strength.",
-   "risk": "Industrials/small-caps are the weakest relative-strength group this morning, so the stock is trading against an unfavorable sector tape.",
+   "news": "TD Cowen upgraded Marvell to Buy from Hold on Oct 7 and raised its price target 43% to $350 from $245, arguing the company's fundamental growth drivers have shifted to its strong connectivity franchise.",
+   "risk": "Semiconductor names are at the epicenter of the current AI-capex-doubt selloff; a chipmaker gauge fell 3.4% Thursday, so sentiment risk is elevated.",
    "sources": [
-    "https://www.theglobeandmail.com/investing/markets/inside-the-market/article-wednesdays-analyst-upgrades-and-downgrades-322/"
+    "https://finance.yahoo.com/markets/stocks/articles/intel-downgraded-marvell-upgraded-wall-133448639.html?.tsrc=rss"
    ],
-   "entry": "Dip to $177.50–179.50, or break above $189.32 on volume",
-   "entryMid": 178.5,
-   "stop": 175.07,
-   "t1": 184.22,
-   "t2": 187.65,
-   "exit": "$184.22 (half), $187.65 (rest)"
+   "entry": "Dip to $267.79–272.60, or break above $301.27 on volume",
+   "entryMid": 270.2,
+   "stop": 261.95,
+   "t1": 283.93,
+   "t2": 292.17,
+   "exit": "$283.93 (half), $292.17 (rest)"
   },
   {
-   "t": "FRSH",
-   "name": "Freshworks Inc.",
-   "sector": "Technology / Software",
+   "t": "ILMN",
+   "name": "Illumina Inc.",
+   "sector": "Healthcare",
    "group": "sector",
-   "ref": 13.6,
-   "refNote": "close 2026-10-07",
-   "week": 6.3,
-   "news": "Freshworks rose nearly 4% in pre-market trading after S&P Dow Jones Indices announced the stock will be added to the S&P SmallCap 600 effective before the open on October 8, creating expected passive index-fund buying pressure into the rebalance.",
-   "risk": "Index-inclusion pops can mean-revert once the mechanical buying from tracking funds is complete.",
+   "ref": 264.57,
+   "refNote": "close 2026-10-08",
+   "week": -0.4,
+   "news": "Leerink Partners maintained its Outperform rating and raised its price target on Illumina to $300 from $220 this week.",
+   "risk": "Genomics/life-science tools names can be sensitive to biotech funding sentiment and broader risk-off moves in growth stocks.",
    "sources": [
-    "https://www.investing.com/news/stock-market-news/premarket-movers-constellation-zscaler-rise-while-nike-falls-4934073"
+    "https://www.benzinga.com/analyst-stock-ratings/upgrades"
    ],
-   "entry": "Dip to $13.34–13.52, or break above $14.37 on volume",
-   "entryMid": 13.43,
-   "stop": 13.12,
-   "t1": 13.95,
-   "t2": 14.26,
-   "exit": "$13.95 (half), $14.26 (rest)"
-  },
-  {
-   "t": "ABBV",
-   "name": "AbbVie Inc.",
-   "sector": "Healthcare / Pharmaceuticals",
-   "group": "sector",
-   "ref": 271.36,
-   "refNote": "close 2026-10-07",
-   "week": 3.7,
-   "news": "AbbVie shares were reported higher after its drug temab-A earned FDA Breakthrough Therapy designations in colorectal cancer (CRC) and non-small cell lung cancer (NSCLC), a regulatory catalyst dated October 7.",
-   "risk": "Breakthrough Therapy designation only accelerates the review pathway and does not guarantee eventual approval, limiting the durability of the move.",
-   "sources": [
-    "https://www.rttnews.com/corpinfo/fdacalendar.aspx"
-   ],
-   "entry": "Dip to $268.64–270.55, or break above $274.94 on volume",
-   "entryMid": 269.59,
-   "stop": 266.33,
-   "t1": 275.03,
-   "t2": 278.29,
-   "exit": "$275.03 (half), $278.29 (rest)"
+   "entry": "Dip to $256.91–262.27, or break above $309.35 on volume",
+   "entryMid": 259.59,
+   "stop": 250.39,
+   "t1": 274.92,
+   "t2": 284.11,
+   "exit": "$274.92 (half), $284.11 (rest)"
   },
   {
    "t": "XOM",
-   "name": "Exxon Mobil",
+   "name": "Exxon Mobil Corp.",
    "sector": "Energy",
    "group": "sector",
-   "ref": 164.05,
-   "refNote": "close 2026-10-07",
-   "week": 0.8,
-   "news": "Brent crude has pushed back toward $100-102 a barrel this week as the Strait of Hormuz conflict escalates, with tankers struck and diplomatic proposals rejected, giving integrated oil majors a macro tailwind.",
-   "risk": "The move is geopolitically driven and highly headline-sensitive; a de-escalation report could reverse oil's gains intraday.",
+   "ref": 168.5,
+   "refNote": "close 2026-10-08",
+   "week": 2.9,
+   "news": "Brent crude jumped more than 4% this week and WTI rose similarly after reports the White House asked the Pentagon to prepare Iran strike options before the midterms, pushing Brent above $104-105 a barrel before Trump said strikes won't come before the elections.",
+   "risk": "Oil-driven moves can reverse quickly on diplomatic headlines or de-escalation signals, as already seen when Trump's comments pulled Brent back from session highs.",
    "sources": [
+    "https://www.thenationalnews.com/business/energy/2026/10/08/oil-prices-rise-on-potential-us-strikes-in-iran-ahead-of-midterm-polls/",
     "https://www.cbsnews.com/live-updates/iran-war-nuclear-donald-trump-vance-rubio-strait-of-hormuz/"
    ],
-   "entry": "Dip to $162.38–163.55, or break above $166.86 on volume",
-   "entryMid": 162.96,
-   "stop": 160.96,
-   "t1": 166.3,
-   "t2": 168.31,
-   "exit": "$166.30 (half), $168.31 (rest)"
+   "entry": "Dip to $166.73–167.97, or break above $169.19 on volume",
+   "entryMid": 167.35,
+   "stop": 165.22,
+   "t1": 170.89,
+   "t2": 173.02,
+   "exit": "$170.89 (half), $173.02 (rest)"
   },
   {
-   "t": "LCID",
-   "name": "Lucid Group",
+   "t": "PEP",
+   "name": "PepsiCo Inc.",
+   "sector": "Consumer Staples",
+   "group": "sector",
+   "ref": 128.34,
+   "refNote": "close 2026-10-08",
+   "week": 2.2,
+   "news": "PepsiCo's Q3 adjusted EPS of $2.34 beat the $2.29 consensus, and management guided full-year 2026 net revenue to the high end of its range, up approximately 6%, aided by tariff refunds of $178 million in the quarter.",
+   "risk": "Consumer staples carry lower day-trade beta, and the stock already reacted to the print on Thursday, limiting fresh momentum into Friday.",
+   "sources": [
+    "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-8-dow-sp-500-nasdaq-080537884.html"
+   ],
+   "entry": "Dip to $127.09–127.96, or break above $129.50 on volume",
+   "entryMid": 127.53,
+   "stop": 126.03,
+   "t1": 130.03,
+   "t2": 131.53,
+   "exit": "$130.03 (half), $131.53 (rest)"
+  },
+  {
+   "t": "GRAB",
+   "name": "Grab Holdings Ltd.",
    "sector": "Low-priced (under $10)",
    "group": "low",
-   "ref": 3.89,
-   "refNote": "close 2026-10-07",
-   "week": -4.4,
-   "news": "Lucid's Q3 2026 update (Oct 7) showed deliveries of 3,806 vehicles outpacing production of 2,954 as the company draws down inventory under its $1.4 billion operating reset, with management flagging regained demand momentum for the Lucid Gravity.",
-   "risk": "Lucid remains cash-burn heavy and highly volatile; the stock trades on sentiment swings in the EV complex and is vulnerable to any guidance disappointment at its Nov 9 earnings call.",
+   "ref": 3.11,
+   "refNote": "close 2026-10-08",
+   "week": -0.3,
+   "news": "Grab's Q2 revenue grew 21.7% to $997 million, beating estimates, with adjusted EBITDA margin expanding to 16.9% from 13.3% and continued share buybacks supporting the stock even as shares trade near $3.",
+   "risk": "Shares are down nearly 38% year-to-date and remain sensitive to Southeast Asia macro conditions and competitive pressure in ride-hailing/delivery.",
    "sources": [
-    "https://theevreport.com/lucid-q3-2026-deliveries-production"
+    "https://247wallst.com/investing/2026/10/01/3-stocks-under-10-worth-a-look-in-october/"
    ],
-   "entry": "Dip to $3.78–3.86, or break above $4.33 on volume",
-   "entryMid": 3.82,
-   "stop": 3.68,
-   "t1": 4.05,
-   "t2": 4.18,
-   "exit": "$4.05 (half), $4.18 (rest)"
+   "entry": "Dip to $3.05–3.09, or break above $3.23 on volume",
+   "entryMid": 3.07,
+   "stop": 3.0,
+   "t1": 3.19,
+   "t2": 3.27,
+   "exit": "$3.19 (half), $3.27 (rest)"
   },
   {
-   "t": "STZ",
-   "name": "STZ",
-   "sector": "Avoid / fade",
-   "group": "avoid",
-   "ref": 118.39,
-   "week": 4.7,
-   "news": "Constellation Brands fell about 5% even after beating on EPS/revenue because full-year profit guidance came in below estimates and beer volumes (Modelo, Corona) continued declining. No levels given."
+   "t": "NIO",
+   "name": "NIO Inc.",
+   "sector": "Low-priced (under $10)",
+   "group": "low",
+   "ref": 3.41,
+   "refNote": "close 2026-10-08",
+   "week": 0.3,
+   "news": "NIO reported strong September and Q3 2026 delivery numbers (37,408 vehicles in September) and raised its Q3 delivery target, with revenue up 69.1% y/y on a 49.4% rise in deliveries and gross margin climbing to 18.4%.",
+   "risk": "NIO trades near 52-week lows and remains a high cash-burn Chinese EV name exposed to competitive and geopolitical/ADR risk.",
+   "sources": [
+    "https://www.cnbc.com/quotes/NIO",
+    "https://pandaforecast.com/stock_forecasts/forecast_nio/"
+   ],
+   "entry": "Dip to $3.36–3.39, or break above $3.55 on volume",
+   "entryMid": 3.38,
+   "stop": 3.31,
+   "t1": 3.48,
+   "t2": 3.55,
+   "exit": "$3.48 (half), $3.55 (rest)"
   },
   {
-   "t": "BMNR",
-   "name": "BMNR",
+   "t": "LEVI",
+   "name": "LEVI",
    "sector": "Avoid / fade",
    "group": "avoid",
-   "ref": 24.66,
-   "week": -6.7,
-   "news": "BitMine Immersion Technologies was down sharply pre-market as Bitcoin broke below $83,000 on hawkish Fed minutes and roughly $550 million in crypto long liquidations. No levels given."
+   "ref": 19.05,
+   "week": -4.4,
+   "news": "Shares fell sharply despite an EPS beat because the beat leaned on a one-time tariff refund while revenue missed and the company narrowed its full-year revenue growth outlook to the low end on U.S. DTC weakness. No levels given."
   },
   {
-   "t": "XPEV",
-   "name": "XPEV",
+   "t": "BULL",
+   "name": "BULL",
    "sector": "Avoid / fade",
    "group": "avoid",
-   "ref": 9.58,
-   "week": 0.2,
-   "news": "JPMorgan downgraded XPeng to Neutral from Overweight and cut its price target to $11.50 from $24. No levels given."
+   "ref": 5.95,
+   "week": -15.4,
+   "news": "Webull plunged roughly 20-30% this week after a bipartisan House committee report found the brokerage structurally tied to China's government, triggering multiple shareholder securities-law investigations. No levels given."
   },
   {
-   "t": "NFLX",
-   "name": "NFLX",
+   "t": "ALHC",
+   "name": "ALHC",
    "sector": "Avoid / fade",
    "group": "avoid",
-   "ref": 69.7,
-   "week": 0.2,
-   "news": "Wells Fargo downgraded Netflix to Underweight with a $57 target, citing a weaker content slate and falling viewership. No levels given."
+   "ref": 8.71,
+   "week": 12.5,
+   "news": "Alignment Healthcare tumbled over 20% after CMS's newly published 2027 Medicare Advantage Star Ratings showed a sharp reversal lower for the insurer, the opposite move seen in rival Humana. No levels given."
   },
   {
-   "t": "SPCX",
-   "name": "SPCX",
+   "t": "MU",
+   "name": "MU",
    "sector": "Avoid / fade",
    "group": "avoid",
-   "ref": 167.6,
-   "week": 11.1,
-   "news": "Shares fell more than 2% pre-open after reports the company is seeking to raise $40 billion to fund chip purchases from Nvidia, raising dilution/spending concerns. No levels given."
+   "ref": 1035.84,
+   "week": -5.6,
+   "news": "Micron is at the center of the AI-capex-doubt selloff that sank the Nasdaq 100's chipmaker gauge 3.4% on fears about OpenAI's revenue sustainability and the broader AI spending boom. No levels given."
   }
  ]
 }
