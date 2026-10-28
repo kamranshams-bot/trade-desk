@@ -344,8 +344,7 @@ def main():
 
     spy = quote("SPY")
     if not spy:
-        print("Could not fetch market data.", file=sys.stderr)
-        return 1
+        return fail("Could not fetch market data from Yahoo (yfinance) for SPY.")
     try:
         prev = json.load(open(DATA_PATH, encoding="utf-8"))
     except Exception:
@@ -358,8 +357,8 @@ def main():
     items, avoid = build_items(raw.get("picks", []), raw.get("avoid", []))
     picks = [i for i in items if i["group"] in CAPS]
     if len(picks) < MIN_PICKS:
-        print(f"Only {len(picks)} valid picks after validation; keeping previous data.json.", file=sys.stderr)
-        return 1
+        return fail(f"Only {len(picks)} valid picks after validation (Claude suggested "
+                    f"{len(raw.get('picks', []))}); keeping previous data.json.")
 
     data = {
         "asOf": f"Updated {now_dxb:%a %d %b %Y, %H:%M} Dubai · prices from {spy['date']} close · for the {session:%a %d %b} session",
@@ -377,9 +376,20 @@ def main():
     try:
         send_email(data)
     except Exception as e:  # email failure must not block the site update
-        print("Email failed:", e, file=sys.stderr)
+        print(f"::warning title=Email failed::{e}")
     return 0
 
 
+def fail(msg):
+    """Print the reason as a GitHub annotation so it shows on the run summary page."""
+    print(f"::error title=Brief not generated::{msg}")
+    return 1
+
+
 if __name__ == "__main__":
-    sys.exit(main())
+    try:
+        sys.exit(main())
+    except SystemExit:
+        raise
+    except Exception as e:  # surface the real cause (API key, credits, Yahoo, JSON...)
+        sys.exit(fail(f"{type(e).__name__}: {str(e)[:400]}"))
