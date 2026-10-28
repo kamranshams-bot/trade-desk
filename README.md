@@ -32,6 +32,6 @@ Optional repository variable `ANTHROPIC_MODEL` to choose the model (default `cla
 - GitHub scheduled runs can start late (5–30+ minutes), and GitHub may pause schedules after 60 days without repository activity (the daily data commits normally count).
 - The site is public. It shows specific stock levels, so check your employer's outside-activity rules and local securities rules before sharing widely. Cloudflare Pages + Access can add a login.
 - Half-day and holiday sessions are handled only by the NYSE holiday list.
-- Cost: one Claude call with up to 15 web searches per run. Check current API pricing; expect cents to about a dollar per run.
+- Cost: one Claude call per trading day on Claude Haiku 5.5, with at most 4 web searches (web search results are the main token cost). Free Yahoo "biggest movers" data is passed in up front so fewer searches are needed, and answers are kept short. Each run prints its token and search count in the Actions log (*Generate brief* step). Optional repository variable `MAX_SEARCHES` (default 4): lower is cheaper, higher gives broader research. Runs are skipped on weekends, NYSE holidays and when today's brief already exists.
 
 Not investment advice. Day trading and penny stocks carry a high risk of loss.

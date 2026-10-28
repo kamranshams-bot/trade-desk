@@ -28,9 +28,15 @@ import yfinance as yf
 
 MODEL = os.environ.get("ANTHROPIC_MODEL") or "claude-haiku-5-5"
 SEARCH_TOOL = os.environ.get("WEB_SEARCH_TOOL") or "web_search_20250305"
+# Token budget. Web search results are fed back to Claude as input tokens, so the
+# number of searches is the main cost driver. Free market data (movers list) is
+# given to Claude up front so it needs fewer searches.
+MAX_SEARCHES = int(os.environ.get("MAX_SEARCHES") or 4)
+MAX_OUTPUT_TOKENS = 2500
+MAX_ROUNDS = 2  # continuation rounds if the server pauses a long turn
 FORCE = (os.environ.get("FORCE") or "").lower() in ("1", "true", "yes")
 DXB, ET = ZoneInfo("Asia/Dubai"), ZoneInfo("America/New_York")
-CAPS = {"core": 3, "sector": 4, "low": 3}
+CAPS = {"core": 3, "sector": 3, "low": 2}
 MIN_PICKS = 3
 DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "data.json")
 
@@ -69,37 +75,44 @@ def next_session(now_et):
 
 # ---- Claude: catalysts and candidates ----------------------------------------
 SYSTEM = (
-    "You are a careful US equities analyst preparing a pre-market day-trading brief. "
-    "Use web search for current facts. Never invent numbers, quotes, or sources. "
-    "Paraphrase sources in your own words (no long quotes). Do NOT output prices, "
-    "entry, stop or target levels: those are computed separately from market data. "
-    "Output a single JSON object and nothing else."
+    "US equities analyst writing a pre-market day-trade brief. Use web search for current "
+    "facts; never invent numbers or sources; paraphrase. Never output prices or levels. "
+    "Be terse. Output one JSON object only, no other text."
 )
 
 
-def build_prompt(session, open_dubai):
-    return f"""Today is {dt.datetime.now(DXB):%A %d %B %Y} in Dubai. The next US session is {session:%A %d %B %Y}
-(opens {open_dubai} Dubai time). Research, using web search:
-- US market news since the last close, futures / pre-market moves, macro events today and this week
-  (Fed, yields, oil, crypto, data releases), and overall sentiment;
-- earnings reporting before the open today and this week, with notable results and guidance;
-- IPOs pricing or starting to trade this week;
-- analyst upgrades/downgrades, M&A, big contracts, FDA or regulatory decisions, other catalysts.
+def movers():
+    """Free 'what moved' list from Yahoo screeners, so Claude needs fewer searches."""
+    out = []
+    for name in ("day_gainers", "most_actives"):
+        try:
+            res = yf.screen(name, count=12)
+            for q in res.get("quotes", []):
+                sym, pct = q.get("symbol"), q.get("regularMarketChangePercent")
+                if sym and pct is not None and sym not in [o[0] for o in out]:
+                    out.append((sym, pct))
+        except Exception:
+            continue
+    return " ".join(f"{s} {p:+.0f}%" for s, p in out[:20])
 
-Then choose LONG day-trade candidates that have a real, recent, verifiable catalyst:
-- "core": up to 3 highest-conviction ideas.
-- "sector": up to 4 ideas, each from a DIFFERENT sector (tech, financials, healthcare, energy, industrials, consumer, etc.).
-- "low": up to 3 low-priced stocks (under $10) listed on NASDAQ, NYSE or NYSE American with average volume above 2M shares.
-  Never OTC/pink-sheet names, never stocks under $1, never names whose move is unexplained or right after a share offering.
-Also list up to 5 "avoid" tickers with a specific negative catalyst.
 
-Return ONLY this JSON:
-{{
- "notes": ["3 to 6 short strings on the backdrop: macro, rates, oil, crypto, sentiment"],
- "calendar": ["3 to 6 short strings: earnings, data releases, IPOs, events for today and this week"],
- "picks": [{{"ticker":"","name":"","sector":"","group":"core|sector|low","news":"2-3 factual sentences on the catalyst","risk":"one sentence","sources":["https://..."]}}],
- "avoid": [{{"ticker":"","reason":"one factual sentence"}}]
-}}"""
+def build_prompt(session, open_dubai, moved):
+    hint = f"\nLast session's big movers (free data; verify catalysts, other picks allowed): {moved}\n" if moved else ""
+    return f"""Brief for the US session {session:%a %d %b %Y} (opens {open_dubai} Dubai). Today in Dubai: {dt.datetime.now(DXB):%a %d %b}.{hint}
+Use at most {MAX_SEARCHES} web searches. Prefer broad queries that cover many facts at once
+(e.g. "stock market today premarket movers upgrades earnings").
+
+Pick LONG day-trade candidates with a real, recent catalyst (earnings, upgrade, contract, M&A, FDA, etc.):
+- "core": up to 3 best ideas
+- "sector": up to 3, each a different sector
+- "low": up to 2 under $10, NASDAQ/NYSE only, avg volume >2M, not OTC, not under $1, no unexplained moves or fresh share offerings
+- "avoid": up to 3 with a specific negative catalyst
+
+JSON only, keep every string short:
+{{"notes":["max 4, <=15 words: macro, rates, oil, crypto, sentiment"],
+"calendar":["max 4, <=15 words: earnings, data, IPOs this week"],
+"picks":[{{"ticker":"","name":"","sector":"","group":"core|sector|low","news":"<=35 words on the catalyst","risk":"<=15 words","sources":["one https URL"]}}],
+"avoid":[{{"ticker":"","reason":"<=20 words"}}]}}"""
 
 
 def find_json(text):
@@ -115,16 +128,24 @@ def find_json(text):
     return best
 
 
-def ask_claude(session, open_dubai):
+def ask_claude(session, open_dubai, moved):
     client = anthropic.Anthropic()
-    messages = [{"role": "user", "content": build_prompt(session, open_dubai)}]
-    tools = [{"type": SEARCH_TOOL, "name": "web_search", "max_uses": 15}]
-    for _ in range(5):  # allow continuation if the server pauses a long turn
-        resp = client.messages.create(model=MODEL, max_tokens=8000, system=SYSTEM,
+    messages = [{"role": "user", "content": build_prompt(session, open_dubai, moved)}]
+    tools = [{"type": SEARCH_TOOL, "name": "web_search", "max_uses": MAX_SEARCHES}]
+    total_in = total_out = searches = 0
+    for _ in range(MAX_ROUNDS):  # allow one continuation if the server pauses a long turn
+        resp = client.messages.create(model=MODEL, max_tokens=MAX_OUTPUT_TOKENS, system=SYSTEM,
                                       messages=messages, tools=tools)
+        u = resp.usage
+        total_in += u.input_tokens + (getattr(u, "cache_read_input_tokens", 0) or 0)
+        total_out += u.output_tokens
+        stu = getattr(u, "server_tool_use", None)
+        searches += (getattr(stu, "web_search_requests", 0) or 0) if stu else 0
         if resp.stop_reason != "pause_turn":
             break
         messages.append({"role": "assistant", "content": resp.content})
+    # Shown in the GitHub Actions log so you can track cost per run.
+    print(f"Claude usage ({MODEL}): {total_in:,} input tokens, {total_out:,} output tokens, {searches} web searches")
     text = "".join(b.text for b in resp.content if getattr(b, "type", "") == "text")
     obj = find_json(text)
     if not obj:
@@ -333,7 +354,7 @@ def main():
         print("Already generated for this session.")
         return 0
 
-    raw = ask_claude(session, open_dubai)
+    raw = ask_claude(session, open_dubai, movers())
     items, avoid = build_items(raw.get("picks", []), raw.get("avoid", []))
     picks = [i for i in items if i["group"] in CAPS]
     if len(picks) < MIN_PICKS:
