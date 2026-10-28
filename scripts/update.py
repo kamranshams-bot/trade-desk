@@ -31,7 +31,7 @@ SEARCH_TOOL = os.environ.get("WEB_SEARCH_TOOL") or "web_search_20250305"
 # Token budget. Web search results are fed back to Claude as input tokens, so the
 # number of searches is the main cost driver. Free market data (movers list) is
 # given to Claude up front so it needs fewer searches.
-MAX_SEARCHES = int(os.environ.get("MAX_SEARCHES") or 4)
+MAX_SEARCHES = int(os.environ.get("MAX_SEARCHES") or 5)
 MAX_OUTPUT_TOKENS = 4000  # you pay only for tokens produced; a cut-off answer wastes the whole run
 MAX_ROUNDS = 2  # continuation rounds if the server pauses a long turn
 FORCE = (os.environ.get("FORCE") or "").lower() in ("1", "true", "yes")
@@ -108,9 +108,11 @@ def build_prompt(session, open_dubai, moved):
 Use at most {MAX_SEARCHES} web searches. Prefer broad queries that cover many facts at once
 (e.g. "stock market today premarket movers upgrades earnings").
 
-Pick LONG day-trade candidates with a real, recent catalyst (earnings, upgrade, contract, M&A, FDA, etc.):
-- "core": up to 3 best ideas
-- "sector": up to 3, each a different sector
+Pick LONG day-trade candidates with a real, recent catalyst (earnings, upgrade, contract, M&A, FDA, etc.).
+Return 8 to 10 picks in total: weak ones are filtered out later using real price and volume data,
+so too few picks means no brief. Use the movers list and each search result to cover several names.
+- "core": 3 best ideas
+- "sector": 3 to 5, each a different sector
 - "low": up to 2 under $10, NASDAQ/NYSE only, avg volume >2M, not OTC, not under $1, no unexplained moves or fresh share offerings
 - "avoid": up to 3 with a specific negative catalyst
 
