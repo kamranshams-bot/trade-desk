@@ -26,7 +26,7 @@ import anthropic
 import pandas as pd
 import yfinance as yf
 
-MODEL = os.environ.get("ANTHROPIC_MODEL") or "claude-sonnet-5"
+MODEL = os.environ.get("ANTHROPIC_MODEL") or "claude-haiku-5-5"
 SEARCH_TOOL = os.environ.get("WEB_SEARCH_TOOL") or "web_search_20250305"
 FORCE = (os.environ.get("FORCE") or "").lower() in ("1", "true", "yes")
 DXB, ET = ZoneInfo("Asia/Dubai"), ZoneInfo("America/New_York")

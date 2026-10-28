@@ -17,7 +17,7 @@ If validation fails (too few valid picks, no data), the old brief stays live and
 5. **First run:** *Actions > Daily brief > Run workflow* (leave force = true). When it finishes, the app URL is shown on the *deploy* job (`https://<user>.github.io/<repo>/`).
 6. **Install on phone:** iPhone Safari: Share > Add to Home Screen. Android Chrome: Install app.
 
-Optional repository variable `ANTHROPIC_MODEL` to choose the model (default `claude-sonnet-5`).
+Optional repository variable `ANTHROPIC_MODEL` to choose the model (default `claude-haiku-5-5`; set it to `claude-sonnet-5-5` for deeper research).
 
 ## How levels are set (all from real prices)
 - Entry: a dip 0.15–0.5 ATR below the last close, or a break above the 5-day high.
