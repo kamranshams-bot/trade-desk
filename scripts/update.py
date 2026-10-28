@@ -133,6 +133,17 @@ def find_json(text):
     return best
 
 
+def create(client, **kw):
+    """messages.create with extended thinking OFF: this task needs no deliberation, and
+    thinking tokens are billed as output and can use up max_tokens before any answer."""
+    try:
+        return client.messages.create(model=MODEL, thinking={"type": "disabled"}, **kw)
+    except anthropic.BadRequestError as e:
+        if "thinking" not in str(e).lower():
+            raise
+        return client.messages.create(model=MODEL, **kw)  # model rejects the setting
+
+
 def ask_claude(session, open_dubai, moved):
     client = anthropic.Anthropic()
     messages = [{"role": "user", "content": build_prompt(session, open_dubai, moved)}]
@@ -140,8 +151,8 @@ def ask_claude(session, open_dubai, moved):
     total_in = total_out = searches = 0
     texts = []
     for _ in range(MAX_ROUNDS):  # allow one continuation if the server pauses a long turn
-        resp = client.messages.create(model=MODEL, max_tokens=MAX_OUTPUT_TOKENS, system=SYSTEM,
-                                      messages=messages, tools=tools)
+        resp = create(client, max_tokens=MAX_OUTPUT_TOKENS, system=SYSTEM,
+                      messages=messages, tools=tools)
         u = resp.usage
         total_in += u.input_tokens + (getattr(u, "cache_read_input_tokens", 0) or 0)
         total_out += u.output_tokens
@@ -162,8 +173,8 @@ def ask_claude(session, open_dubai, moved):
     # for the JSON. This costs a small fraction of the research call.
     print(f"First answer was not clean JSON (stop={resp.stop_reason}, {len(text)} chars); repairing.")
     if text.strip():
-        fix = client.messages.create(
-            model=MODEL, max_tokens=MAX_OUTPUT_TOKENS,
+        fix = create(
+            client, max_tokens=MAX_OUTPUT_TOKENS,
             system="Convert the analyst notes into JSON. Use only facts present in the notes; "
                    "drop anything incomplete. Output the JSON object only.",
             messages=[{"role": "user", "content": f"Schema:\n{SCHEMA}\n\nNotes:\n{text[-15000:]}"}])
@@ -171,7 +182,8 @@ def ask_claude(session, open_dubai, moved):
         obj = find_json("".join(b.text for b in fix.content if getattr(b, "type", "") == "text"))
         if obj:
             return obj
-    snippet = re.sub(r"\s+", " ", text)[:160]
+    kinds = sorted({getattr(b, "type", "?") for b in resp.content})
+    snippet = re.sub(r"\s+", " ", text)[:160] or f"(no text; blocks: {', '.join(kinds)})"
     raise RuntimeError(f"Claude did not return usable JSON (stop={resp.stop_reason}, "
                        f"{total_out} output tokens). Start of answer: {snippet!r}")
 
