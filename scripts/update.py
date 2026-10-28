@@ -32,7 +32,7 @@ SEARCH_TOOL = os.environ.get("WEB_SEARCH_TOOL") or "web_search_20250305"
 # number of searches is the main cost driver. Free market data (movers list) is
 # given to Claude up front so it needs fewer searches.
 MAX_SEARCHES = int(os.environ.get("MAX_SEARCHES") or 4)
-MAX_OUTPUT_TOKENS = 2500
+MAX_OUTPUT_TOKENS = 4000  # you pay only for tokens produced; a cut-off answer wastes the whole run
 MAX_ROUNDS = 2  # continuation rounds if the server pauses a long turn
 FORCE = (os.environ.get("FORCE") or "").lower() in ("1", "true", "yes")
 DXB, ET = ZoneInfo("Asia/Dubai"), ZoneInfo("America/New_York")
@@ -96,6 +96,12 @@ def movers():
     return " ".join(f"{s} {p:+.0f}%" for s, p in out[:20])
 
 
+SCHEMA = """{"notes":["max 4, <=15 words: macro, rates, oil, crypto, sentiment"],
+"calendar":["max 4, <=15 words: earnings, data, IPOs this week"],
+"picks":[{"ticker":"","name":"","sector":"","group":"core|sector|low","news":"<=35 words on the catalyst","risk":"<=15 words","sources":["one https URL"]}],
+"avoid":[{"ticker":"","reason":"<=20 words"}]}"""
+
+
 def build_prompt(session, open_dubai, moved):
     hint = f"\nLast session's big movers (free data; verify catalysts, other picks allowed): {moved}\n" if moved else ""
     return f"""Brief for the US session {session:%a %d %b %Y} (opens {open_dubai} Dubai). Today in Dubai: {dt.datetime.now(DXB):%a %d %b}.{hint}
@@ -108,11 +114,8 @@ Pick LONG day-trade candidates with a real, recent catalyst (earnings, upgrade, 
 - "low": up to 2 under $10, NASDAQ/NYSE only, avg volume >2M, not OTC, not under $1, no unexplained moves or fresh share offerings
 - "avoid": up to 3 with a specific negative catalyst
 
-JSON only, keep every string short:
-{{"notes":["max 4, <=15 words: macro, rates, oil, crypto, sentiment"],
-"calendar":["max 4, <=15 words: earnings, data, IPOs this week"],
-"picks":[{{"ticker":"","name":"","sector":"","group":"core|sector|low","news":"<=35 words on the catalyst","risk":"<=15 words","sources":["one https URL"]}}],
-"avoid":[{{"ticker":"","reason":"<=20 words"}}]}}"""
+Your FINAL message must be only this JSON (no markdown fences, no text before or after), every string short:
+""" + SCHEMA
 
 
 def find_json(text):
@@ -133,6 +136,7 @@ def ask_claude(session, open_dubai, moved):
     messages = [{"role": "user", "content": build_prompt(session, open_dubai, moved)}]
     tools = [{"type": SEARCH_TOOL, "name": "web_search", "max_uses": MAX_SEARCHES}]
     total_in = total_out = searches = 0
+    texts = []
     for _ in range(MAX_ROUNDS):  # allow one continuation if the server pauses a long turn
         resp = client.messages.create(model=MODEL, max_tokens=MAX_OUTPUT_TOKENS, system=SYSTEM,
                                       messages=messages, tools=tools)
@@ -141,16 +145,33 @@ def ask_claude(session, open_dubai, moved):
         total_out += u.output_tokens
         stu = getattr(u, "server_tool_use", None)
         searches += (getattr(stu, "web_search_requests", 0) or 0) if stu else 0
+        texts.append("".join(b.text for b in resp.content if getattr(b, "type", "") == "text"))
         if resp.stop_reason != "pause_turn":
             break
         messages.append({"role": "assistant", "content": resp.content})
     # Shown in the GitHub Actions log so you can track cost per run.
-    print(f"Claude usage ({MODEL}): {total_in:,} input tokens, {total_out:,} output tokens, {searches} web searches")
-    text = "".join(b.text for b in resp.content if getattr(b, "type", "") == "text")
+    print(f"Claude usage ({MODEL}): {total_in:,} input tokens, {total_out:,} output tokens, "
+          f"{searches} web searches, stop={resp.stop_reason}")
+    text = "\n".join(texts)
     obj = find_json(text)
-    if not obj:
-        raise RuntimeError("Claude did not return usable JSON")
-    return obj
+    if obj:
+        return obj
+    # Cheap repair: send ONLY Claude's own answer text (not the search results) and ask
+    # for the JSON. This costs a small fraction of the research call.
+    print(f"First answer was not clean JSON (stop={resp.stop_reason}, {len(text)} chars); repairing.")
+    if text.strip():
+        fix = client.messages.create(
+            model=MODEL, max_tokens=MAX_OUTPUT_TOKENS,
+            system="Convert the analyst notes into JSON. Use only facts present in the notes; "
+                   "drop anything incomplete. Output the JSON object only.",
+            messages=[{"role": "user", "content": f"Schema:\n{SCHEMA}\n\nNotes:\n{text[-15000:]}"}])
+        print(f"Repair usage: {fix.usage.input_tokens:,} input, {fix.usage.output_tokens:,} output tokens")
+        obj = find_json("".join(b.text for b in fix.content if getattr(b, "type", "") == "text"))
+        if obj:
+            return obj
+    snippet = re.sub(r"\s+", " ", text)[:160]
+    raise RuntimeError(f"Claude did not return usable JSON (stop={resp.stop_reason}, "
+                       f"{total_out} output tokens). Start of answer: {snippet!r}")
 
 
 # ---- real market data ---------------------------------------------------------
