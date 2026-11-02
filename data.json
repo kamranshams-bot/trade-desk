@@ -1,213 +1,173 @@
 {
- "asOf": "Updated Thu 29 Oct 2026, 15:24 Dubai · prices from 2026-10-28 close · for the Thu 29 Oct session",
- "kicker": "Dubai desk · US open 5:30pm Dubai (9:30am ET)",
- "barDate": "2026-10-28",
- "sessionDate": "2026-10-29",
+ "asOf": "Updated Mon 02 Nov 2026, 17:19 Dubai · prices from 2026-10-30 close · for the Mon 02 Nov session",
+ "kicker": "Dubai desk · US open 6:30pm Dubai (9:30am ET)",
+ "barDate": "2026-10-30",
+ "sessionDate": "2026-11-02",
  "stats": [
   [
    "S&P 500 (SPY)",
-   "+0.34%",
+   "-1.77%",
    "last session"
   ],
   [
    "Nasdaq-100 (QQQ)",
-   "+0.60%",
+   "-3.47%",
    "last session"
   ],
   [
    "10-yr yield",
-   "5.05%",
-   "+1.0% day"
+   "4.93%",
+   "-1.2% day"
   ],
   [
    "Oil (WTI)",
-   "$101",
-   "-1.4% day"
+   "$100",
+   "-4.4% day"
   ],
   [
    "Bitcoin",
-   "$80,106",
-   "-1.4% day"
+   "$77,494",
+   "-1.0% day"
   ],
   [
    "VIX",
-   "17.0",
-   "+0.4% day"
+   "19.5",
+   "+0.2% day"
   ]
  ],
  "notes": [
-  "Alphabet shares fell about 10% on search slowdown despite cloud strength; AI jitters weighed on tech futures.",
-  "Microsoft rose premarket on cloud strength after its earnings beat.",
-  "Fed paused rates Wednesday; futures mixed, Nasdaq-100 weaker into the open.",
-  "Hyperscaler earnings driving AI-infrastructure sentiment; momentum names remain sensitive to reversals."
+  "Friday's tech sell-off after Intel guidance spread to Asia; Monday futures tilt higher.",
+  "Oil pulled back premarket on de-escalation signals, easing supply worries.",
+  "Bitcoin recovering toward recent levels after weekend exchange security headlines.",
+  "AI-bubble fears weighed on tech last week; signs of rebound premarket."
  ],
  "calendar": [
-  "Thu: Q3 reports from Crocs, Porch, MediaAlpha, Glaukos (post-Wed) drive premarket gap plays.",
-  "Schrödinger (SDGR) Q3 results due after close Nov 4, 2026.",
-  "Ultra Clean Holdings reports Q3 after close; watch for follow-through.",
-  "Hyperscaler earnings flow continues to set AI-infrastructure tone this week."
+  "Mon 02 Nov: Palantir and Apple report after the close; Apple reports this week.",
+  "Mon 02 Nov: Transocean Q3 earnings scheduled.",
+  "Tue 03 Nov: Everus Construction Group Q3 earnings after the close.",
+  "Wed 04 Nov: Gold Fields operating update scheduled."
  ],
  "avoid": [
   {
-   "t": "ENPH",
-   "reason": "Premarket down about 19% on negative news flow; catalyst unverified, avoid chasing weakness on thin volume."
+   "t": "INTC",
+   "reason": "Fell about 29% on weak Q4 guidance; analysts see no near-term catalyst to support a bounce."
   },
   {
-   "t": "GOOGL",
-   "reason": "Shares fell about 10% after Q3 search-unit slowdown overshadowed cloud growth; sentiment remains negative for mega-cap tech."
+   "t": "NOK",
+   "reason": "Down about 8% last session; no verified positive catalyst found, so avoid longs."
   },
   {
-   "t": "INTA",
-   "reason": "Premarket down about 16% with no verified catalyst in research; avoid until the reason is confirmed."
+   "t": "AMZN",
+   "reason": "Q3 results fell short of estimates, adding to AI capex concerns hitting tech shares."
   }
  ],
  "items": [
   {
-   "t": "GKOS",
-   "name": "Glaukos",
+   "t": "CDNA",
+   "name": "CareDx",
    "sector": "Healthcare",
    "group": "core",
-   "ref": 181.43,
-   "refNote": "close 2026-10-28",
-   "week": 2.6,
-   "news": "Q3 revenue of $211M beat estimates sharply; raised 2026 sales guidance and gave preliminary 2027 target of $1B after the Wednesday report.",
-   "risk": "Gap fade after large premarket move; Medicare coverage uncertainty for iDose TR.",
+   "ref": 87.41,
+   "refNote": "close 2026-10-30",
+   "week": 26.3,
+   "news": "Q3 revenue and EPS beat consensus; FY26 revenue guidance raised, plus analyst price target increase after the print.",
+   "risk": "Extended after a large gap; prone to profit-taking and fading.",
    "sources": [
-    "https://www.benzinga.com/trading-ideas/movers/26/10/62684197/why-glaukos-shares-are-trading-higher-by-over-17-here-are-20-stocks-moving-premarket"
+    "https://stockstotrade.com/news/caredx-inc-cdna-news-2026_10_30-2/"
    ],
-   "entry": "Dip to $178.17–180.45, or break above $187.94 on volume",
-   "entryMid": 179.31,
-   "stop": 175.39,
-   "t1": 185.83,
-   "t2": 189.75,
-   "exit": "$185.83 (half), $189.75 (rest)"
+   "entry": "Dip to $84.74–86.61, or break above $90.87 on volume",
+   "entryMid": 85.68,
+   "stop": 82.48,
+   "t1": 91.01,
+   "t2": 94.21,
+   "exit": "$91.01 (half), $94.21 (rest)"
   },
   {
-   "t": "VRT",
-   "name": "Vertiv Holdings",
-   "sector": "Industrials/AI infrastructure",
+   "t": "GDDY",
+   "name": "GoDaddy",
+   "sector": "Technology",
    "group": "core",
-   "ref": 242.94,
-   "refNote": "close 2026-10-28",
-   "week": 14.5,
-   "news": "Q3 beat with revenue up 61% and raised full-year guidance; CEO flagged accelerating data-center buildout, lifting shares about 16% Wednesday.",
-   "risk": "Stock remains well below its May peak; resistance near prior highs may cap upside.",
+   "ref": 117.24,
+   "refNote": "close 2026-10-30",
+   "week": 3.9,
+   "news": "Gained about 11% in the last session; catalyst not verified in my searches, so confirm before entry.",
+   "risk": "Catalyst unverified; tech sentiment fragile after the Intel-driven sell-off.",
    "sources": [
-    "https://www.fool.com/investing/2026/10/28/why-vertiv-stock-soared-today/"
+    "https://247wallst.com/investing/2026/10/30/regeneron-surges-12-as-sanofi-dupixent-windfall-and-eylea-hd-power-earnings-beat-moderna-slides-2-merck-edges-higher-pfizer-ticks-up/"
    ],
-   "entry": "Dip to $236.24–240.93, or break above $245.31 on volume",
-   "entryMid": 238.59,
-   "stop": 230.55,
-   "t1": 251.99,
-   "t2": 260.03,
-   "exit": "$251.99 (half), $260.03 (rest)"
+   "entry": "Dip to $114.95–116.55, or break above $118.11 on volume",
+   "entryMid": 115.75,
+   "stop": 113.01,
+   "t1": 120.33,
+   "t2": 123.07,
+   "exit": "$120.33 (half), $123.07 (rest)"
   },
   {
-   "t": "AXGN",
-   "name": "Axogen",
-   "sector": "Healthcare/Medtech",
-   "group": "core",
-   "ref": 49.25,
-   "refNote": "close 2026-10-28",
-   "week": 35.0,
-   "news": "Q3 revenue rose 26% and 2026 revenue outlook was raised to at least $290M; BioCircuit acquisition adds NerveTape, with volume about six times normal.",
-   "risk": "Secondary-offering dilution flagged by analysts; extended after a one-year-high move.",
-   "sources": [
-    "https://stockstotrade.com/news/axogen-inc-axgn-news-2026-10-28/"
-   ],
-   "entry": "Dip to $48.15–48.92, or break above $49.97 on volume",
-   "entryMid": 48.54,
-   "stop": 47.22,
-   "t1": 50.73,
-   "t2": 52.05,
-   "exit": "$50.73 (half), $52.05 (rest)"
-  },
-  {
-   "t": "GMAB",
-   "name": "Genmab",
-   "sector": "Biotech",
+   "t": "GPN",
+   "name": "Global Payments",
+   "sector": "Financials",
    "group": "sector",
-   "ref": 57.29,
-   "refNote": "close 2026-10-28",
-   "week": 44.8,
-   "news": "Phase 3 LiGeR-HN1 trial met both primary goals, cutting death risk 50% with Keytruda in head and neck cancer; shares hit a record.",
-   "risk": "Huge extension to record highs; US trading may be volatile after Copenhagen gains.",
+   "ref": 96.84,
+   "refNote": "close 2026-10-30",
+   "week": 16.9,
+   "news": "Shares rose about 13% in the last session; reporting shows a Worldpay integration and a buyback program in place.",
+   "risk": "Specific Q3 catalyst not confirmed in my searches; verify before trading.",
    "sources": [
-    "https://finance.yahoo.com/markets/stocks/articles/gmab-stock-hits-time-high-172411592.html"
+    "https://247wallst.com/investing/2026/10/30/regeneron-surges-12-as-sanofi-dupixent-windfall-and-eylea-hd-power-earnings-beat-moderna-slides-2-merck-edges-higher-pfizer-ticks-up/"
    ],
-   "entry": "Dip to $56.07–56.92, or break above $59.97 on volume",
-   "entryMid": 56.5,
-   "stop": 55.03,
-   "t1": 58.94,
-   "t2": 60.4,
-   "exit": "$58.94 (half), $60.40 (rest)"
+   "entry": "Dip to $95.09–96.32, or break above $101.32 on volume",
+   "entryMid": 95.7,
+   "stop": 93.61,
+   "t1": 99.2,
+   "t2": 101.3,
+   "exit": "$99.20 (half), $101.30 (rest)"
   },
   {
-   "t": "PRCH",
-   "name": "Porch Group",
-   "sector": "Consumer/Software",
+   "t": "OLN",
+   "name": "Olin",
+   "sector": "Materials",
    "group": "sector",
-   "ref": 16.3,
-   "refNote": "close 2026-10-28",
-   "week": -12.3,
-   "news": "Beat Q3 expectations and lifted fiscal 2026 sales guidance above estimates, gaining about 17% in premarket trade.",
-   "risk": "Small-cap volatility; premarket volume thin relative to float.",
+   "ref": 17.6,
+   "refNote": "close 2026-10-30",
+   "week": 12.4,
+   "news": "Shares rose about 10% last session; catalyst not verified in my searches, so confirm the news before entry.",
+   "risk": "Unverified catalyst; commodity chemicals exposed to cyclical demand.",
    "sources": [
-    "https://www.benzinga.com/trading-ideas/movers/26/10/62684197/why-glaukos-shares-are-trading-higher-by-over-17-here-are-20-stocks-moving-premarket"
+    "https://premarketprice.com/premarket-movers"
    ],
-   "entry": "Dip to $15.88–16.17, or break above $18.69 on volume",
-   "entryMid": 16.03,
-   "stop": 15.52,
-   "t1": 16.87,
-   "t2": 17.37,
-   "exit": "$16.87 (half), $17.37 (rest)"
+   "entry": "Dip to $17.25–17.49, or break above $17.74 on volume",
+   "entryMid": 17.37,
+   "stop": 16.95,
+   "t1": 18.08,
+   "t2": 18.5,
+   "exit": "$18.08 (half), $18.50 (rest)"
   },
   {
-   "t": "CROX",
-   "name": "Crocs",
-   "sector": "Consumer",
-   "group": "sector",
-   "ref": 119.69,
-   "refNote": "close 2026-10-28",
-   "week": 1.0,
-   "news": "Q3 EPS of $3.69 beat the $3.30 estimate and revenue of $1.04B topped consensus; FY2026 EPS guidance raised above consensus.",
-   "risk": "Premarket gain may already price in beat; consumer-spending sensitivity.",
-   "sources": [
-    "https://streetinsider.com/Earnings/Crocs+(CROX)+Tops+Q3+EPS+by+39c;+offers+guidance/27252507.html"
-   ],
-   "entry": "Dip to $117.65–119.08, or break above $122.41 on volume",
-   "entryMid": 118.36,
-   "stop": 115.92,
-   "t1": 122.44,
-   "t2": 124.89,
-   "exit": "$122.44 (half), $124.89 (rest)"
-  },
-  {
-   "t": "ENPH",
-   "name": "ENPH",
+   "t": "INTC",
+   "name": "INTC",
    "sector": "Avoid / fade",
    "group": "avoid",
-   "ref": 24.99,
-   "week": -21.9,
-   "news": "Premarket down about 19% on negative news flow; catalyst unverified, avoid chasing weakness on thin volume. No levels given."
+   "ref": 65.76,
+   "week": -24.4,
+   "news": "Fell about 29% on weak Q4 guidance; analysts see no near-term catalyst to support a bounce. No levels given."
   },
   {
-   "t": "GOOGL",
-   "name": "GOOGL",
+   "t": "NOK",
+   "name": "NOK",
    "sector": "Avoid / fade",
    "group": "avoid",
-   "ref": 324.89,
-   "week": -2.9,
-   "news": "Shares fell about 10% after Q3 search-unit slowdown overshadowed cloud growth; sentiment remains negative for mega-cap tech. No levels given."
+   "ref": 8.56,
+   "week": 5.2,
+   "news": "Down about 8% last session; no verified positive catalyst found, so avoid longs. No levels given."
   },
   {
-   "t": "INTA",
-   "name": "INTA",
+   "t": "AMZN",
+   "name": "AMZN",
    "sector": "Avoid / fade",
    "group": "avoid",
-   "ref": 40.34,
-   "week": -11.0,
-   "news": "Premarket down about 16% with no verified catalyst in research; avoid until the reason is confirmed. No levels given."
+   "ref": 240.35,
+   "week": -3.1,
+   "news": "Q3 results fell short of estimates, adding to AI capex concerns hitting tech shares. No levels given."
   }
  ]
 }
