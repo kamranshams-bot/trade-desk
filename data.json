@@ -1,173 +1,173 @@
 {
- "asOf": "Updated Mon 02 Nov 2026, 17:19 Dubai · prices from 2026-10-30 close · for the Mon 02 Nov session",
+ "asOf": "Updated Tue 03 Nov 2026, 16:43 Dubai · prices from 2026-11-02 close · for the Tue 03 Nov session",
  "kicker": "Dubai desk · US open 6:30pm Dubai (9:30am ET)",
- "barDate": "2026-10-30",
- "sessionDate": "2026-11-02",
+ "barDate": "2026-11-02",
+ "sessionDate": "2026-11-03",
  "stats": [
   [
    "S&P 500 (SPY)",
-   "-1.77%",
+   "-0.48%",
    "last session"
   ],
   [
    "Nasdaq-100 (QQQ)",
-   "-3.47%",
+   "-1.36%",
    "last session"
   ],
   [
    "10-yr yield",
-   "4.93%",
-   "-1.2% day"
+   "4.89%",
+   "-0.7% day"
   ],
   [
    "Oil (WTI)",
-   "$100",
-   "-4.4% day"
+   "$97",
+   "+0.7% day"
   ],
   [
    "Bitcoin",
-   "$77,494",
-   "-1.0% day"
+   "$77,251",
+   "+0.7% day"
   ],
   [
    "VIX",
-   "19.5",
-   "+0.2% day"
+   "21.4",
+   "+1.3% day"
   ]
  ],
  "notes": [
-  "Friday's tech sell-off after Intel guidance spread to Asia; Monday futures tilt higher.",
-  "Oil pulled back premarket on de-escalation signals, easing supply worries.",
-  "Bitcoin recovering toward recent levels after weekend exchange security headlines.",
-  "AI-bubble fears weighed on tech last week; signs of rebound premarket."
+  "Midterm election day; Dow futures softer, Nasdaq futures mixed ahead of results.",
+  "Apple fell about 4% premarket on margin warning and weak iPad sales.",
+  "Palantir down on high volume despite earnings beat; software sentiment cautious.",
+  "Oil fell sharply Monday, lifting the Dow; chip stocks rebounding after steep losses."
  ],
  "calendar": [
-  "Mon 02 Nov: Palantir and Apple report after the close; Apple reports this week.",
-  "Mon 02 Nov: Transocean Q3 earnings scheduled.",
-  "Tue 03 Nov: Everus Construction Group Q3 earnings after the close.",
-  "Wed 04 Nov: Gold Fields operating update scheduled."
+  "Today: AMD, SMCI, ANET, SHOP, UPST, NVTS earnings; AMD and SMCI report after close.",
+  "Today: Barclays upgraded Bloom Energy to Overweight, cutting target to $289.",
+  "Today: Neurocrine and Clorox beat Q1/Q3 estimates; Vertex reports this week.",
+  "Mid-November: Everus Construction Group Q3 report pending."
  ],
  "avoid": [
   {
-   "t": "INTC",
-   "reason": "Fell about 29% on weak Q4 guidance; analysts see no near-term catalyst to support a bounce."
+   "t": "AAPL",
+   "reason": "Premarket drop near 4% after margin warning on memory costs and weak iPad sales."
   },
   {
-   "t": "NOK",
-   "reason": "Down about 8% last session; no verified positive catalyst found, so avoid longs."
+   "t": "PLTR",
+   "reason": "Fell about 7% on high volume despite earnings beat; profit-taking and software sector caution."
   },
   {
-   "t": "AMZN",
-   "reason": "Q3 results fell short of estimates, adding to AI capex concerns hitting tech shares."
+   "t": "EMN",
+   "reason": "Among top premarket losers, down about 5%; no catalyst confirmed in my search."
   }
  ],
  "items": [
   {
-   "t": "CDNA",
-   "name": "CareDx",
+   "t": "NBIX",
+   "name": "Neurocrine Biosciences",
    "sector": "Healthcare",
-   "group": "core",
-   "ref": 87.41,
-   "refNote": "close 2026-10-30",
-   "week": 26.3,
-   "news": "Q3 revenue and EPS beat consensus; FY26 revenue guidance raised, plus analyst price target increase after the print.",
-   "risk": "Extended after a large gap; prone to profit-taking and fading.",
-   "sources": [
-    "https://stockstotrade.com/news/caredx-inc-cdna-news-2026_10_30-2/"
-   ],
-   "entry": "Dip to $84.74–86.61, or break above $90.87 on volume",
-   "entryMid": 85.68,
-   "stop": 82.48,
-   "t1": 91.01,
-   "t2": 94.21,
-   "exit": "$91.01 (half), $94.21 (rest)"
-  },
-  {
-   "t": "GDDY",
-   "name": "GoDaddy",
-   "sector": "Technology",
-   "group": "core",
-   "ref": 117.24,
-   "refNote": "close 2026-10-30",
-   "week": 3.9,
-   "news": "Gained about 11% in the last session; catalyst not verified in my searches, so confirm before entry.",
-   "risk": "Catalyst unverified; tech sentiment fragile after the Intel-driven sell-off.",
-   "sources": [
-    "https://247wallst.com/investing/2026/10/30/regeneron-surges-12-as-sanofi-dupixent-windfall-and-eylea-hd-power-earnings-beat-moderna-slides-2-merck-edges-higher-pfizer-ticks-up/"
-   ],
-   "entry": "Dip to $114.95–116.55, or break above $118.11 on volume",
-   "entryMid": 115.75,
-   "stop": 113.01,
-   "t1": 120.33,
-   "t2": 123.07,
-   "exit": "$120.33 (half), $123.07 (rest)"
-  },
-  {
-   "t": "GPN",
-   "name": "Global Payments",
-   "sector": "Financials",
    "group": "sector",
-   "ref": 96.84,
-   "refNote": "close 2026-10-30",
-   "week": 16.9,
-   "news": "Shares rose about 13% in the last session; reporting shows a Worldpay integration and a buyback program in place.",
-   "risk": "Specific Q3 catalyst not confirmed in my searches; verify before trading.",
+   "ref": 145.35,
+   "refNote": "close 2026-11-02",
+   "week": -0.4,
+   "news": "Q3 adjusted EPS of $3.29 topped consensus of $1.91 on revenue of $1.11B versus $1.04B expected.",
+   "risk": "Earnings-driven gap may fade; verify price and volume.",
    "sources": [
-    "https://247wallst.com/investing/2026/10/30/regeneron-surges-12-as-sanofi-dupixent-windfall-and-eylea-hd-power-earnings-beat-moderna-slides-2-merck-edges-higher-pfizer-ticks-up/"
+    "https://investrade.com/morning-preview-november-03-2026/"
    ],
-   "entry": "Dip to $95.09–96.32, or break above $101.32 on volume",
-   "entryMid": 95.7,
-   "stop": 93.61,
-   "t1": 99.2,
-   "t2": 101.3,
-   "exit": "$99.20 (half), $101.30 (rest)"
+   "entry": "Dip to $143.77–144.88, or break above $149.25 on volume",
+   "entryMid": 144.32,
+   "stop": 142.43,
+   "t1": 147.48,
+   "t2": 149.38,
+   "exit": "$147.48 (half), $149.38 (rest)"
   },
   {
-   "t": "OLN",
-   "name": "Olin",
-   "sector": "Materials",
+   "t": "BE",
+   "name": "Bloom Energy",
+   "sector": "Industrials/Energy",
    "group": "sector",
-   "ref": 17.6,
-   "refNote": "close 2026-10-30",
-   "week": 12.4,
-   "news": "Shares rose about 10% last session; catalyst not verified in my searches, so confirm the news before entry.",
-   "risk": "Unverified catalyst; commodity chemicals exposed to cyclical demand.",
+   "ref": 196.25,
+   "refNote": "close 2026-11-02",
+   "week": -3.8,
+   "news": "Barclays upgraded Bloom Energy to Overweight from Equal Weight, citing accelerating capacity build and rising customer deposits.",
+   "risk": "Target cut to $289 signals valuation concern; verify volume.",
    "sources": [
-    "https://premarketprice.com/premarket-movers"
+    "https://investrade.com/morning-preview-november-03-2026/"
    ],
-   "entry": "Dip to $17.25–17.49, or break above $17.74 on volume",
-   "entryMid": 17.37,
-   "stop": 16.95,
-   "t1": 18.08,
-   "t2": 18.5,
-   "exit": "$18.08 (half), $18.50 (rest)"
+   "entry": "Dip to $186.27–193.26, or break above $231.66 on volume",
+   "entryMid": 189.76,
+   "stop": 177.79,
+   "t1": 209.72,
+   "t2": 221.69,
+   "exit": "$209.72 (half), $221.69 (rest)"
   },
   {
-   "t": "INTC",
-   "name": "INTC",
-   "sector": "Avoid / fade",
-   "group": "avoid",
-   "ref": 65.76,
-   "week": -24.4,
-   "news": "Fell about 29% on weak Q4 guidance; analysts see no near-term catalyst to support a bounce. No levels given."
+   "t": "GRAB",
+   "name": "Grab Holdings",
+   "sector": "Low-priced (under $10)",
+   "group": "low",
+   "ref": 2.86,
+   "refNote": "close 2026-11-02",
+   "week": 5.5,
+   "news": "Shares rose about 10% premarket; the source ties the move to its Q3 earnings report released the prior day.",
+   "risk": "Post-earnings momentum may reverse; confirm volume.",
+   "sources": [
+    "https://benzinga.com/trading-ideas/movers/26/11/62813713/12-industrials-stocks-moving-tuesday-s-pre-market-session"
+   ],
+   "entry": "Dip to $2.81–2.84, or break above $2.93 on volume",
+   "entryMid": 2.83,
+   "stop": 2.76,
+   "t1": 2.93,
+   "t2": 2.99,
+   "exit": "$2.93 (half), $2.99 (rest)"
   },
   {
-   "t": "NOK",
-   "name": "NOK",
-   "sector": "Avoid / fade",
-   "group": "avoid",
-   "ref": 8.56,
-   "week": 5.2,
-   "news": "Down about 8% last session; no verified positive catalyst found, so avoid longs. No levels given."
+   "t": "MU",
+   "name": "Micron Technology",
+   "sector": "Semiconductors",
+   "group": "sector",
+   "ref": 833.59,
+   "refNote": "close 2026-11-02",
+   "week": -7.8,
+   "news": "Shares rose about 2.8% premarket as demand for AI-linked memory chips remained robust, per the market report.",
+   "risk": "Chip sector whipsaw; memory cost concerns hit Apple.",
+   "sources": [
+    "https://stockmarketwatch.com/live/stock-market-today"
+   ],
+   "entry": "Dip to $807.99–825.91, or break above $990.00 on volume",
+   "entryMid": 816.95,
+   "stop": 786.23,
+   "t1": 868.15,
+   "t2": 898.87,
+   "exit": "$868.15 (half), $898.87 (rest)"
   },
   {
-   "t": "AMZN",
-   "name": "AMZN",
+   "t": "AAPL",
+   "name": "AAPL",
    "sector": "Avoid / fade",
    "group": "avoid",
-   "ref": 240.35,
-   "week": -3.1,
-   "news": "Q3 results fell short of estimates, adding to AI capex concerns hitting tech shares. No levels given."
+   "ref": 338.32,
+   "week": -1.6,
+   "news": "Premarket drop near 4% after margin warning on memory costs and weak iPad sales. No levels given."
+  },
+  {
+   "t": "PLTR",
+   "name": "PLTR",
+   "sector": "Avoid / fade",
+   "group": "avoid",
+   "ref": 178.34,
+   "week": -10.3,
+   "news": "Fell about 7% on high volume despite earnings beat; profit-taking and software sector caution. No levels given."
+  },
+  {
+   "t": "EMN",
+   "name": "EMN",
+   "sector": "Avoid / fade",
+   "group": "avoid",
+   "ref": 66.78,
+   "week": 1.6,
+   "news": "Among top premarket losers, down about 5%; no catalyst confirmed in my search. No levels given."
   }
  ]
 }
