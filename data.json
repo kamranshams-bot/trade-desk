@@ -1,173 +1,233 @@
 {
- "asOf": "Updated Tue 03 Nov 2026, 16:43 Dubai · prices from 2026-11-02 close · for the Tue 03 Nov session",
+ "asOf": "Updated Wed 04 Nov 2026, 16:52 Dubai · prices from 2026-11-03 close · for the Wed 04 Nov session",
  "kicker": "Dubai desk · US open 6:30pm Dubai (9:30am ET)",
- "barDate": "2026-11-02",
- "sessionDate": "2026-11-03",
+ "barDate": "2026-11-03",
+ "sessionDate": "2026-11-04",
  "stats": [
   [
    "S&P 500 (SPY)",
-   "-0.48%",
+   "+0.30%",
    "last session"
   ],
   [
    "Nasdaq-100 (QQQ)",
-   "-1.36%",
+   "+0.62%",
    "last session"
   ],
   [
    "10-yr yield",
-   "4.89%",
-   "-0.7% day"
+   "4.95%",
+   "+1.2% day"
   ],
   [
    "Oil (WTI)",
-   "$97",
-   "+0.7% day"
+   "$95",
+   "-1.1% day"
   ],
   [
    "Bitcoin",
-   "$77,251",
-   "+0.7% day"
+   "$78,196",
+   "+1.1% day"
   ],
   [
    "VIX",
-   "21.4",
-   "+1.3% day"
+   "18.3",
+   "-12.1% day"
   ]
  ],
  "notes": [
-  "Midterm election day; Dow futures softer, Nasdaq futures mixed ahead of results.",
-  "Apple fell about 4% premarket on margin warning and weak iPad sales.",
-  "Palantir down on high volume despite earnings beat; software sentiment cautious.",
-  "Oil fell sharply Monday, lifting the Dow; chip stocks rebounding after steep losses."
+  "Democratic sweep of Congress drove early futures swings; S&P futures recovered toward flat-to-up.",
+  "Oil elevated near $95-$100 on Iran-related headlines; yields high near 4.9%.",
+  "Bitcoin around $77-78k, V-shaped rebound; miners sensitive to crypto and AI-capex sentiment.",
+  "Chip names mixed: AMD gains faded; AI-capex worries weigh on high-beta AI infrastructure."
  ],
  "calendar": [
-  "Today: AMD, SMCI, ANET, SHOP, UPST, NVTS earnings; AMD and SMCI report after close.",
-  "Today: Barclays upgraded Bloom Energy to Overweight, cutting target to $289.",
-  "Today: Neurocrine and Clorox beat Q1/Q3 estimates; Vertex reports this week.",
-  "Mid-November: Everus Construction Group Q3 report pending."
+  "Hut 8 and Riot both report Q3 results Nov 4 before the open.",
+  "MARA also reports Q3 results Nov 4.",
+  "ARM reports fiscal Q2 2027 after the close Wednesday.",
+  "Aehr reported fiscal Q1 2027 Monday; already reflected in today's move."
  ],
  "avoid": [
   {
-   "t": "AAPL",
-   "reason": "Premarket drop near 4% after margin warning on memory costs and weak iPad sales."
-  },
-  {
    "t": "PLTR",
-   "reason": "Fell about 7% on high volume despite earnings beat; profit-taking and software sector caution."
+   "reason": "Shares fell nearly 8% premarket despite Q3 beat; U.S. commercial revenue growth did not stop selling."
   },
   {
-   "t": "EMN",
-   "reason": "Among top premarket losers, down about 5%; no catalyst confirmed in my search."
+   "t": "AAPL",
+   "reason": "Premarket down nearly 4% after fiscal Q4 margin outlook and iPad sales missed Street estimates."
+  },
+  {
+   "t": "ZBRA",
+   "reason": "Fell over 6% premarket despite Q3 beat, showing sellers ignore the headline results."
   }
  ],
  "items": [
   {
-   "t": "NBIX",
-   "name": "Neurocrine Biosciences",
-   "sector": "Healthcare",
+   "t": "AEHR",
+   "name": "Aehr Test Systems",
+   "sector": "Semiconductor equipment",
+   "group": "core",
+   "ref": 65.11,
+   "refNote": "close 2026-11-03",
+   "week": 1.8,
+   "news": "Record fiscal Q1 revenue and bookings beat estimates; fiscal 2027 sales outlook raised on AI burn-in demand; shares jumped after the report.",
+   "risk": "Extended after a huge move; prone to sharp pullbacks.",
+   "sources": [
+    "https://www.benzinga.com/markets/earnings/26/11/62802176/aehr-test-systems-stock-pops-after-q1-results-heres-why"
+   ],
+   "entry": "Dip to $61.61–64.06, or break above $66.21 on volume",
+   "entryMid": 62.84,
+   "stop": 58.64,
+   "t1": 69.83,
+   "t2": 74.03,
+   "exit": "$69.83 (half), $74.03 (rest)"
+  },
+  {
+   "t": "HUT",
+   "name": "Hut 8",
+   "sector": "Bitcoin miner / AI data center",
+   "group": "core",
+   "ref": 63.75,
+   "refNote": "close 2026-11-03",
+   "week": -5.3,
+   "news": "Rallied ahead of Q3 results due before the open; prior $9.8B AI data center lease news drove the move; the company must show lease timeline holds.",
+   "risk": "Earnings-day reversal risk; Keefe Bruyette cut price target.",
+   "sources": [
+    "https://247wallst.com/investing/2026/11/03/hut-8-surges-16-ahead-of-earnings-as-bitcoin-miners-rebound-riot-platforms-surges-14-mara-holdings-jumps-9/"
+   ],
+   "entry": "Dip to $60.29–62.71, or break above $70.00 on volume",
+   "entryMid": 61.5,
+   "stop": 57.34,
+   "t1": 68.43,
+   "t2": 72.58,
+   "exit": "$68.43 (half), $72.58 (rest)"
+  },
+  {
+   "t": "RIOT",
+   "name": "Riot Platforms",
+   "sector": "Bitcoin miner / AI data center",
+   "group": "core",
+   "ref": 14.02,
+   "refNote": "close 2026-11-03",
+   "week": 3.4,
+   "news": "Sympathy rally with peers ahead of Q3 results on Nov 4; company runs large Texas power presence and AI leases alongside mining.",
+   "risk": "Sector beta to bitcoin and AI-capex sentiment; reports same day as HUT.",
+   "sources": [
+    "https://247wallst.com/investing/2026/11/03/hut-8-surges-16-ahead-of-earnings-as-bitcoin-miners-rebound-riot-platforms-surges-14-mara-holdings-jumps-9/"
+   ],
+   "entry": "Dip to $13.36–13.82, or break above $14.48 on volume",
+   "entryMid": 13.59,
+   "stop": 12.8,
+   "t1": 14.91,
+   "t2": 15.71,
+   "exit": "$14.91 (half), $15.71 (rest)"
+  },
+  {
+   "t": "ANET",
+   "name": "Arista Networks",
+   "sector": "Networking / AI infrastructure",
    "group": "sector",
-   "ref": 145.35,
-   "refNote": "close 2026-11-02",
-   "week": -0.4,
-   "news": "Q3 adjusted EPS of $3.29 topped consensus of $1.91 on revenue of $1.11B versus $1.04B expected.",
-   "risk": "Earnings-driven gap may fade; verify price and volume.",
+   "ref": 169.91,
+   "refNote": "close 2026-11-03",
+   "week": -9.1,
+   "news": "Reported Q3 2026 adjusted EPS of $1.20 on $3.66B revenue, beating estimates; shares rose in premarket trading.",
+   "risk": "Gap already priced; AI-spending worries could cap follow-through.",
    "sources": [
-    "https://investrade.com/morning-preview-november-03-2026/"
+    "https://www.benzinga.com/markets/movers/26/11/62854452/stock-market-today-dow-jones-sp-500-futures-rise-as-democrats-take-control-of-congress-amd-amgn-nvo-in-focus"
    ],
-   "entry": "Dip to $143.77–144.88, or break above $149.25 on volume",
-   "entryMid": 144.32,
-   "stop": 142.43,
-   "t1": 147.48,
-   "t2": 149.38,
-   "exit": "$147.48 (half), $149.38 (rest)"
+   "entry": "Dip to $165.14–168.48, or break above $191.11 on volume",
+   "entryMid": 166.81,
+   "stop": 161.08,
+   "t1": 176.35,
+   "t2": 182.08,
+   "exit": "$176.35 (half), $182.08 (rest)"
   },
   {
-   "t": "BE",
-   "name": "Bloom Energy",
-   "sector": "Industrials/Energy",
-   "group": "sector",
-   "ref": 196.25,
-   "refNote": "close 2026-11-02",
-   "week": -3.8,
-   "news": "Barclays upgraded Bloom Energy to Overweight from Equal Weight, citing accelerating capacity build and rising customer deposits.",
-   "risk": "Target cut to $289 signals valuation concern; verify volume.",
-   "sources": [
-    "https://investrade.com/morning-preview-november-03-2026/"
-   ],
-   "entry": "Dip to $186.27–193.26, or break above $231.66 on volume",
-   "entryMid": 189.76,
-   "stop": 177.79,
-   "t1": 209.72,
-   "t2": 221.69,
-   "exit": "$209.72 (half), $221.69 (rest)"
-  },
-  {
-   "t": "GRAB",
-   "name": "Grab Holdings",
-   "sector": "Low-priced (under $10)",
-   "group": "low",
-   "ref": 2.86,
-   "refNote": "close 2026-11-02",
-   "week": 5.5,
-   "news": "Shares rose about 10% premarket; the source ties the move to its Q3 earnings report released the prior day.",
-   "risk": "Post-earnings momentum may reverse; confirm volume.",
-   "sources": [
-    "https://benzinga.com/trading-ideas/movers/26/11/62813713/12-industrials-stocks-moving-tuesday-s-pre-market-session"
-   ],
-   "entry": "Dip to $2.81–2.84, or break above $2.93 on volume",
-   "entryMid": 2.83,
-   "stop": 2.76,
-   "t1": 2.93,
-   "t2": 2.99,
-   "exit": "$2.93 (half), $2.99 (rest)"
-  },
-  {
-   "t": "MU",
-   "name": "Micron Technology",
+   "t": "AMD",
+   "name": "Advanced Micro Devices",
    "sector": "Semiconductors",
    "group": "sector",
-   "ref": 833.59,
-   "refNote": "close 2026-11-02",
-   "week": -7.8,
-   "news": "Shares rose about 2.8% premarket as demand for AI-linked memory chips remained robust, per the market report.",
-   "risk": "Chip sector whipsaw; memory cost concerns hit Apple.",
+   "ref": 483.9,
+   "refNote": "close 2026-11-03",
+   "week": -13.6,
+   "news": "Q3 2026 adjusted EPS of $2.09 on $13.38B revenue beat estimates; premarket gains were later reported narrowing as futures weakened.",
+   "risk": "Gains faded on macro; AI-capex and midterm policy worries.",
    "sources": [
-    "https://stockmarketwatch.com/live/stock-market-today"
+    "https://www.benzinga.com/markets/movers/26/11/62854452/stock-market-today-dow-jones-sp-500-futures-rise-as-democrats-take-control-of-congress-amd-amgn-nvo-in-focus"
    ],
-   "entry": "Dip to $807.99–825.91, or break above $990.00 on volume",
-   "entryMid": 816.95,
-   "stop": 786.23,
-   "t1": 868.15,
-   "t2": 898.87,
-   "exit": "$868.15 (half), $898.87 (rest)"
+   "entry": "Dip to $467.69–479.04, or break above $579.18 on volume",
+   "entryMid": 473.36,
+   "stop": 453.91,
+   "t1": 505.78,
+   "t2": 525.24,
+   "exit": "$505.78 (half), $525.24 (rest)"
   },
   {
-   "t": "AAPL",
-   "name": "AAPL",
-   "sector": "Avoid / fade",
-   "group": "avoid",
-   "ref": 338.32,
-   "week": -1.6,
-   "news": "Premarket drop near 4% after margin warning on memory costs and weak iPad sales. No levels given."
+   "t": "NVO",
+   "name": "Novo Nordisk",
+   "sector": "Healthcare",
+   "group": "sector",
+   "ref": 40.19,
+   "refNote": "close 2026-11-03",
+   "week": 3.9,
+   "news": "Reported Q3 2026 earnings of $0.89 per share on $12.19B revenue, beating estimates; shares rose in premarket trading.",
+   "risk": "Foreign filer; liquidity and gap-fade risk on a day-trade basis.",
+   "sources": [
+    "https://www.benzinga.com/markets/movers/26/11/62854452/stock-market-today-dow-jones-sp-500-futures-rise-as-democrats-take-control-of-congress-amd-amgn-nvo-in-focus"
+   ],
+   "entry": "Dip to $39.80–40.07, or break above $40.78 on volume",
+   "entryMid": 39.94,
+   "stop": 39.48,
+   "t1": 40.71,
+   "t2": 41.17,
+   "exit": "$40.71 (half), $41.17 (rest)"
+  },
+  {
+   "t": "BLZE",
+   "name": "Backblaze",
+   "sector": "Low-priced (under $10)",
+   "group": "low",
+   "ref": 8.38,
+   "refNote": "close 2026-11-03",
+   "week": -9.4,
+   "news": "Jumped on an earnings beat as B2 Cloud Storage revenue rose 47% on AI demand, per premarket coverage.",
+   "risk": "Thin premarket volume history; small-cap volatility; verify average volume.",
+   "sources": [
+    "https://stockmarketwatch.com/movers/premarket"
+   ],
+   "entry": "Dip to $7.92–8.24, or break above $9.67 on volume",
+   "entryMid": 8.08,
+   "stop": 7.54,
+   "t1": 9.0,
+   "t2": 9.54,
+   "exit": "$9.00 (half), $9.54 (rest)"
   },
   {
    "t": "PLTR",
    "name": "PLTR",
    "sector": "Avoid / fade",
    "group": "avoid",
-   "ref": 178.34,
-   "week": -10.3,
-   "news": "Fell about 7% on high volume despite earnings beat; profit-taking and software sector caution. No levels given."
+   "ref": 175.4,
+   "week": -11.7,
+   "news": "Shares fell nearly 8% premarket despite Q3 beat; U.S. commercial revenue growth did not stop selling. No levels given."
   },
   {
-   "t": "EMN",
-   "name": "EMN",
+   "t": "AAPL",
+   "name": "AAPL",
    "sector": "Avoid / fade",
    "group": "avoid",
-   "ref": 66.78,
-   "week": 1.6,
-   "news": "Among top premarket losers, down about 5%; no catalyst confirmed in my search. No levels given."
+   "ref": 331.9,
+   "week": -4.4,
+   "news": "Premarket down nearly 4% after fiscal Q4 margin outlook and iPad sales missed Street estimates. No levels given."
+  },
+  {
+   "t": "ZBRA",
+   "name": "ZBRA",
+   "sector": "Avoid / fade",
+   "group": "avoid",
+   "ref": 329.5,
+   "week": -13.7,
+   "news": "Fell over 6% premarket despite Q3 beat, showing sellers ignore the headline results. No levels given."
   }
  ]
 }
