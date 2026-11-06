@@ -1,213 +1,153 @@
 {
- "asOf": "Updated Thu 05 Nov 2026, 17:00 Dubai · prices from 2026-11-04 close · for the Thu 05 Nov session",
+ "asOf": "Updated Fri 06 Nov 2026, 16:49 Dubai · prices from 2026-11-05 close · for the Fri 06 Nov session",
  "kicker": "Dubai desk · US open 6:30pm Dubai (9:30am ET)",
- "barDate": "2026-11-04",
- "sessionDate": "2026-11-05",
+ "barDate": "2026-11-05",
+ "sessionDate": "2026-11-06",
  "stats": [
   [
    "S&P 500 (SPY)",
-   "+1.65%",
+   "-4.41%",
    "last session"
   ],
   [
    "Nasdaq-100 (QQQ)",
-   "+0.97%",
+   "-6.49%",
    "last session"
   ],
   [
    "10-yr yield",
-   "4.89%",
+   "4.84%",
    "-1.2% day"
   ],
   [
    "Oil (WTI)",
    "$90",
-   "+1.6% day"
+   "-0.5% day"
   ],
   [
    "Bitcoin",
-   "$79,640",
-   "-1.0% day"
+   "$75,971",
+   "+0.0% day"
   ],
   [
    "VIX",
-   "17.0",
-   "+2.0% day"
+   "26.9",
+   "-4.5% day"
   ]
  ],
  "notes": [
-  "Democratic midterm sweep lifted futures; Dow posted its best day since April 2025.",
-  "Oil fell sharply after the election, easing inflation and rate worries for the session.",
-  "AI infrastructure names sold off on data center siting and moratorium concerns.",
-  "Sentiment is risk-on overall, but chip and data-center names remain under pressure."
+  "Nasdaq 100 fell about 6.4% Thursday, worst day since March 2020; tech bouncing premarket.",
+  "Dow weaker premarket while Nasdaq futures lead; risk sentiment fragile.",
+  "Jobs report due today; expect volatility around the release.",
+  "Airbnb premarket gain tied to upbeat outlook; broader software names mixed."
  ],
  "calendar": [
-  "Thu Nov 5: Geo Group and other Q3 reports before the open.",
-  "Nvidia fiscal Q3 results call set for Nov 17.",
-  "Watch follow-through on Duolingo and Kyndryl post-earnings gaps today.",
-  "Arm reports fiscal Q2 2027 after the close Wed Nov 4."
+  "Fri Nov 6: October jobs report, pre-market session active.",
+  "Fri Nov 6: Airbnb, Cloudflare, Lam Research in focus on earnings.",
+  "Fri Nov 6: Sabre, Lantheus, Gibraltar, Sempra report before the bell.",
+  "Micron earnings ahead; Stifel raised target into the report."
  ],
  "avoid": [
   {
-   "t": "ORCL",
-   "reason": "Shares fell on reports that a $7B Tencent chip-leasing deal was canceled, renewing focus on AI funding strain."
+   "t": "MNST",
+   "reason": "Fell about 2.8% premarket despite meeting Q3 EPS and revenue estimates; no upside catalyst."
   },
   {
-   "t": "NVDA",
-   "reason": "Chip sell-off on midterm-linked data center siting concerns; Ohio 10 GW project faces moratorium risk."
+   "t": "FIVN",
+   "reason": "Five9 fell about 17% premarket on weaker fourth-quarter EPS guidance below Street expectations."
   },
   {
-   "t": "INTC",
-   "reason": "Shares fell after weak Q4 guidance and PC weakness; down sharply in recent sessions."
+   "t": "TEAM",
+   "reason": "Atlassian fell about 16% premarket after a weaker-than-expected growth outlook despite a beat."
   }
  ],
  "items": [
   {
-   "t": "DUOL",
-   "name": "Duolingo",
-   "sector": "Consumer Tech",
+   "t": "ABNB",
+   "name": "Airbnb",
+   "sector": "Consumer Discretionary",
    "group": "core",
-   "ref": 161.27,
-   "refNote": "close 2026-11-04",
-   "week": 19.3,
-   "news": "Q3 daily active users rose 29% and revenue beat estimates. Full-year guidance was raised, driving a sharp post-earnings rally that was still extending into the new session.",
-   "risk": "Post-earnings gap may fade; EPS missed estimates.",
+   "ref": 170.13,
+   "refNote": "close 2026-11-05",
+   "week": 2.2,
+   "news": "Beat Q3 estimates on EPS and revenue and lifted its full-year outlook; shares rose roughly 12% premarket.",
+   "risk": "Broad market selloff could cap gains; reversal risk after sharp move.",
    "sources": [
-    "https://www.fool.com/investing/2026/11/04/why-duolingo-stock-skyrocketed-today/"
+    "https://investing.com/news/stock-market-news/premarket-movers-airbnb-cloudflare-iren-rally-atlassian-five9-tumble-2789765"
    ],
-   "entry": "Dip to $156.24–159.76, or break above $175.56 on volume",
-   "entryMid": 158.0,
-   "stop": 151.96,
-   "t1": 168.06,
-   "t2": 174.1,
-   "exit": "$168.06 (half), $174.10 (rest)"
+   "entry": "Dip to $167.48–169.33, or break above $180.06 on volume",
+   "entryMid": 168.41,
+   "stop": 165.23,
+   "t1": 173.71,
+   "t2": 176.89,
+   "exit": "$173.71 (half), $176.89 (rest)"
   },
   {
-   "t": "KD",
-   "name": "Kyndryl Holdings",
-   "sector": "IT Services",
+   "t": "NET",
+   "name": "Cloudflare",
+   "sector": "Technology",
    "group": "core",
-   "ref": 16.84,
-   "refNote": "close 2026-11-04",
-   "week": 19.5,
-   "news": "Fiscal Q2 adjusted EPS beat consensus and revenue topped estimates. Management reaffirmed fiscal 2027 guidance and outlined added cost savings, lifting the stock about 30%.",
-   "risk": "Revenue declined year over year; stock trades at a high P/E.",
+   "ref": 244.51,
+   "refNote": "close 2026-11-05",
+   "week": -21.2,
+   "news": "Q3 results topped analyst expectations; shares surged over 12% premarket on the beat.",
+   "risk": "High-beta software name; Nasdaq volatility could reverse gains.",
    "sources": [
-    "https://www.marketbeat.com/instant-alerts/price-kyndryl-nyse-kd-shares-gap-up-after-earnings-beat-2026-11-04/"
+    "https://ng.investing.com/news/stock-market-news/premarket-movers-airbnb-cloudflare-iren-rally-atlassian-five9-tumble-2789765"
    ],
-   "entry": "Dip to $16.36–16.70, or break above $18.02 on volume",
-   "entryMid": 16.53,
-   "stop": 15.95,
-   "t1": 17.49,
-   "t2": 18.06,
-   "exit": "$17.49 (half), $18.06 (rest)"
+   "entry": "Dip to $234.40–241.48, or break above $299.69 on volume",
+   "entryMid": 237.94,
+   "stop": 225.81,
+   "t1": 258.16,
+   "t2": 270.29,
+   "exit": "$258.16 (half), $270.29 (rest)"
   },
   {
-   "t": "AMD",
-   "name": "Advanced Micro Devices",
-   "sector": "Semiconductors",
-   "group": "core",
-   "ref": 488.78,
-   "refNote": "close 2026-11-04",
-   "week": -15.5,
-   "news": "Q3 adjusted EPS and revenue beat estimates, with forecasts for faster growth through 2027. Shares rose in premarket trading despite the broader chip sell-off.",
-   "risk": "Stock flat in morning trade; chip sector sentiment weak.",
-   "sources": [
-    "https://www.investing.com/news/stock-market-news/premarket-movers-trump-media-ai-infrastructure-stocks-fall-amd-jumps-4998777"
-   ],
-   "entry": "Dip to $472.66–483.94, or break above $575.10 on volume",
-   "entryMid": 478.3,
-   "stop": 458.96,
-   "t1": 510.54,
-   "t2": 529.88,
-   "exit": "$510.54 (half), $529.88 (rest)"
-  },
-  {
-   "t": "ANET",
-   "name": "Arista Networks",
-   "sector": "Networking",
+   "t": "APP",
+   "name": "AppLovin",
+   "sector": "Technology",
    "group": "sector",
-   "ref": 178.48,
-   "refNote": "close 2026-11-04",
-   "week": -4.4,
-   "news": "Q3 earnings and revenue beat expectations, with stronger-than-expected Q4 guidance driven by AI demand. Shares rose in premarket trading.",
-   "risk": "Exposed to the same AI data center sentiment swing.",
+   "ref": 356.1,
+   "refNote": "close 2026-11-05",
+   "week": 39.7,
+   "news": "Shares were among top premarket gainers on Nov 5 session, up about 28% premarket.",
+   "risk": "Catalyst from prior session not verified; large move may retrace.",
    "sources": [
-    "https://www.benzinga.com/markets/equities/26/11/62854452/stock-market-today-dow-jones-sp-500-futures-rise-as-democrats-take-control-of-congress-amd-amgn-nvo-in-focus"
+    "https://stockanalysis.com/markets/premarket/"
    ],
-   "entry": "Dip to $173.65–177.03, or break above $188.53 on volume",
-   "entryMid": 175.34,
-   "stop": 169.54,
-   "t1": 185.0,
-   "t2": 190.8,
-   "exit": "$185.00 (half), $190.80 (rest)"
+   "entry": "Dip to $346.94–353.35, or break above $365.33 on volume",
+   "entryMid": 350.14,
+   "stop": 339.15,
+   "t1": 368.47,
+   "t2": 379.47,
+   "exit": "$368.47 (half), $379.47 (rest)"
   },
   {
-   "t": "PCOR",
-   "name": "Procore Technologies",
-   "sector": "Software",
-   "group": "sector",
-   "ref": 75.6,
-   "refNote": "close 2026-11-04",
-   "week": 21.8,
-   "news": "Beat Wall Street's Q3 earnings expectations, with shares climbing over 11% premarket. Momentum carried into the session as tech peers rallied.",
-   "risk": "Gain may be partly priced in after a 20% move.",
-   "sources": [
-    "https://thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-04-2026"
-   ],
-   "entry": "Dip to $74.07–75.14, or break above $76.21 on volume",
-   "entryMid": 74.61,
-   "stop": 72.77,
-   "t1": 77.66,
-   "t2": 79.5,
-   "exit": "$77.66 (half), $79.50 (rest)"
-  },
-  {
-   "t": "XYZ",
-   "name": "Block Inc",
-   "sector": "Fintech",
-   "group": "sector",
-   "ref": 87.63,
-   "refNote": "close 2026-11-04",
-   "week": 16.5,
-   "news": "Third-quarter results topped analyst estimates, with stronger gross profit and operating income. Shares jumped on the report and led index gainers midday.",
-   "risk": "Post-earnings momentum can reverse quickly on guidance.",
-   "sources": [
-    "https://www.investing.com/news/stock-market-news/premarket-movers-trump-media-ai-infrastructure-stocks-fall-amd-jumps-4998777"
-   ],
-   "entry": "Dip to $86.09–87.17, or break above $88.51 on volume",
-   "entryMid": 86.63,
-   "stop": 84.77,
-   "t1": 89.71,
-   "t2": 91.57,
-   "exit": "$89.71 (half), $91.57 (rest)"
-  },
-  {
-   "t": "ORCL",
-   "name": "ORCL",
+   "t": "MNST",
+   "name": "MNST",
    "sector": "Avoid / fade",
    "group": "avoid",
-   "ref": 123.73,
-   "week": -14.4,
-   "news": "Shares fell on reports that a $7B Tencent chip-leasing deal was canceled, renewing focus on AI funding strain. No levels given."
+   "ref": 47.83,
+   "week": 3.2,
+   "news": "Fell about 2.8% premarket despite meeting Q3 EPS and revenue estimates; no upside catalyst. No levels given."
   },
   {
-   "t": "NVDA",
-   "name": "NVDA",
+   "t": "FIVN",
+   "name": "FIVN",
    "sector": "Avoid / fade",
    "group": "avoid",
-   "ref": 200.13,
-   "week": -7.1,
-   "news": "Chip sell-off on midterm-linked data center siting concerns; Ohio 10 GW project faces moratorium risk. No levels given."
+   "ref": 34.14,
+   "week": -8.7,
+   "news": "Five9 fell about 17% premarket on weaker fourth-quarter EPS guidance below Street expectations. No levels given."
   },
   {
-   "t": "INTC",
-   "name": "INTC",
+   "t": "TEAM",
+   "name": "TEAM",
    "sector": "Avoid / fade",
    "group": "avoid",
-   "ref": 58.27,
-   "week": -39.0,
-   "news": "Shares fell after weak Q4 guidance and PC weakness; down sharply in recent sessions. No levels given."
+   "ref": 183.29,
+   "week": -10.2,
+   "news": "Atlassian fell about 16% premarket after a weaker-than-expected growth outlook despite a beat. No levels given."
   }
  ]
 }
