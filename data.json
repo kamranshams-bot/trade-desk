@@ -1,153 +1,180 @@
 {
- "asOf": "Updated Fri 06 Nov 2026, 16:49 Dubai · prices from 2026-11-05 close · for the Fri 06 Nov session",
+ "asOf": "Updated Mon 09 Nov 2026, 17:44 Dubai · prices from 2026-11-06 close · for the Mon 09 Nov session",
  "kicker": "Dubai desk · US open 6:30pm Dubai (9:30am ET)",
- "barDate": "2026-11-05",
- "sessionDate": "2026-11-06",
+ "barDate": "2026-11-06",
+ "sessionDate": "2026-11-09",
  "stats": [
   [
    "S&P 500 (SPY)",
-   "-4.41%",
+   "+0.31%",
    "last session"
   ],
   [
    "Nasdaq-100 (QQQ)",
-   "-6.49%",
+   "+1.40%",
    "last session"
   ],
   [
    "10-yr yield",
-   "4.84%",
-   "-1.2% day"
+   "4.85%",
+   "-0.2% day"
   ],
   [
    "Oil (WTI)",
-   "$90",
-   "-0.5% day"
+   "$87",
+   "-3.9% day"
   ],
   [
    "Bitcoin",
-   "$75,971",
-   "+0.0% day"
+   "$74,531",
+   "-0.1% day"
   ],
   [
    "VIX",
-   "26.9",
-   "-4.5% day"
+   "23.3",
+   "-9.0% day"
   ]
  ],
  "notes": [
-  "Nasdaq 100 fell about 6.4% Thursday, worst day since March 2020; tech bouncing premarket.",
-  "Dow weaker premarket while Nasdaq futures lead; risk sentiment fragile.",
-  "Jobs report due today; expect volatility around the release.",
-  "Airbnb premarket gain tied to upbeat outlook; broader software names mixed."
+  "Futures mixed: Dow and S&P up, Nasdaq 100 slipping ahead of Monday open.",
+  "Stronger-than-expected October jobs report supports sentiment; Fed outlook still uncertain.",
+  "Nvidia down premarket on board probe into CEO Huang reports; semis otherwise steady.",
+  "Quantum rally fragile; IONQ, RGTI, QBTS report or face tests Nov 10."
  ],
  "calendar": [
-  "Fri Nov 6: October jobs report, pre-market session active.",
-  "Fri Nov 6: Airbnb, Cloudflare, Lam Research in focus on earnings.",
-  "Fri Nov 6: Sabre, Lantheus, Gibraltar, Sempra report before the bell.",
-  "Micron earnings ahead; Stifel raised target into the report."
+  "Nov 9: monday.com Q3 earnings; inflation data and AI-company earnings pending this week.",
+  "Nov 10: D-Wave (QBTS) and Rigetti (RGTI) Q3 reports after the close.",
+  "Nov 15: earnings due for a small-cap name flagged in premarket lists.",
+  "Berkshire Q3 already reported Saturday; operating earnings fell year over year."
  ],
  "avoid": [
   {
-   "t": "MNST",
-   "reason": "Fell about 2.8% premarket despite meeting Q3 EPS and revenue estimates; no upside catalyst."
+   "t": "DKNG",
+   "reason": "Q3 miss and guidance cut; UBS, JPMorgan and Stifel downgraded it on Monday, with targets of $21 to $22."
   },
   {
-   "t": "FIVN",
-   "reason": "Five9 fell about 17% premarket on weaker fourth-quarter EPS guidance below Street expectations."
-  },
-  {
-   "t": "TEAM",
-   "reason": "Atlassian fell about 16% premarket after a weaker-than-expected growth outlook despite a beat."
+   "t": "NVDA",
+   "reason": "Premarket drop after the board opened an independent probe into reports about CEO Jensen Huang."
   }
  ],
  "items": [
   {
-   "t": "ABNB",
-   "name": "Airbnb",
-   "sector": "Consumer Discretionary",
+   "t": "KRMN",
+   "name": "Karman Holdings",
+   "sector": "Aerospace & Defense",
    "group": "core",
-   "ref": 170.13,
-   "refNote": "close 2026-11-05",
-   "week": 2.2,
-   "news": "Beat Q3 estimates on EPS and revenue and lifted its full-year outlook; shares rose roughly 12% premarket.",
-   "risk": "Broad market selloff could cap gains; reversal risk after sharp move.",
+   "ref": 45.61,
+   "refNote": "close 2026-11-06",
+   "week": 14.2,
+   "news": "Beat Q3 estimates with 66% revenue growth and raised FY26 sales guidance; analysts revised targets after the report.",
+   "risk": "Thin free cash flow, high leverage and reversal risk after a 40%-plus move.",
    "sources": [
-    "https://investing.com/news/stock-market-news/premarket-movers-airbnb-cloudflare-iren-rally-atlassian-five9-tumble-2789765"
+    "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62975285/these-analysts-revise-their-forecasts-on-karman-after-upbeat-q3-results"
    ],
-   "entry": "Dip to $167.48–169.33, or break above $180.06 on volume",
-   "entryMid": 168.41,
-   "stop": 165.23,
-   "t1": 173.71,
-   "t2": 176.89,
-   "exit": "$173.71 (half), $176.89 (rest)"
+   "entry": "Dip to $43.78–45.06, or break above $45.98 on volume",
+   "entryMid": 44.42,
+   "stop": 42.22,
+   "t1": 48.08,
+   "t2": 50.28,
+   "exit": "$48.08 (half), $50.28 (rest)"
   },
   {
-   "t": "NET",
-   "name": "Cloudflare",
-   "sector": "Technology",
+   "t": "IONQ",
+   "name": "IonQ",
+   "sector": "Quantum Computing",
    "group": "core",
-   "ref": 244.51,
-   "refNote": "close 2026-11-05",
-   "week": -21.2,
-   "news": "Q3 results topped analyst expectations; shares surged over 12% premarket on the beat.",
-   "risk": "High-beta software name; Nasdaq volatility could reverse gains.",
+   "ref": 32.62,
+   "refNote": "close 2026-11-06",
+   "week": 8.6,
+   "news": "Q3 revenue beat estimates and full-year 2026 guidance was raised above expectations, sparking a sector-wide rally.",
+   "risk": "Dilution risk and very high valuation; sector moves together and can reverse fast.",
    "sources": [
-    "https://ng.investing.com/news/stock-market-news/premarket-movers-airbnb-cloudflare-iren-rally-atlassian-five9-tumble-2789765"
+    "https://www.quantisnow.com/articles/quantum-rally-rests-on-ionq-s-1-2b-backlog-while-quantinuum-is-priced-on-a-roadmap"
    ],
-   "entry": "Dip to $234.40–241.48, or break above $299.69 on volume",
-   "entryMid": 237.94,
-   "stop": 225.81,
-   "t1": 258.16,
-   "t2": 270.29,
-   "exit": "$258.16 (half), $270.29 (rest)"
+   "entry": "Dip to $31.38–32.25, or break above $32.87 on volume",
+   "entryMid": 31.82,
+   "stop": 30.33,
+   "t1": 34.29,
+   "t2": 35.77,
+   "exit": "$34.29 (half), $35.77 (rest)"
   },
   {
-   "t": "APP",
-   "name": "AppLovin",
-   "sector": "Technology",
+   "t": "RGTI",
+   "name": "Rigetti Computing",
+   "sector": "Quantum Computing",
+   "group": "core",
+   "ref": 11.75,
+   "refNote": "close 2026-11-06",
+   "week": 4.4,
+   "news": "Rode the IonQ-driven sector rally after IonQ raised guidance; Rigetti itself had no news of its own that day.",
+   "risk": "Reports Nov 10 and needs its own orders; trades at a very high forward sales multiple.",
+   "sources": [
+    "https://www.tikr.com/blog/rigetti-soars-17-d-wave-up-17-as-ionq-raises-guidance-to-an-industry-record"
+   ],
+   "entry": "Dip to $11.30–11.61, or break above $11.90 on volume",
+   "entryMid": 11.45,
+   "stop": 10.91,
+   "t1": 12.36,
+   "t2": 12.91,
+   "exit": "$12.36 (half), $12.91 (rest)"
+  },
+  {
+   "t": "AMD",
+   "name": "Advanced Micro Devices",
+   "sector": "Semiconductors",
    "group": "sector",
-   "ref": 356.1,
-   "refNote": "close 2026-11-05",
-   "week": 39.7,
-   "news": "Shares were among top premarket gainers on Nov 5 session, up about 28% premarket.",
-   "risk": "Catalyst from prior session not verified; large move may retrace.",
+   "ref": 449.04,
+   "refNote": "close 2026-11-06",
+   "week": -11.0,
+   "news": "Oppenheimer upgraded the chipmaker to Outperform with a higher price target; shares rose in premarket trading.",
+   "risk": "Nvidia weakness on CEO probe could weigh on the chip group.",
    "sources": [
-    "https://stockanalysis.com/markets/premarket/"
+    "https://blockonomi.com/todays-market-movers-nvidia-board-probes-ceo-huang-report-while-amd-amazon-and-meta-gain-premarket/"
    ],
-   "entry": "Dip to $346.94–353.35, or break above $365.33 on volume",
-   "entryMid": 350.14,
-   "stop": 339.15,
-   "t1": 368.47,
-   "t2": 379.47,
-   "exit": "$368.47 (half), $379.47 (rest)"
+   "entry": "Dip to $430.03–443.34, or break above $514.61 on volume",
+   "entryMid": 436.68,
+   "stop": 413.87,
+   "t1": 474.7,
+   "t2": 497.52,
+   "exit": "$474.70 (half), $497.52 (rest)"
   },
   {
-   "t": "MNST",
-   "name": "MNST",
-   "sector": "Avoid / fade",
-   "group": "avoid",
-   "ref": 47.83,
-   "week": 3.2,
-   "news": "Fell about 2.8% premarket despite meeting Q3 EPS and revenue estimates; no upside catalyst. No levels given."
+   "t": "SAP",
+   "name": "SAP",
+   "sector": "Enterprise Software",
+   "group": "sector",
+   "ref": 233.45,
+   "refNote": "close 2026-11-06",
+   "week": -0.7,
+   "news": "JPMorgan upgraded the German software company to Overweight, citing AI moving from pilot to production; shares rose premarket.",
+   "risk": "Foreign listing; US-session liquidity for the ADR may be limited.",
+   "sources": [
+    "https://www.cnbc.com/2026/11/09/stock-market-movers-live-updates.html"
+   ],
+   "entry": "Dip to $230.35–232.52, or break above $245.23 on volume",
+   "entryMid": 231.44,
+   "stop": 227.72,
+   "t1": 237.63,
+   "t2": 241.35,
+   "exit": "$237.63 (half), $241.35 (rest)"
   },
   {
-   "t": "FIVN",
-   "name": "FIVN",
+   "t": "DKNG",
+   "name": "DKNG",
    "sector": "Avoid / fade",
    "group": "avoid",
-   "ref": 34.14,
-   "week": -8.7,
-   "news": "Five9 fell about 17% premarket on weaker fourth-quarter EPS guidance below Street expectations. No levels given."
+   "ref": 18.51,
+   "week": -11.5,
+   "news": "Q3 miss and guidance cut; UBS, JPMorgan and Stifel downgraded it on Monday, with targets of $21 to $22. No levels given."
   },
   {
-   "t": "TEAM",
-   "name": "TEAM",
+   "t": "NVDA",
+   "name": "NVDA",
    "sector": "Avoid / fade",
    "group": "avoid",
-   "ref": 183.29,
-   "week": -10.2,
-   "news": "Atlassian fell about 16% premarket after a weaker-than-expected growth outlook despite a beat. No levels given."
+   "ref": 186.64,
+   "week": -8.8,
+   "news": "Premarket drop after the board opened an independent probe into reports about CEO Jensen Huang. No levels given."
   }
  ]
 }
