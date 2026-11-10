@@ -1,180 +1,193 @@
 {
- "asOf": "Updated Mon 09 Nov 2026, 17:44 Dubai · prices from 2026-11-06 close · for the Mon 09 Nov session",
+ "asOf": "Updated Tue 10 Nov 2026, 17:23 Dubai · prices from 2026-11-09 close · for the Tue 10 Nov session",
  "kicker": "Dubai desk · US open 6:30pm Dubai (9:30am ET)",
- "barDate": "2026-11-06",
- "sessionDate": "2026-11-09",
+ "barDate": "2026-11-09",
+ "sessionDate": "2026-11-10",
  "stats": [
   [
    "S&P 500 (SPY)",
-   "+0.31%",
+   "+2.37%",
    "last session"
   ],
   [
    "Nasdaq-100 (QQQ)",
-   "+1.40%",
+   "+3.54%",
    "last session"
   ],
   [
    "10-yr yield",
-   "4.85%",
-   "-0.2% day"
+   "4.86%",
+   "+0.1% day"
   ],
   [
    "Oil (WTI)",
-   "$87",
-   "-3.9% day"
+   "$85",
+   "-2.4% day"
   ],
   [
    "Bitcoin",
-   "$74,531",
-   "-0.1% day"
+   "$74,237",
+   "-1.3% day"
   ],
   [
    "VIX",
-   "23.3",
-   "-9.0% day"
+   "20.1",
+   "+1.1% day"
   ]
  ],
  "notes": [
-  "Futures mixed: Dow and S&P up, Nasdaq 100 slipping ahead of Monday open.",
-  "Stronger-than-expected October jobs report supports sentiment; Fed outlook still uncertain.",
-  "Nvidia down premarket on board probe into CEO Huang reports; semis otherwise steady.",
-  "Quantum rally fragile; IONQ, RGTI, QBTS report or face tests Nov 10."
+  "Wall Street rallied Monday; S&P 500 up 2.35% on sharp tech rebound.",
+  "October CPI at 8:30 ET is the key macro print today.",
+  "Nvidia under pressure after CEO Huang probe; slight premarket rebound.",
+  "Oil falling on Trump Iran remarks supports risk sentiment."
  ],
  "calendar": [
-  "Nov 9: monday.com Q3 earnings; inflation data and AI-company earnings pending this week.",
-  "Nov 10: D-Wave (QBTS) and Rigetti (RGTI) Q3 reports after the close.",
-  "Nov 15: earnings due for a small-cap name flagged in premarket lists.",
-  "Berkshire Q3 already reported Saturday; operating earnings fell year over year."
+  "Tue: October CPI 8:30 ET, core CPI expected +0.2% m/m.",
+  "Tue after close: CoreWeave (CRWV) Q3 results; Rigetti, D-Wave also report.",
+  "Wed Nov 11: NIO and ECHO Q3 earnings.",
+  "Thu Nov 12: QXO full Q3 results scheduled."
  ],
  "avoid": [
   {
-   "t": "DKNG",
-   "reason": "Q3 miss and guidance cut; UBS, JPMorgan and Stifel downgraded it on Monday, with targets of $21 to $22."
+   "t": "NVDA",
+   "reason": "CEO Jensen Huang probe over alleged foreign intelligence ties; shares hit a seven-month low Monday."
   },
   {
-   "t": "NVDA",
-   "reason": "Premarket drop after the board opened an independent probe into reports about CEO Jensen Huang."
+   "t": "HIMS",
+   "reason": "Weaker-than-expected Q3 results and disappointing outlook; shares extending losses premarket."
+  },
+  {
+   "t": "JBS",
+   "reason": "Worse-than-expected Q3 financial results; shares fell about 9% premarket."
   }
  ],
  "items": [
   {
-   "t": "KRMN",
-   "name": "Karman Holdings",
-   "sector": "Aerospace & Defense",
+   "t": "QXO",
+   "name": "QXO Inc.",
+   "sector": "Industrials",
    "group": "core",
-   "ref": 45.61,
-   "refNote": "close 2026-11-06",
-   "week": 14.2,
-   "news": "Beat Q3 estimates with 66% revenue growth and raised FY26 sales guidance; analysts revised targets after the report.",
-   "risk": "Thin free cash flow, high leverage and reversal risk after a 40%-plus move.",
+   "ref": 13.78,
+   "refNote": "close 2026-11-09",
+   "week": 18.0,
+   "news": "Preliminary Q3 sales about $4.9B beat estimates, adjusted EBITDA up 85%; shares rallied to a two-month high Monday. Full results due Nov 12.",
+   "risk": "Still well below 200-day average; full results Nov 12 may move it.",
    "sources": [
-    "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62975285/these-analysts-revise-their-forecasts-on-karman-after-upbeat-q3-results"
+    "https://www.benzinga.com/trading-ideas/movers/26/11/63053659/why-is-qxo-stock-surging-monday"
    ],
-   "entry": "Dip to $43.78–45.06, or break above $45.98 on volume",
-   "entryMid": 44.42,
-   "stop": 42.22,
-   "t1": 48.08,
-   "t2": 50.28,
-   "exit": "$48.08 (half), $50.28 (rest)"
+   "entry": "Dip to $13.37–13.66, or break above $14.12 on volume",
+   "entryMid": 13.51,
+   "stop": 13.01,
+   "t1": 14.34,
+   "t2": 14.84,
+   "exit": "$14.34 (half), $14.84 (rest)"
   },
   {
-   "t": "IONQ",
-   "name": "IonQ",
-   "sector": "Quantum Computing",
+   "t": "FRVO",
+   "name": "Fervo Energy",
+   "sector": "Energy",
    "group": "core",
-   "ref": 32.62,
-   "refNote": "close 2026-11-06",
-   "week": 8.6,
-   "news": "Q3 revenue beat estimates and full-year 2026 guidance was raised above expectations, sparking a sector-wide rally.",
-   "risk": "Dilution risk and very high valuation; sector moves together and can reverse fast.",
+   "ref": 11.38,
+   "refNote": "close 2026-11-09",
+   "week": 37.9,
+   "news": "Announced early commercial operations at Cape Station Phase 1 and revenue more than doubled in Q3; shares jumped on Monday after a prior steep decline.",
+   "risk": "Loss-making with high valuation; prior-day momentum may fade.",
    "sources": [
-    "https://www.quantisnow.com/articles/quantum-rally-rests-on-ionq-s-1-2b-backlog-while-quantinuum-is-priced-on-a-roadmap"
+    "https://www.gurufocus.com/news/9186478/fervo-energy-frvo-shares-surge-261-on-early-commercial-launch-of-cape-station-phase-1"
    ],
-   "entry": "Dip to $31.38–32.25, or break above $32.87 on volume",
-   "entryMid": 31.82,
-   "stop": 30.33,
-   "t1": 34.29,
-   "t2": 35.77,
-   "exit": "$34.29 (half), $35.77 (rest)"
+   "entry": "Dip to $10.89–11.23, or break above $11.48 on volume",
+   "entryMid": 11.06,
+   "stop": 10.48,
+   "t1": 12.04,
+   "t2": 12.63,
+   "exit": "$12.04 (half), $12.63 (rest)"
   },
   {
-   "t": "RGTI",
-   "name": "Rigetti Computing",
-   "sector": "Quantum Computing",
-   "group": "core",
-   "ref": 11.75,
-   "refNote": "close 2026-11-06",
-   "week": 4.4,
-   "news": "Rode the IonQ-driven sector rally after IonQ raised guidance; Rigetti itself had no news of its own that day.",
-   "risk": "Reports Nov 10 and needs its own orders; trades at a very high forward sales multiple.",
-   "sources": [
-    "https://www.tikr.com/blog/rigetti-soars-17-d-wave-up-17-as-ionq-raises-guidance-to-an-industry-record"
-   ],
-   "entry": "Dip to $11.30–11.61, or break above $11.90 on volume",
-   "entryMid": 11.45,
-   "stop": 10.91,
-   "t1": 12.36,
-   "t2": 12.91,
-   "exit": "$12.36 (half), $12.91 (rest)"
-  },
-  {
-   "t": "AMD",
-   "name": "Advanced Micro Devices",
-   "sector": "Semiconductors",
+   "t": "AAON",
+   "name": "AAON Inc.",
+   "sector": "Industrials",
    "group": "sector",
-   "ref": 449.04,
-   "refNote": "close 2026-11-06",
-   "week": -11.0,
-   "news": "Oppenheimer upgraded the chipmaker to Outperform with a higher price target; shares rose in premarket trading.",
-   "risk": "Nvidia weakness on CEO probe could weigh on the chip group.",
+   "ref": 62.87,
+   "refNote": "close 2026-11-09",
+   "week": -7.5,
+   "news": "Stronger-than-expected results and raised full-year outlook drove premarket gains on margin recovery and demand.",
+   "risk": "Premarket gain may partly reverse at the open.",
    "sources": [
-    "https://blockonomi.com/todays-market-movers-nvidia-board-probes-ceo-huang-report-while-amd-amazon-and-meta-gain-premarket/"
+    "https://www.cnbc.com/2026/11/10/stock-market-movers-live-updates.html"
    ],
-   "entry": "Dip to $430.03–443.34, or break above $514.61 on volume",
-   "entryMid": 436.68,
-   "stop": 413.87,
-   "t1": 474.7,
-   "t2": 497.52,
-   "exit": "$474.70 (half), $497.52 (rest)"
+   "entry": "Dip to $60.18–62.06, or break above $71.06 on volume",
+   "entryMid": 61.12,
+   "stop": 57.9,
+   "t1": 66.5,
+   "t2": 69.72,
+   "exit": "$66.50 (half), $69.72 (rest)"
   },
   {
-   "t": "SAP",
-   "name": "SAP",
-   "sector": "Enterprise Software",
+   "t": "TTWO",
+   "name": "Take-Two Interactive",
+   "sector": "Communication Services",
    "group": "sector",
-   "ref": 233.45,
-   "refNote": "close 2026-11-06",
-   "week": -0.7,
-   "news": "JPMorgan upgraded the German software company to Overweight, citing AI moving from pilot to production; shares rose premarket.",
-   "risk": "Foreign listing; US-session liquidity for the ADR may be limited.",
+   "ref": 207.4,
+   "refNote": "close 2026-11-09",
+   "week": 8.0,
+   "news": "Fiscal Q2 earnings and revenue beat expectations; company said GTA VI preorders are running far above expectations.",
+   "risk": "Premarket gain modest; CPI-driven volatility could cap moves.",
    "sources": [
-    "https://www.cnbc.com/2026/11/09/stock-market-movers-live-updates.html"
+    "https://currentlogic.substack.com/p/the-morning-brief-november-10-2026"
    ],
-   "entry": "Dip to $230.35–232.52, or break above $245.23 on volume",
-   "entryMid": 231.44,
-   "stop": 227.72,
-   "t1": 237.63,
-   "t2": 241.35,
-   "exit": "$237.63 (half), $241.35 (rest)"
+   "entry": "Dip to $203.64–206.27, or break above $218.78 on volume",
+   "entryMid": 204.96,
+   "stop": 200.45,
+   "t1": 212.47,
+   "t2": 216.98,
+   "exit": "$212.47 (half), $216.98 (rest)"
   },
   {
-   "t": "DKNG",
-   "name": "DKNG",
-   "sector": "Avoid / fade",
-   "group": "avoid",
-   "ref": 18.51,
-   "week": -11.5,
-   "news": "Q3 miss and guidance cut; UBS, JPMorgan and Stifel downgraded it on Monday, with targets of $21 to $22. No levels given."
+   "t": "RIOT",
+   "name": "Riot Platforms",
+   "sector": "Crypto/Bitcoin miners",
+   "group": "sector",
+   "ref": 17.66,
+   "refNote": "close 2026-11-09",
+   "week": 49.2,
+   "news": "Jefferies upgraded the stock to buy from hold, lifting shares in premarket trading.",
+   "risk": "Tied to volatile bitcoin prices, which were softer overnight.",
+   "sources": [
+    "https://www.cnbc.com/2026/11/10/stock-market-movers-live-updates.html"
+   ],
+   "entry": "Dip to $16.91–17.44, or break above $17.90 on volume",
+   "entryMid": 17.17,
+   "stop": 16.28,
+   "t1": 18.67,
+   "t2": 19.57,
+   "exit": "$18.67 (half), $19.57 (rest)"
   },
   {
    "t": "NVDA",
    "name": "NVDA",
    "sector": "Avoid / fade",
    "group": "avoid",
-   "ref": 186.64,
-   "week": -8.8,
-   "news": "Premarket drop after the board opened an independent probe into reports about CEO Jensen Huang. No levels given."
+   "ref": 178.67,
+   "week": -11.6,
+   "news": "CEO Jensen Huang probe over alleged foreign intelligence ties; shares hit a seven-month low Monday. No levels given."
+  },
+  {
+   "t": "HIMS",
+   "name": "HIMS",
+   "sector": "Avoid / fade",
+   "group": "avoid",
+   "ref": 22.94,
+   "week": -9.1,
+   "news": "Weaker-than-expected Q3 results and disappointing outlook; shares extending losses premarket. No levels given."
+  },
+  {
+   "t": "JBS",
+   "name": "JBS",
+   "sector": "Avoid / fade",
+   "group": "avoid",
+   "ref": 13.12,
+   "week": 5.5,
+   "news": "Worse-than-expected Q3 financial results; shares fell about 9% premarket. No levels given."
   }
  ]
 }
