@@ -1,193 +1,233 @@
 {
- "asOf": "Updated Tue 10 Nov 2026, 17:23 Dubai · prices from 2026-11-09 close · for the Tue 10 Nov session",
+ "asOf": "Updated Wed 11 Nov 2026, 16:34 Dubai · prices from 2026-11-10 close · for the Wed 11 Nov session",
  "kicker": "Dubai desk · US open 6:30pm Dubai (9:30am ET)",
- "barDate": "2026-11-09",
- "sessionDate": "2026-11-10",
+ "barDate": "2026-11-10",
+ "sessionDate": "2026-11-11",
  "stats": [
   [
    "S&P 500 (SPY)",
-   "+2.37%",
+   "-0.37%",
    "last session"
   ],
   [
    "Nasdaq-100 (QQQ)",
-   "+3.54%",
+   "-0.68%",
    "last session"
   ],
   [
    "10-yr yield",
-   "4.86%",
-   "+0.1% day"
+   "4.98%",
+   "+2.4% day"
   ],
   [
    "Oil (WTI)",
-   "$85",
-   "-2.4% day"
+   "$87",
+   "+1.5% day"
   ],
   [
    "Bitcoin",
-   "$74,237",
-   "-1.3% day"
+   "$73,820",
+   "+0.1% day"
   ],
   [
    "VIX",
-   "20.1",
-   "+1.1% day"
+   "18.5",
+   "-4.9% day"
   ]
  ],
  "notes": [
-  "Wall Street rallied Monday; S&P 500 up 2.35% on sharp tech rebound.",
-  "October CPI at 8:30 ET is the key macro print today.",
-  "Nvidia under pressure after CEO Huang probe; slight premarket rebound.",
-  "Oil falling on Trump Iran remarks supports risk sentiment."
+  "Nasdaq futures rallied on CoreWeave earnings and AI-infrastructure rebound.",
+  "Nvidia rebounding after two-day selloff tied to CEO-related security probe.",
+  "Markets price a near-certain December Fed rate hike after hot CPI.",
+  "10-year yield near 4.9%; oil and crypto softer, sentiment cautious."
  ],
  "calendar": [
-  "Tue: October CPI 8:30 ET, core CPI expected +0.2% m/m.",
-  "Tue after close: CoreWeave (CRWV) Q3 results; Rigetti, D-Wave also report.",
-  "Wed Nov 11: NIO and ECHO Q3 earnings.",
-  "Thu Nov 12: QXO full Q3 results scheduled."
+  "Wed Nov 11: no major earnings or data; US bond market closed for Veterans Day.",
+  "CoreWeave and Rigetti reported Tuesday; Rigetti missed, CoreWeave beat.",
+  "Anthropic IPO demand cited as a sentiment driver for AI names.",
+  "Fed December meeting next; rate-hike odds are the key macro watch."
  ],
  "avoid": [
   {
-   "t": "NVDA",
-   "reason": "CEO Jensen Huang probe over alleged foreign intelligence ties; shares hit a seven-month low Monday."
-  },
-  {
    "t": "HIMS",
-   "reason": "Weaker-than-expected Q3 results and disappointing outlook; shares extending losses premarket."
+   "reason": "Weaker-than-expected Q3 results and a disappointing outlook; shares fell premarket, extending losses."
   },
   {
-   "t": "JBS",
-   "reason": "Worse-than-expected Q3 financial results; shares fell about 9% premarket."
+   "t": "ALC",
+   "reason": "Mixed Q3 EPS and revenue versus estimates; shares fell about 5% premarket."
+  },
+  {
+   "t": "CSQR",
+   "reason": "No verified recent catalyst found in searches; moved +15% last session without confirmed news."
   }
  ],
  "items": [
   {
-   "t": "QXO",
-   "name": "QXO Inc.",
-   "sector": "Industrials",
-   "group": "core",
-   "ref": 13.78,
-   "refNote": "close 2026-11-09",
-   "week": 18.0,
-   "news": "Preliminary Q3 sales about $4.9B beat estimates, adjusted EBITDA up 85%; shares rallied to a two-month high Monday. Full results due Nov 12.",
-   "risk": "Still well below 200-day average; full results Nov 12 may move it.",
-   "sources": [
-    "https://www.benzinga.com/trading-ideas/movers/26/11/63053659/why-is-qxo-stock-surging-monday"
-   ],
-   "entry": "Dip to $13.37–13.66, or break above $14.12 on volume",
-   "entryMid": 13.51,
-   "stop": 13.01,
-   "t1": 14.34,
-   "t2": 14.84,
-   "exit": "$14.34 (half), $14.84 (rest)"
-  },
-  {
-   "t": "FRVO",
-   "name": "Fervo Energy",
-   "sector": "Energy",
-   "group": "core",
-   "ref": 11.38,
-   "refNote": "close 2026-11-09",
-   "week": 37.9,
-   "news": "Announced early commercial operations at Cape Station Phase 1 and revenue more than doubled in Q3; shares jumped on Monday after a prior steep decline.",
-   "risk": "Loss-making with high valuation; prior-day momentum may fade.",
-   "sources": [
-    "https://www.gurufocus.com/news/9186478/fervo-energy-frvo-shares-surge-261-on-early-commercial-launch-of-cape-station-phase-1"
-   ],
-   "entry": "Dip to $10.89–11.23, or break above $11.48 on volume",
-   "entryMid": 11.06,
-   "stop": 10.48,
-   "t1": 12.04,
-   "t2": 12.63,
-   "exit": "$12.04 (half), $12.63 (rest)"
-  },
-  {
    "t": "AAON",
-   "name": "AAON Inc.",
+   "name": "AAON Inc",
    "sector": "Industrials",
-   "group": "sector",
-   "ref": 62.87,
-   "refNote": "close 2026-11-09",
-   "week": -7.5,
-   "news": "Stronger-than-expected results and raised full-year outlook drove premarket gains on margin recovery and demand.",
-   "risk": "Premarket gain may partly reverse at the open.",
+   "group": "core",
+   "ref": 75.01,
+   "refNote": "close 2026-11-10",
+   "week": 8.6,
+   "news": "Record Q3 beat with revenue up 84% and raised 2026 sales guidance above Street estimates; data-center cooling driving growth.",
+   "risk": "Restated H1 results and a material weakness flagged; post-gap fade risk.",
    "sources": [
-    "https://www.cnbc.com/2026/11/10/stock-market-movers-live-updates.html"
+    "https://www.benzinga.com/markets/earnings/26/11/63102936/why-is-aaon-stock-skyrocketing-tuesday"
    ],
-   "entry": "Dip to $60.18–62.06, or break above $71.06 on volume",
-   "entryMid": 61.12,
-   "stop": 57.9,
-   "t1": 66.5,
-   "t2": 69.72,
-   "exit": "$66.50 (half), $69.72 (rest)"
+   "entry": "Dip to $71.80–74.05, or break above $80.19 on volume",
+   "entryMid": 72.92,
+   "stop": 69.07,
+   "t1": 79.34,
+   "t2": 83.19,
+   "exit": "$79.34 (half), $83.19 (rest)"
+  },
+  {
+   "t": "CRWV",
+   "name": "CoreWeave",
+   "sector": "Technology",
+   "group": "core",
+   "ref": 48.73,
+   "refNote": "close 2026-11-10",
+   "week": -9.3,
+   "news": "Beat quarterly estimates and raised revenue outlook; shares rose in premarket as AI-infrastructure sentiment rebounded.",
+   "risk": "Debt-heavy model; AI-capex sentiment can reverse quickly.",
+   "sources": [
+    "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-11-2026"
+   ],
+   "entry": "Dip to $46.02–47.92, or break above $52.49 on volume",
+   "entryMid": 46.97,
+   "stop": 43.72,
+   "t1": 52.39,
+   "t2": 55.64,
+   "exit": "$52.39 (half), $55.64 (rest)"
+  },
+  {
+   "t": "NVDA",
+   "name": "NVIDIA",
+   "sector": "Technology",
+   "group": "core",
+   "ref": 168.89,
+   "refNote": "close 2026-11-10",
+   "week": -18.3,
+   "news": "Rebounded premarket after a two-day selloff; company hired outside counsel to probe possible secret leakage tied to a spy report.",
+   "risk": "Investigation headlines and rate-hike pressure on high-multiple tech.",
+   "sources": [
+    "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-11-2026"
+   ],
+   "entry": "Dip to $164.25–167.50, or break above $206.79 on volume",
+   "entryMid": 165.87,
+   "stop": 160.3,
+   "t1": 175.16,
+   "t2": 180.73,
+   "exit": "$175.16 (half), $180.73 (rest)"
   },
   {
    "t": "TTWO",
    "name": "Take-Two Interactive",
    "sector": "Communication Services",
    "group": "sector",
-   "ref": 207.4,
-   "refNote": "close 2026-11-09",
-   "week": 8.0,
-   "news": "Fiscal Q2 earnings and revenue beat expectations; company said GTA VI preorders are running far above expectations.",
-   "risk": "Premarket gain modest; CPI-driven volatility could cap moves.",
-   "sources": [
-    "https://currentlogic.substack.com/p/the-morning-brief-november-10-2026"
-   ],
-   "entry": "Dip to $203.64–206.27, or break above $218.78 on volume",
-   "entryMid": 204.96,
-   "stop": 200.45,
-   "t1": 212.47,
-   "t2": 216.98,
-   "exit": "$212.47 (half), $216.98 (rest)"
-  },
-  {
-   "t": "RIOT",
-   "name": "Riot Platforms",
-   "sector": "Crypto/Bitcoin miners",
-   "group": "sector",
-   "ref": 17.66,
-   "refNote": "close 2026-11-09",
-   "week": 49.2,
-   "news": "Jefferies upgraded the stock to buy from hold, lifting shares in premarket trading.",
-   "risk": "Tied to volatile bitcoin prices, which were softer overnight.",
+   "ref": 224.64,
+   "refNote": "close 2026-11-10",
+   "week": 15.2,
+   "news": "Fiscal Q2 earnings and revenue beat expectations; shares traded higher after results.",
+   "risk": "Post-earnings momentum may already be priced in.",
    "sources": [
     "https://www.cnbc.com/2026/11/10/stock-market-movers-live-updates.html"
    ],
-   "entry": "Dip to $16.91–17.44, or break above $17.90 on volume",
-   "entryMid": 17.17,
-   "stop": 16.28,
-   "t1": 18.67,
-   "t2": 19.57,
-   "exit": "$18.67 (half), $19.57 (rest)"
+   "entry": "Dip to $220.24–223.32, or break above $229.46 on volume",
+   "entryMid": 221.78,
+   "stop": 216.51,
+   "t1": 230.58,
+   "t2": 235.85,
+   "exit": "$230.58 (half), $235.85 (rest)"
   },
   {
-   "t": "NVDA",
-   "name": "NVDA",
-   "sector": "Avoid / fade",
-   "group": "avoid",
-   "ref": 178.67,
-   "week": -11.6,
-   "news": "CEO Jensen Huang probe over alleged foreign intelligence ties; shares hit a seven-month low Monday. No levels given."
+   "t": "MARA",
+   "name": "MARA Holdings",
+   "sector": "Low-priced (under $10)",
+   "group": "low",
+   "ref": 7.34,
+   "refNote": "close 2026-11-10",
+   "week": 2.5,
+   "news": "Announced a $500M buyback after Q3 results and used bitcoin sales to repay large loans; shares rose on capital-return news.",
+   "risk": "Bitcoin weakness and a Rosenblatt target cut to $11.",
+   "sources": [
+    "https://247wallst.com/investing/2026/11/10/mara-holdings-jumps-11-on-500-million-buyback-riot-platforms-climbs-2-on-jefferies-upgrade-despite-bitcoins-drop-core-scientific-edges-higher/"
+   ],
+   "entry": "Dip to $7.02–7.24, or break above $7.58 on volume",
+   "entryMid": 7.13,
+   "stop": 6.74,
+   "t1": 7.77,
+   "t2": 8.16,
+   "exit": "$7.77 (half), $8.16 (rest)"
+  },
+  {
+   "t": "IREN",
+   "name": "IREN Ltd",
+   "sector": "Technology",
+   "group": "sector",
+   "ref": 19.73,
+   "refNote": "close 2026-11-10",
+   "week": -19.3,
+   "news": "Neocloud peer gained premarket alongside CoreWeave on AI infrastructure rebound.",
+   "risk": "Sympathy move only; moved -8% last session.",
+   "sources": [
+    "https://www.cnbc.com/2026/11/10/stock-market-today-live-updates.html"
+   ],
+   "entry": "Dip to $18.29–19.30, or break above $23.70 on volume",
+   "entryMid": 18.79,
+   "stop": 17.06,
+   "t1": 21.68,
+   "t2": 23.41,
+   "exit": "$21.68 (half), $23.41 (rest)"
+  },
+  {
+   "t": "SANM",
+   "name": "Sanmina",
+   "sector": "Industrials",
+   "group": "sector",
+   "ref": 155.43,
+   "refNote": "close 2026-11-10",
+   "week": -5.5,
+   "news": "Fiscal Q4 adjusted EPS and revenue beat; FY2027 guidance above prior estimates, with data-center cooling growth.",
+   "risk": "Large premarket gap; watch for fade at open.",
+   "sources": [
+    "https://investing.com/news/stock-market-news/premarket-movers-sanmina-aaon-surge-hims--hers-rocket-lab-fall-5015063"
+   ],
+   "entry": "Dip to $148.88–153.46, or break above $167.97 on volume",
+   "entryMid": 151.17,
+   "stop": 143.31,
+   "t1": 164.28,
+   "t2": 172.14,
+   "exit": "$164.28 (half), $172.14 (rest)"
   },
   {
    "t": "HIMS",
    "name": "HIMS",
    "sector": "Avoid / fade",
    "group": "avoid",
-   "ref": 22.94,
-   "week": -9.1,
-   "news": "Weaker-than-expected Q3 results and disappointing outlook; shares extending losses premarket. No levels given."
+   "ref": 19.13,
+   "week": -25.6,
+   "news": "Weaker-than-expected Q3 results and a disappointing outlook; shares fell premarket, extending losses. No levels given."
   },
   {
-   "t": "JBS",
-   "name": "JBS",
+   "t": "ALC",
+   "name": "ALC",
    "sector": "Avoid / fade",
    "group": "avoid",
-   "ref": 13.12,
-   "week": 5.5,
-   "news": "Worse-than-expected Q3 financial results; shares fell about 9% premarket. No levels given."
+   "ref": 74.06,
+   "week": 2.3,
+   "news": "Mixed Q3 EPS and revenue versus estimates; shares fell about 5% premarket. No levels given."
+  },
+  {
+   "t": "CSQR",
+   "name": "CSQR",
+   "sector": "Avoid / fade",
+   "group": "avoid",
+   "ref": 17.52,
+   "week": 22.5,
+   "news": "No verified recent catalyst found in searches; moved +15% last session without confirmed news. No levels given."
   }
  ]
 }
