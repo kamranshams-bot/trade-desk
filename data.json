@@ -1,213 +1,193 @@
 {
- "asOf": "Updated Thu 12 Nov 2026, 17:38 Dubai · prices from 2026-11-11 close · for the Thu 12 Nov session",
+ "asOf": "Updated Fri 13 Nov 2026, 16:57 Dubai · prices from 2026-11-12 close · for the Fri 13 Nov session",
  "kicker": "Dubai desk · US open 6:30pm Dubai (9:30am ET)",
- "barDate": "2026-11-11",
- "sessionDate": "2026-11-12",
+ "barDate": "2026-11-12",
+ "sessionDate": "2026-11-13",
  "stats": [
   [
    "S&P 500 (SPY)",
-   "+1.32%",
+   "-0.35%",
    "last session"
   ],
   [
    "Nasdaq-100 (QQQ)",
-   "+2.31%",
+   "-0.32%",
    "last session"
   ],
   [
    "10-yr yield",
-   "5.04%",
-   "+0.9% day"
+   "5.10%",
+   "+2.1% day"
   ],
   [
    "Oil (WTI)",
-   "$87",
-   "+0.7% day"
+   "$89",
+   "-0.2% day"
   ],
   [
    "Bitcoin",
-   "$72,486",
-   "-2.0% day"
+   "$69,138",
+   "-3.1% day"
   ],
   [
    "VIX",
-   "18.9",
-   "+8.2% day"
+   "18.3",
+   "-2.0% day"
   ]
  ],
  "notes": [
-  "Premarket S&P and Nasdaq futures were lower Thursday, with Nvidia weighed by CEO-succession worries.",
-  "Nasdaq rose 1.6% Wednesday on the CoreWeave-driven AI rebound.",
-  "Markets are pricing a possible December Fed rate hike, lifting the dollar.",
-  "Post-close AI-infrastructure earnings set the tone for Friday's open."
+  "Nvidia weak after CEO Jensen Huang exit; chip-sector sentiment fragile heading into the session.",
+  "Inflation (wholesale price) data is due today, a key macro catalyst for the open.",
+  "Overall pre-market sentiment described as bearish, with Asian markets weak.",
+  "Pre-market names driven mostly by earnings beats and M&A rumors rather than broad rally."
  ],
  "calendar": [
-  "Thu Nov 12 after close: Cisco (CSCO) fiscal Q1 2027 results.",
-  "Thu Nov 12 after close: Applied Materials (AMAT) fiscal Q4 2026 results.",
-  "Thu Nov 12 after close: Nebius (NBIS) and Cerebras also on earnings watch.",
-  "Thu Nov 12 before open: Macy's (M) and Kohl's (KSS) quarterly results."
+  "Fri Nov 13: wholesale price (PPI) report pre-open; watch for rate-sensitive moves.",
+  "Cisco beat and raised AI networking outlook; reaction carries into today's tech tape.",
+  "Applied Materials beat Q4 estimates Thursday; semi-equipment read-through today.",
+  "Medline recently IPO'd and traded up; new IPO supply continues to accelerate."
  ],
  "avoid": [
   {
    "t": "NVDA",
-   "reason": "Shares fell sharply premarket on reports about CEO Jensen Huang's potential departure."
+   "reason": "Shares weak after CEO Jensen Huang's exit and reports of affairs; chip export curbs add pressure."
   },
   {
-   "t": "MSCI",
-   "reason": "Deleted from MSCI USA Index effective after November 30 close; stock fell after the decision."
+   "t": "MSFT",
+   "reason": "Shares under pressure after an outage disrupted Outlook and other services early Friday."
   },
   {
-   "t": "INTC",
-   "reason": "Moved lower in premarket with other chip names after the Nvidia-led AI selloff."
+   "t": "CRWV",
+   "reason": "Declined 7% last session with no fresh positive catalyst identified in search results."
   }
  ],
  "items": [
   {
-   "t": "CRWV",
-   "name": "CoreWeave",
-   "sector": "AI infrastructure",
+   "t": "PANW",
+   "name": "Palo Alto Networks",
+   "sector": "Technology",
    "group": "core",
-   "ref": 60.77,
-   "refNote": "close 2026-11-11",
-   "week": 25.5,
-   "news": "Q3 revenue rose 168% and full-year outlook was raised, reviving AI trade; backlog reached $132.5B.",
-   "risk": "Heavy debt load and high interest costs; stock volatile after sharp sell-off.",
+   "ref": 322.66,
+   "refNote": "close 2026-11-12",
+   "week": 2.5,
+   "news": "KeyBanc Capital Markets upgraded Palo Alto Networks to overweight from sector weight; shares were up over 3.5% pre-market.",
+   "risk": "Upgrade-driven pop may fade; broad tech weakness could cap gains.",
    "sources": [
-    "https://cointelegraph.com/news/coreweave-stock-surges-pre-market-q3-revenue"
+    "https://www.cnbc.com/2026/11/13/stocks-moving-the-most-today-live-updates.html"
    ],
-   "entry": "Dip to $57.88–59.90, or break above $62.03 on volume",
-   "entryMid": 58.89,
-   "stop": 55.43,
-   "t1": 64.67,
-   "t2": 68.13,
-   "exit": "$64.67 (half), $68.13 (rest)"
-  },
-  {
-   "t": "AMAT",
-   "name": "Applied Materials",
-   "sector": "Semiconductor equipment",
-   "group": "core",
-   "ref": 395.08,
-   "refNote": "close 2026-11-11",
-   "week": 7.0,
-   "news": "Fiscal Q4 results due after close; consensus expects EPS near $4.06 on about $10.3B revenue.",
-   "risk": "Options imply about 10% move; a beat can still sell off, as last print did.",
-   "sources": [
-    "https://startupfortune.com/applied-materials-reports-tonight-with-options-pricing-a-10-swing-in-its-stock/"
-   ],
-   "entry": "Dip to $382.23–391.23, or break above $404.71 on volume",
-   "entryMid": 386.73,
-   "stop": 371.31,
-   "t1": 412.43,
-   "t2": 427.84,
-   "exit": "$412.43 (half), $427.84 (rest)"
-  },
-  {
-   "t": "CSCO",
-   "name": "Cisco Systems",
-   "sector": "Networking hardware",
-   "group": "core",
-   "ref": 100.76,
-   "refNote": "close 2026-11-11",
-   "week": -2.8,
-   "news": "Fiscal Q1 2027 report after close tied to AI infrastructure orders; Cisco has beaten estimates in past eight quarters.",
-   "risk": "Morgan Stanley downgrade and implied move near 8%; guidance drives reaction.",
-   "sources": [
-    "https://www.benzinga.com/news/26/11/63166437/cisco-systems-applied-materials-on-deck-thursday-as-ai-demand-faces-test"
-   ],
-   "entry": "Dip to $98.79–100.17, or break above $102.30 on volume",
-   "entryMid": 99.48,
-   "stop": 97.11,
-   "t1": 103.42,
-   "t2": 105.79,
-   "exit": "$103.42 (half), $105.79 (rest)"
+   "entry": "Dip to $312.70–319.67, or break above $341.80 on volume",
+   "entryMid": 316.18,
+   "stop": 304.23,
+   "t1": 336.11,
+   "t2": 348.07,
+   "exit": "$336.11 (half), $348.07 (rest)"
   },
   {
    "t": "AMD",
    "name": "Advanced Micro Devices",
    "sector": "Semiconductors",
-   "group": "sector",
-   "ref": 552.9,
-   "refNote": "close 2026-11-11",
-   "week": 13.1,
-   "news": "William Blair upgraded AMD ahead of the open; shares traded higher as Nvidia fell.",
-   "risk": "Broader chip weakness and Nvidia-led AI selling could cap gains.",
+   "group": "core",
+   "ref": 585.3,
+   "refNote": "close 2026-11-12",
+   "week": 44.7,
+   "news": "William Blair upgraded AMD to Outperform from Market Perform; shares moved higher on the upgrade and a valuation reset.",
+   "risk": "Chip selloff tied to Nvidia leadership turmoil and export curbs could reverse gains.",
    "sources": [
-    "https://cnbc.com/2026/11/11/stock-market-today-live-updates.html"
+    "https://www.schwab.com/learn/story/todays-options-market-update"
    ],
-   "entry": "Dip to $531.49–546.48, or break above $567.65 on volume",
-   "entryMid": 538.98,
-   "stop": 513.29,
-   "t1": 581.8,
-   "t2": 607.49,
-   "exit": "$581.80 (half), $607.49 (rest)"
+   "entry": "Dip to $562.99–578.61, or break above $594.00 on volume",
+   "entryMid": 570.8,
+   "stop": 544.03,
+   "t1": 615.41,
+   "t2": 642.18,
+   "exit": "$615.41 (half), $642.18 (rest)"
   },
   {
-   "t": "SNDK",
-   "name": "Sandisk",
-   "sector": "Memory",
+   "t": "CBRS",
+   "name": "Cerebras Systems",
+   "sector": "AI Infrastructure",
    "group": "sector",
-   "ref": 977.69,
-   "refNote": "close 2026-11-11",
-   "week": -5.8,
-   "news": "Memory stocks rebounded on CoreWeave's results, with Sandisk gaining about 16% in the prior session.",
-   "risk": "Memory names are high-beta and fade quickly if AI sentiment reverses.",
+   "ref": 97.75,
+   "refNote": "close 2026-11-12",
+   "week": 19.6,
+   "news": "Cerebras jumped after a surprise Q3 profit and better-than-expected revenue, and raised its 2026 revenue forecast, adding Microsoft as a customer.",
+   "risk": "Recent IPO-style stock; thin pre-market volume and high volatility.",
    "sources": [
-    "https://www.benzinga.com/markets/equities/26/11/63157251/stock-market-today-nasdaq-100-coreweave-ai-rebound-nvidia"
+    "https://www.cnbc.com/2026/11/13/stocks-moving-the-most-today-live-updates.html"
    ],
-   "entry": "Dip to $923.20–961.34, or break above $1,011.05 on volume",
-   "entryMid": 942.27,
-   "stop": 876.88,
-   "t1": 1051.26,
-   "t2": 1116.65,
-   "exit": "$1,051.26 (half), $1,116.65 (rest)"
+   "entry": "Dip to $92.63–96.21, or break above $104.05 on volume",
+   "entryMid": 94.42,
+   "stop": 88.28,
+   "t1": 104.66,
+   "t2": 110.8,
+   "exit": "$104.66 (half), $110.80 (rest)"
   },
   {
-   "t": "NBIS",
-   "name": "Nebius Group",
-   "sector": "Neocloud",
+   "t": "AMAT",
+   "name": "Applied Materials",
+   "sector": "Semiconductor Equipment",
    "group": "sector",
-   "ref": 154.69,
-   "refNote": "close 2026-11-11",
-   "week": 9.3,
-   "news": "Q3 revenue beat, but weak guidance; reports after close and is an earnings volatility name.",
-   "risk": "Shares fell about 13% premarket on guidance; avoid chasing early.",
+   "ref": 380.95,
+   "refNote": "close 2026-11-12",
+   "week": 19.3,
+   "news": "Applied Materials beat fourth-quarter EPS and revenue estimates on Thursday; shares gained slightly pre-market.",
+   "risk": "Gain was modest; semis weighed by Nvidia and export-curb headlines.",
    "sources": [
-    "https://cnbc.com/2026/11/11/stock-market-today-live-updates.html"
+    "https://www.cnbc.com/2026/11/13/stocks-moving-the-most-today-live-updates.html"
    ],
-   "entry": "Dip to $146.43–152.21, or break above $160.21 on volume",
-   "entryMid": 149.32,
-   "stop": 139.41,
-   "t1": 165.84,
-   "t2": 175.75,
-   "exit": "$165.84 (half), $175.75 (rest)"
+   "entry": "Dip to $367.76–376.99, or break above $404.71 on volume",
+   "entryMid": 372.38,
+   "stop": 356.55,
+   "t1": 398.76,
+   "t2": 414.59,
+   "exit": "$398.76 (half), $414.59 (rest)"
+  },
+  {
+   "t": "LUNR",
+   "name": "Intuitive Machines",
+   "sector": "Space",
+   "group": "sector",
+   "ref": 13.03,
+   "refNote": "close 2026-11-12",
+   "week": 51.2,
+   "news": "Intuitive Machines rose after third-quarter results beat expectations, with narrower-than-expected losses and revenue above estimates.",
+   "risk": "Space names are volatile; gains may reverse on any broad risk-off move.",
+   "sources": [
+    "https://www.moomoo.com/community/feed/today-s-pre-market-movers-and-top-ratings-nvda-mu-117603653058565"
+   ],
+   "entry": "Dip to $12.43–12.85, or break above $14.62 on volume",
+   "entryMid": 12.64,
+   "stop": 11.93,
+   "t1": 13.83,
+   "t2": 14.55,
+   "exit": "$13.83 (half), $14.55 (rest)"
   },
   {
    "t": "NVDA",
    "name": "NVDA",
    "sector": "Avoid / fade",
    "group": "avoid",
-   "ref": 173.73,
-   "week": -13.2,
-   "news": "Shares fell sharply premarket on reports about CEO Jensen Huang's potential departure. No levels given."
+   "ref": 166.19,
+   "week": -8.5,
+   "news": "Shares weak after CEO Jensen Huang's exit and reports of affairs; chip export curbs add pressure. No levels given."
   },
   {
-   "t": "MSCI",
-   "name": "MSCI",
+   "t": "MSFT",
+   "name": "MSFT",
    "sector": "Avoid / fade",
    "group": "avoid",
-   "ref": 661.53,
-   "week": -1.9,
-   "news": "Deleted from MSCI USA Index effective after November 30 close; stock fell after the decision. No levels given."
+   "ref": 523.0,
+   "week": -2.4,
+   "news": "Shares under pressure after an outage disrupted Outlook and other services early Friday. No levels given."
   },
   {
-   "t": "INTC",
-   "name": "INTC",
+   "t": "CRWV",
+   "name": "CRWV",
    "sector": "Avoid / fade",
    "group": "avoid",
-   "ref": 62.5,
-   "week": 7.3,
-   "news": "Moved lower in premarket with other chip names after the Nvidia-led AI selloff. No levels given."
+   "ref": 56.6,
+   "week": 29.6,
+   "news": "Declined 7% last session with no fresh positive catalyst identified in search results. No levels given."
   }
  ]
 }
