@@ -1,153 +1,153 @@
 {
- "asOf": "Updated Mon 16 Nov 2026, 17:29 Dubai · prices from 2026-11-13 close · for the Mon 16 Nov session",
+ "asOf": "Updated Tue 17 Nov 2026, 18:14 Dubai · prices from 2026-11-16 close · for the Tue 17 Nov session",
  "kicker": "Dubai desk · US open 6:30pm Dubai (9:30am ET)",
- "barDate": "2026-11-13",
- "sessionDate": "2026-11-16",
+ "barDate": "2026-11-16",
+ "sessionDate": "2026-11-17",
  "stats": [
   [
    "S&P 500 (SPY)",
-   "-0.36%",
+   "-1.91%",
    "last session"
   ],
   [
    "Nasdaq-100 (QQQ)",
-   "-1.20%",
+   "-2.67%",
    "last session"
   ],
   [
    "10-yr yield",
-   "5.15%",
-   "+1.0% day"
+   "5.14%",
+   "+0.5% day"
   ],
   [
    "Oil (WTI)",
-   "$88",
-   "-0.8% day"
+   "$87",
+   "+1.7% day"
   ],
   [
    "Bitcoin",
-   "$64,119",
-   "-1.8% day"
+   "$64,931",
+   "+0.1% day"
   ],
   [
    "VIX",
-   "20.6",
-   "+6.9% day"
+   "22.9",
+   "+0.0% day"
   ]
  ],
  "notes": [
-  "Nasdaq 100 futures lead lower while Dow futures are flat before the open.",
-  "Nvidia slips premarket ahead of its first earnings report without Jensen Huang.",
-  "Anthropic IPO and FOMC minutes this week add event risk to tech.",
-  "Risk-off tone in AI and chip names; rotation possible into non-tech."
+  "Nasdaq 100 futures modestly up; Dow futures softer ahead of open.",
+  "Nvidia reports after the close today, first results since CEO Huang resigned.",
+  "Stock-specific catalysts dominate; earnings beats driving most large movers.",
+  "Premarket action in sub-$5 names is thin and erratic; size accordingly."
  ],
  "calendar": [
-  "Mon: Take-Two earnings beat; GTA VI releases Nov 19 on strong presales.",
-  "Tue: NVDA fiscal Q3 results after close; October retail sales.",
-  "Wed: FOMC minutes; PANW earnings after close.",
-  "Thu: Anthropic IPO expected this week; WMT and TGT earnings this week."
+  "Tue 17 Nov: Nvidia Q3 earnings after the close (US time).",
+  "Home Depot CEO transition: McPhail takes over from Nov 23.",
+  "Disney and Home Depot reported Monday beats; watch follow-through.",
+  "Intel trading lower after Nvidia cut its stake; watch sympathy moves."
  ],
  "avoid": [
   {
-   "t": "NVDA",
-   "reason": "Shares slipping premarket ahead of first earnings without Jensen Huang; leadership uncertainty weighs on sentiment."
+   "t": "RCAT",
+   "reason": "Premarket down about 33-36% after Home Depot-style pressure isn't relevant; drone name sold off sharply with no verified positive catalyst."
   },
   {
    "t": "INTC",
-   "reason": "Shareholder lawsuit alleges misled investors on PC demand and inventory before weak Q3 and Q4 guidance."
+   "reason": "Nvidia cut its Intel stake by about 25%, weighing on shares pre-market."
   },
   {
-   "t": "YETI",
-   "reason": "Goldman downgraded to Neutral after Q3 revenue missed and full-year sales growth outlook was cut."
+   "t": "HD",
+   "reason": "Shares fell despite a Q3 beat after the CFO was named CEO, adding leadership uncertainty."
   }
  ],
  "items": [
   {
-   "t": "TTWO",
-   "name": "Take-Two Interactive",
-   "sector": "Communication Services",
+   "t": "TSN",
+   "name": "Tyson Foods",
+   "sector": "Consumer Staples",
    "group": "core",
-   "ref": 227.82,
-   "refNote": "close 2026-11-13",
-   "week": 6.0,
-   "news": "Q2 adjusted EPS of $0.99 beat the $0.97 consensus and bookings guidance was reaffirmed; GTA VI preorders reportedly reached $1B.",
-   "risk": "Pre-release run-up; sell-the-news risk around Nov 19 launch.",
+   "ref": 63.95,
+   "refNote": "close 2026-11-16",
+   "week": 6.8,
+   "news": "Beat fiscal Q4 estimates on revenue and adjusted EPS, raised dividend about 2%, and guided to a smaller beef loss in fiscal 2027. Shares rallied about 9-10% Monday.",
+   "risk": "Stock looks overbought after the jump; a close back below breakout level would weaken it.",
    "sources": [
-    "https://pro.thestreet.com/markets/stocks/premarket"
+    "https://www.benzinga.com/markets/earnings/26/11/63308850/tyson-foods-ceo-calls-protein-the-biggest-opportunity-in-food"
    ],
-   "entry": "Dip to $222.91–226.35, or break above $237.41 on volume",
-   "entryMid": 224.63,
-   "stop": 218.74,
-   "t1": 234.45,
-   "t2": 240.34,
-   "exit": "$234.45 (half), $240.34 (rest)"
+   "entry": "Dip to $62.96–63.65, or break above $65.34 on volume",
+   "entryMid": 63.3,
+   "stop": 62.11,
+   "t1": 65.29,
+   "t2": 66.48,
+   "exit": "$65.29 (half), $66.48 (rest)"
   },
   {
-   "t": "JNJ",
-   "name": "Johnson & Johnson",
+   "t": "MOH",
+   "name": "Molina Healthcare",
    "sector": "Healthcare",
-   "group": "sector",
-   "ref": 285.75,
-   "refNote": "close 2026-11-13",
-   "week": 3.5,
-   "news": "FT reported a possible deal as soon as Monday to acquire Ollin Biosciences for up to $3.4B; shares rose about 1% premarket.",
-   "risk": "Deal unconfirmed; size and terms may change.",
+   "group": "core",
+   "ref": 233.09,
+   "refNote": "close 2026-11-16",
+   "week": 14.6,
+   "news": "Q3 non-GAAP EPS of $0.89 and $11.08B revenue beat expectations; shares rose more than 8% Monday. Management reaffirmed 2026 adjusted EPS of at least $5.25.",
+   "risk": "Medicaid margin pressure and Florida contract losses remain; sentiment can reverse quickly.",
    "sources": [
-    "https://www.investing.com/news/stock-market-news/premarket-movers-nvidia-intel-fall-jj-gains-5029397"
+    "https://www.gurufocus.com/news/9201984/molina-healthcare-moh-shares-surge-8-following-strong-q3-results"
    ],
-   "entry": "Dip to $282.18–284.68, or break above $288.11 on volume",
-   "entryMid": 283.43,
-   "stop": 279.15,
-   "t1": 290.56,
-   "t2": 294.84,
-   "exit": "$290.56 (half), $294.84 (rest)"
-  },
-  {
-   "t": "DHI",
-   "name": "Deep Fission",
-   "sector": "Energy/Nuclear",
-   "group": "sector",
-   "ref": 145.55,
-   "refNote": "close 2026-11-13",
-   "week": -4.4,
-   "news": "ThinkEquity initiated coverage with a Buy rating and a $5 target; shares rose about 4.6% premarket.",
-   "risk": "Small-cap, thin liquidity; initiation-driven move may fade.",
-   "sources": [
-    "https://ca.investing.com/news/stock-market-news/premarket-movers-nvidia-intel-fall-jj-gains-4960546"
-   ],
-   "entry": "Dip to $142.45–144.62, or break above $157.79 on volume",
-   "entryMid": 143.54,
-   "stop": 139.82,
-   "t1": 149.73,
-   "t2": 153.45,
-   "exit": "$149.73 (half), $153.45 (rest)"
+   "entry": "Dip to $227.61–231.44, or break above $234.19 on volume",
+   "entryMid": 229.53,
+   "stop": 222.94,
+   "t1": 240.49,
+   "t2": 247.07,
+   "exit": "$240.49 (half), $247.07 (rest)"
   },
   {
    "t": "NVDA",
-   "name": "NVDA",
+   "name": "NVIDIA",
+   "sector": "Technology",
+   "group": "sector",
+   "ref": 156.14,
+   "refNote": "close 2026-11-16",
+   "week": -12.6,
+   "news": "Reports Q3 results after the close today, its first since CEO Jensen Huang resigned. Consensus expects EPS of $2.47 on revenue near $109B.",
+   "risk": "Binary event after the close; guidance or leadership questions could drive a sharp reversal.",
+   "sources": [
+    "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-091546152.html"
+   ],
+   "entry": "Dip to $150.48–154.44, or break above $177.54 on volume",
+   "entryMid": 152.46,
+   "stop": 145.66,
+   "t1": 163.79,
+   "t2": 170.58,
+   "exit": "$163.79 (half), $170.58 (rest)"
+  },
+  {
+   "t": "RCAT",
+   "name": "RCAT",
    "sector": "Avoid / fade",
    "group": "avoid",
-   "ref": 162.85,
-   "week": -12.7,
-   "news": "Shares slipping premarket ahead of first earnings without Jensen Huang; leadership uncertainty weighs on sentiment. No levels given."
+   "ref": 3.53,
+   "week": -21.6,
+   "news": "Premarket down about 33-36% after Home Depot-style pressure isn't relevant; drone name sold off sharply with no verified positive catalyst. No levels given."
   },
   {
    "t": "INTC",
    "name": "INTC",
    "sector": "Avoid / fade",
    "group": "avoid",
-   "ref": 59.66,
-   "week": 6.0,
-   "news": "Shareholder lawsuit alleges misled investors on PC demand and inventory before weak Q3 and Q4 guidance. No levels given."
+   "ref": 55.47,
+   "week": -6.6,
+   "news": "Nvidia cut its Intel stake by about 25%, weighing on shares pre-market. No levels given."
   },
   {
-   "t": "YETI",
-   "name": "YETI",
+   "t": "HD",
+   "name": "HD",
    "sector": "Avoid / fade",
    "group": "avoid",
-   "ref": 39.42,
-   "week": -12.3,
-   "news": "Goldman downgraded to Neutral after Q3 revenue missed and full-year sales growth outlook was cut. No levels given."
+   "ref": 347.51,
+   "week": -1.7,
+   "news": "Shares fell despite a Q3 beat after the CFO was named CEO, adding leadership uncertainty. No levels given."
   }
  ]
 }
