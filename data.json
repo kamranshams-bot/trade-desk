@@ -1,153 +1,239 @@
 {
- "asOf": "Updated Tue 17 Nov 2026, 18:14 Dubai · prices from 2026-11-16 close · for the Tue 17 Nov session",
+ "asOf": "Updated Wed 18 Nov 2026, 17:45 Dubai · prices from 2026-11-17 close · for the Wed 18 Nov session",
  "kicker": "Dubai desk · US open 6:30pm Dubai (9:30am ET)",
- "barDate": "2026-11-16",
- "sessionDate": "2026-11-17",
+ "barDate": "2026-11-17",
+ "sessionDate": "2026-11-18",
  "stats": [
   [
    "S&P 500 (SPY)",
-   "-1.91%",
+   "-1.01%",
    "last session"
   ],
   [
    "Nasdaq-100 (QQQ)",
-   "-2.67%",
+   "-0.73%",
    "last session"
   ],
   [
    "10-yr yield",
-   "5.14%",
-   "+0.5% day"
+   "5.12%",
+   "+0.3% day"
   ],
   [
    "Oil (WTI)",
-   "$87",
-   "+1.7% day"
+   "$84",
+   "-2.4% day"
   ],
   [
    "Bitcoin",
-   "$64,931",
-   "+0.1% day"
+   "$63,930",
+   "-1.5% day"
   ],
   [
    "VIX",
-   "22.9",
-   "+0.0% day"
+   "24.5",
+   "-3.8% day"
   ]
  ],
  "notes": [
-  "Nasdaq 100 futures modestly up; Dow futures softer ahead of open.",
-  "Nvidia reports after the close today, first results since CEO Huang resigned.",
-  "Stock-specific catalysts dominate; earnings beats driving most large movers.",
-  "Premarket action in sub-$5 names is thin and erratic; size accordingly."
+  "Nvidia's record quarter and guidance lifted premarket AI and chip names",
+  "Index futures higher; Nasdaq 100 leading; Fed minutes due today",
+  "Anthropic IPO pricing is a sentiment event for AI names",
+  "Small caps lag; recovery needs confirmation after the open"
  ],
  "calendar": [
-  "Tue 17 Nov: Nvidia Q3 earnings after the close (US time).",
-  "Home Depot CEO transition: McPhail takes over from Nov 23.",
-  "Disney and Home Depot reported Monday beats; watch follow-through.",
-  "Intel trading lower after Nvidia cut its stake; watch sympathy moves."
+  "Wed: FOMC minutes and Palo Alto Networks, TJX, Lowe's, Target results",
+  "Anthropic IPO pricing expected around this session",
+  "Nvidia reported; watch SEC probe headlines tied to CEO exit"
  ],
  "avoid": [
   {
-   "t": "RCAT",
-   "reason": "Premarket down about 33-36% after Home Depot-style pressure isn't relevant; drone name sold off sharply with no verified positive catalyst."
+   "t": "AAOI",
+   "reason": "Fell about 10% premarket despite Nvidia read-through; no positive catalyst identified."
   },
   {
-   "t": "INTC",
-   "reason": "Nvidia cut its Intel stake by about 25%, weighing on shares pre-market."
-  },
-  {
-   "t": "HD",
-   "reason": "Shares fell despite a Q3 beat after the CFO was named CEO, adding leadership uncertainty."
+   "t": "NKE",
+   "reason": "Down 6% last session; no fresh positive catalyst surfaced in searched sources."
   }
  ],
  "items": [
   {
-   "t": "TSN",
-   "name": "Tyson Foods",
-   "sector": "Consumer Staples",
-   "group": "core",
-   "ref": 63.95,
-   "refNote": "close 2026-11-16",
-   "week": 6.8,
-   "news": "Beat fiscal Q4 estimates on revenue and adjusted EPS, raised dividend about 2%, and guided to a smaller beef loss in fiscal 2027. Shares rallied about 9-10% Monday.",
-   "risk": "Stock looks overbought after the jump; a close back below breakout level would weaken it.",
-   "sources": [
-    "https://www.benzinga.com/markets/earnings/26/11/63308850/tyson-foods-ceo-calls-protein-the-biggest-opportunity-in-food"
-   ],
-   "entry": "Dip to $62.96–63.65, or break above $65.34 on volume",
-   "entryMid": 63.3,
-   "stop": 62.11,
-   "t1": 65.29,
-   "t2": 66.48,
-   "exit": "$65.29 (half), $66.48 (rest)"
-  },
-  {
-   "t": "MOH",
-   "name": "Molina Healthcare",
-   "sector": "Healthcare",
-   "group": "core",
-   "ref": 233.09,
-   "refNote": "close 2026-11-16",
-   "week": 14.6,
-   "news": "Q3 non-GAAP EPS of $0.89 and $11.08B revenue beat expectations; shares rose more than 8% Monday. Management reaffirmed 2026 adjusted EPS of at least $5.25.",
-   "risk": "Medicaid margin pressure and Florida contract losses remain; sentiment can reverse quickly.",
-   "sources": [
-    "https://www.gurufocus.com/news/9201984/molina-healthcare-moh-shares-surge-8-following-strong-q3-results"
-   ],
-   "entry": "Dip to $227.61–231.44, or break above $234.19 on volume",
-   "entryMid": 229.53,
-   "stop": 222.94,
-   "t1": 240.49,
-   "t2": 247.07,
-   "exit": "$240.49 (half), $247.07 (rest)"
-  },
-  {
    "t": "NVDA",
-   "name": "NVIDIA",
-   "sector": "Technology",
-   "group": "sector",
-   "ref": 156.14,
-   "refNote": "close 2026-11-16",
-   "week": -12.6,
-   "news": "Reports Q3 results after the close today, its first since CEO Jensen Huang resigned. Consensus expects EPS of $2.47 on revenue near $109B.",
-   "risk": "Binary event after the close; guidance or leadership questions could drive a sharp reversal.",
+   "name": "NVIDIA Corp.",
+   "sector": "Semiconductors",
+   "group": "core",
+   "ref": 155.46,
+   "refNote": "close 2026-11-17",
+   "week": -8.0,
+   "news": "Record fiscal Q3 revenue and above-consensus guidance drove a premarket rebound after a four-day losing streak, lifting AI chip peers.",
+   "risk": "Reported SEC probe and CEO exit headlines could cap gains.",
    "sources": [
-    "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-091546152.html"
+    "https://www.benzinga.com/markets/equities/26/11/63377414/stock-market-today-dow-jones-sp-500-futures-rise-ahead-of-fomc-minutes-nvda-aaoi-panw-in-focus"
    ],
-   "entry": "Dip to $150.48–154.44, or break above $177.54 on volume",
-   "entryMid": 152.46,
-   "stop": 145.66,
-   "t1": 163.79,
-   "t2": 170.58,
-   "exit": "$163.79 (half), $170.58 (rest)"
+   "entry": "Dip to $149.71–153.74, or break above $177.54 on volume",
+   "entryMid": 151.72,
+   "stop": 144.83,
+   "t1": 163.22,
+   "t2": 170.12,
+   "exit": "$163.22 (half), $170.12 (rest)"
   },
   {
-   "t": "RCAT",
-   "name": "RCAT",
-   "sector": "Avoid / fade",
-   "group": "avoid",
-   "ref": 3.53,
-   "week": -21.6,
-   "news": "Premarket down about 33-36% after Home Depot-style pressure isn't relevant; drone name sold off sharply with no verified positive catalyst. No levels given."
+   "t": "CRWV",
+   "name": "CoreWeave",
+   "sector": "AI Infrastructure",
+   "group": "core",
+   "ref": 49.89,
+   "refNote": "close 2026-11-17",
+   "week": 2.4,
+   "news": "Nvidia-backed neocloud peer climbed premarket as AI infrastructure names rallied on Nvidia's upbeat outlook.",
+   "risk": "High-beta neocloud name; reverses sharply when AI sentiment fades.",
+   "sources": [
+    "https://ca.investing.com/news/stock-market-news/premarket-movers-nvidia-jumps-on-strong-ai-outlook-lowes-falls-4966660"
+   ],
+   "entry": "Dip to $46.73–48.94, or break above $62.03 on volume",
+   "entryMid": 47.84,
+   "stop": 44.05,
+   "t1": 54.15,
+   "t2": 57.94,
+   "exit": "$54.15 (half), $57.94 (rest)"
   },
   {
-   "t": "INTC",
-   "name": "INTC",
-   "sector": "Avoid / fade",
-   "group": "avoid",
-   "ref": 55.47,
-   "week": -6.6,
-   "news": "Nvidia cut its Intel stake by about 25%, weighing on shares pre-market. No levels given."
+   "t": "ACM",
+   "name": "AECOM",
+   "sector": "Industrials",
+   "group": "core",
+   "ref": 80.53,
+   "refNote": "close 2026-11-17",
+   "week": 14.0,
+   "news": "Fiscal Q4 adjusted EPS beat, record margins, record backlog and a 10% dividend hike; fiscal 2027 EPS guidance set above prior levels.",
+   "risk": "Revenue fell 7% and missed; prior gains partly reversed on cash-flow concerns.",
+   "sources": [
+    "https://www.investing.com/news/stock-market-news/why-is-aecom-stock-surging-today-93CH-5032655"
+   ],
+   "entry": "Dip to $79.06–80.09, or break above $83.55 on volume",
+   "entryMid": 79.57,
+   "stop": 77.8,
+   "t1": 82.52,
+   "t2": 84.29,
+   "exit": "$82.52 (half), $84.29 (rest)"
   },
   {
-   "t": "HD",
-   "name": "HD",
+   "t": "COHR",
+   "name": "Coherent",
+   "sector": "Optical Networking",
+   "group": "sector",
+   "ref": 210.86,
+   "refNote": "close 2026-11-17",
+   "week": -1.8,
+   "news": "Shares rose premarket as optical communications names gained alongside Nvidia's strong AI server and storage demand read-through.",
+   "risk": "Premarket gain only; no company-specific catalyst confirmed.",
+   "sources": [
+    "https://www.tradingkey.com/analysis/stocks/us-stocks/262311015-us-pre-market-nvda-anthropic-tradingkey"
+   ],
+   "entry": "Dip to $198.36–207.11, or break above $245.73 on volume",
+   "entryMid": 202.73,
+   "stop": 187.73,
+   "t1": 227.74,
+   "t2": 242.74,
+   "exit": "$227.74 (half), $242.74 (rest)"
+  },
+  {
+   "t": "BILL",
+   "name": "BILL Holdings",
+   "sector": "Software / Fintech",
+   "group": "sector",
+   "ref": 64.88,
+   "refNote": "close 2026-11-17",
+   "week": 20.7,
+   "news": "Shares added about 12.6% in the prior session; catalyst not verified in searched sources, so treat as momentum-only.",
+   "risk": "Catalyst unverified; momentum fade likely after a double-digit move.",
+   "sources": [
+    "https://businessupturn.com/usa/money/us-markets/us-stock-movers-sls-surges-156-as-bill-and-aecom-post-double-digit-gains/"
+   ],
+   "entry": "Dip to $63.48–64.46, or break above $65.45 on volume",
+   "entryMid": 63.97,
+   "stop": 62.29,
+   "t1": 66.77,
+   "t2": 68.44,
+   "exit": "$66.77 (half), $68.44 (rest)"
+  },
+  {
+   "t": "SNAP",
+   "name": "Snap Inc.",
+   "sector": "Low-priced (under $10)",
+   "group": "low",
+   "ref": 5.5,
+   "refNote": "close 2026-11-17",
+   "week": 10.0,
+   "news": "Subscription revenue from Snapchat+ and related products grew sharply, with over 30 million paid subscribers, after a weak Q3 report.",
+   "risk": "Shares fell 14% after Q3 miss; advertising growth remains weak.",
+   "sources": [
+    "https://www.trefis.com/stock/snap/articles/625731/can-subscriptions-lift-snap-stock-nearly-50/2026-11-17"
+   ],
+   "entry": "Dip to $5.32–5.45, or break above $5.54 on volume",
+   "entryMid": 5.38,
+   "stop": 5.17,
+   "t1": 5.74,
+   "t2": 5.96,
+   "exit": "$5.74 (half), $5.96 (rest)"
+  },
+  {
+   "t": "SLS",
+   "name": "SELLAS Life Sciences",
+   "sector": "Biotech",
+   "group": "sector",
+   "ref": 19.15,
+   "refNote": "close 2026-11-17",
+   "week": 128.8,
+   "news": "Phase 3 REGAL trial met its primary endpoint in AML; a proposed $150M share sale followed the close.",
+   "risk": "Dilution from the $150M offering; prone to sharp reversal.",
+   "sources": [
+    "https://kalkine.com.au/news/healthcare/why-did-sellas-life-sciences-nasdaqsls-jump-156-on-its-phase-3-aml-success-before-a-usd-150-million-share-sale-pulled-it-back"
+   ],
+   "entry": "Dip to $18.08–18.83, or break above $24.89 on volume",
+   "entryMid": 18.46,
+   "stop": 17.18,
+   "t1": 20.59,
+   "t2": 21.87,
+   "exit": "$20.59 (half), $21.87 (rest)"
+  },
+  {
+   "t": "GP",
+   "name": "GreenPower Motor",
+   "sector": "Low-priced (under $10)",
+   "group": "low",
+   "ref": 2.62,
+   "refNote": "close 2026-11-17",
+   "week": 478.4,
+   "news": "Premarket gainer this session with a sizable move; specific catalyst not verified in searched sources.",
+   "risk": "Catalyst unverified; small-cap volatility and dilution history.",
+   "sources": [
+    "https://www.rttnews.com/3715927/morning-market-movers-gp-ardt-gmm-cue-lsf-see-big-swings.aspx"
+   ],
+   "entry": "Dip to $2.42–2.56, or break above $3.39 on volume",
+   "entryMid": 2.49,
+   "stop": 2.26,
+   "t1": 2.88,
+   "t2": 3.12,
+   "exit": "$2.88 (half), $3.12 (rest)"
+  },
+  {
+   "t": "AAOI",
+   "name": "AAOI",
    "sector": "Avoid / fade",
    "group": "avoid",
-   "ref": 347.51,
-   "week": -1.7,
-   "news": "Shares fell despite a Q3 beat after the CFO was named CEO, adding leadership uncertainty. No levels given."
+   "ref": 45.22,
+   "week": -6.4,
+   "news": "Fell about 10% premarket despite Nvidia read-through; no positive catalyst identified. No levels given."
+  },
+  {
+   "t": "NKE",
+   "name": "NKE",
+   "sector": "Avoid / fade",
+   "group": "avoid",
+   "ref": 35.85,
+   "week": -7.3,
+   "news": "Down 6% last session; no fresh positive catalyst surfaced in searched sources. No levels given."
   }
  ]
 }
