@@ -1,193 +1,187 @@
 {
- "asOf": "Updated Fri 20 Nov 2026, 17:55 Dubai · prices from 2026-11-19 close · for the Fri 20 Nov session",
+ "asOf": "Updated Mon 23 Nov 2026, 19:49 Dubai · prices from 2026-11-23 close · for the Mon 23 Nov session",
  "kicker": "Dubai desk · US open 6:30pm Dubai (9:30am ET)",
- "barDate": "2026-11-19",
- "sessionDate": "2026-11-20",
+ "barDate": "2026-11-23",
+ "sessionDate": "2026-11-23",
  "stats": [
   [
    "S&P 500 (SPY)",
-   "-1.96%",
+   "+4.91%",
    "last session"
   ],
   [
    "Nasdaq-100 (QQQ)",
-   "-2.19%",
+   "+7.13%",
    "last session"
   ],
   [
    "10-yr yield",
-   "4.97%",
-   "-1.5% day"
+   "4.96%",
+   "+0.9% day"
   ],
   [
    "Oil (WTI)",
-   "$82",
-   "-1.1% day"
+   "$81",
+   "-4.1% day"
   ],
   [
    "Bitcoin",
-   "$61,787",
-   "-0.2% day"
+   "$62,696",
+   "+2.5% day"
   ],
   [
    "VIX",
-   "31.4",
-   "+10.4% day"
+   "26.4",
+   "-26.6% day"
   ]
  ],
  "notes": [
-  "Sanofi takeover reports lift biotech M&A sentiment; deal still unconfirmed and preliminary.",
-  "Strong Thursday tape with Nasdaq leading after a five-session S&P losing streak.",
-  "Broad AI and tech optimism, with data-storage and semis bid on Anthropic IPO chatter.",
-  "Natural gas supply worries and European gas spikes support energy names."
+  "Futures sharply higher after Friday's chip-led rout; Nasdaq 100 futures up about 3%",
+  "Nvidia rebound tied to Huang reinstatement; Nasdaq rebound broad across AI names",
+  "Fear and greed shifted toward optimism; oil softer despite Gulf attacks",
+  "Wholesale inflation data on today's calendar; watch for rates reaction"
  ],
  "calendar": [
-  "PANW earnings reaction carries into today's cybersecurity trade after Thursday's beat.",
-  "PDD post-earnings follow-through; revenue missed while profit beat.",
-  "Anthropic IPO headlines may move AI-linked and data-storage names.",
-  "Check the US session calendar for further earnings releases before the open."
+  "Dell earnings Tuesday; HPE, Zoom, Agilent also report this week",
+  "Dick's and Burlington report today",
+  "Anthropic (ANT) newly listed; first-week trading in focus",
+  "Wholesale inflation data due Monday"
  ],
  "avoid": [
   {
-   "t": "NVDA",
-   "reason": "Moved down 3% last session; no fresh positive catalyst verified in this brief."
-  },
-  {
-   "t": "AMD",
-   "reason": "Fell 8% last session; no verified positive catalyst to support a long."
-  },
-  {
-   "t": "GRAB",
-   "reason": "Fell 7% last session; no verified upbeat catalyst found in searches."
+   "t": "CRDO",
+   "reason": "No confirmed catalyst found in this session's searches; prior-session gain not verified."
   }
  ],
  "items": [
   {
-   "t": "INSM",
-   "name": "Insmed",
-   "sector": "Healthcare",
+   "t": "NVDA",
+   "name": "NVIDIA",
+   "sector": "Semiconductors",
    "group": "core",
-   "ref": 144.46,
-   "refNote": "close 2026-11-19",
-   "week": 22.4,
-   "news": "Shares jumped on a Bloomberg report that Sanofi is working with advisers on a possible acquisition. Talks are preliminary and no agreement has been reached; a deal could be weeks away.",
-   "risk": "Deal talks unconfirmed; a no-deal headline could reverse the entire move.",
+   "ref": 168.5,
+   "refNote": "close 2026-11-23",
+   "week": 7.9,
+   "news": "Reinstated Jensen Huang as president, CEO and board director, effective immediately, after an 11-day gap following his resignation. Shares rebounded sharply after Friday's rout.",
+   "risk": "Governance and SEC scrutiny; Bessent questioning China chip sales; large gap from October high.",
    "sources": [
-    "https://www.investing.com/news/stock-market-news/insmed-shares-jump-more-than-6-on-report-sanofi-is-weighing-acquisition-5039411"
+    "https://www.marketscreener.com/news/ai-stocks-surge-after-huang-returns-to-nvidia-ce7851dadd88f325"
    ],
-   "entry": "Dip to $141.06–143.44, or break above $149.07 on volume",
-   "entryMid": 142.25,
-   "stop": 138.16,
-   "t1": 149.06,
-   "t2": 153.14,
-   "exit": "$149.06 (half), $153.14 (rest)"
+   "entry": "Dip to $160.69–166.16, or break above $171.50 on volume",
+   "entryMid": 163.42,
+   "stop": 154.05,
+   "t1": 179.04,
+   "t2": 188.41,
+   "exit": "$179.04 (half), $188.41 (rest)"
   },
   {
-   "t": "PANW",
-   "name": "Palo Alto Networks",
-   "sector": "Technology",
+   "t": "KYMR",
+   "name": "Kymera Therapeutics",
+   "sector": "Biotech",
    "group": "core",
-   "ref": 361.73,
-   "refNote": "close 2026-11-19",
-   "week": 12.1,
-   "news": "Fiscal Q1 revenue and adjusted EPS beat estimates and full-year guidance was raised. Company also agreed to buy Applied Compute in a $4.5B all-stock deal.",
-   "risk": "Stock is up sharply already; the stock is expensive and all-stock deal dilutes holders.",
+   "ref": 150.25,
+   "refNote": "close 2026-11-23",
+   "week": 19.4,
+   "news": "Positive Phase 2b BROADEN2 data for KT-621 in moderate-to-severe atopic dermatitis; BTIG reiterated Buy with $139 target. Phase 3 planned by mid-2027.",
+   "risk": "Post-spike profit-taking; regulatory alignment still needed for Phase 3.",
    "sources": [
-    "https://www.cnbc.com/2026/11/19/palo-alto-networks-earnings-applied-compute.html"
+    "https://www.investing.com/news/stock-market-news/kymera-shares-jump-29-after-positive-midstage-eczema-trial-5045346"
    ],
-   "entry": "Dip to $351.64–358.70, or break above $370.00 on volume",
-   "entryMid": 355.17,
-   "stop": 343.06,
-   "t1": 375.36,
-   "t2": 387.47,
-   "exit": "$375.36 (half), $387.47 (rest)"
+   "entry": "Dip to $145.67–148.88, or break above $151.17 on volume",
+   "entryMid": 147.27,
+   "stop": 141.77,
+   "t1": 156.44,
+   "t2": 161.93,
+   "exit": "$156.44 (half), $161.93 (rest)"
   },
   {
-   "t": "PDD",
-   "name": "PDD Holdings",
-   "sector": "Consumer Discretionary",
+   "t": "CRWV",
+   "name": "CoreWeave",
+   "sector": "AI infrastructure",
    "group": "core",
-   "ref": 86.0,
-   "refNote": "close 2026-11-19",
-   "week": 10.9,
-   "news": "Q3 adjusted EPS beat while revenue missed; operating expenses fell 12% as marketing spend was cut. Investors rewarded margin gains over the flat top line.",
-   "risk": "Revenue flat and missed; rally rests on cost cuts that may not repeat.",
+   "ref": 48.88,
+   "refNote": "close 2026-11-23",
+   "week": -2.0,
+   "news": "Rose in premarket as Huang's return relieved Nvidia AI financing fears, lifting AI infrastructure names alongside Nvidia.",
+   "risk": "Sentiment-driven rebound; financing concerns could return quickly.",
    "sources": [
-    "https://seekingalpha.com/news/4674622-pdd-shares-climb-as-profit-growth-offsets-revenue-miss"
+    "https://www.cnbc.com/2026/11/23/stocks-moving-the-most-today-live-updates.html"
    ],
-   "entry": "Dip to $84.45–85.53, or break above $87.39 on volume",
-   "entryMid": 84.99,
-   "stop": 83.13,
-   "t1": 88.09,
-   "t2": 89.95,
-   "exit": "$88.09 (half), $89.95 (rest)"
+   "entry": "Dip to $45.38–47.83, or break above $52.86 on volume",
+   "entryMid": 46.61,
+   "stop": 42.4,
+   "t1": 53.62,
+   "t2": 57.83,
+   "exit": "$53.62 (half), $57.83 (rest)"
   },
   {
-   "t": "AR",
-   "name": "Antero Resources",
-   "sector": "Energy",
+   "t": "DELL",
+   "name": "Dell Technologies",
+   "sector": "Hardware",
    "group": "sector",
-   "ref": 36.0,
-   "refNote": "close 2026-11-19",
-   "week": -7.0,
-   "news": "Q3 2026 net income rose sharply and production hit a record, with lower cash costs. Gas prices have been supported by Strait of Hormuz supply worries.",
-   "risk": "Earnings-driven gains; the stock trades on volatile gas prices.",
+   "ref": 337.5,
+   "refNote": "close 2026-11-23",
+   "week": 5.3,
+   "news": "Premarket gain after an 11% drop Friday; reports Q3 Tuesday with analysts expecting revenue up 11% and adjusted EPS up 20%.",
+   "risk": "Stock down sharply over one and three months; earnings on Tuesday carry event risk.",
    "sources": [
-    "https://finance.yahoo.com/markets/stocks/articles/antero-resources-ar-stock-climbs-171249752.html"
+    "https://www.chartmill.com/news/VTR/Chartmill-59061-Premarket-Movers-Nvidia-Dell-HPE-Gain-CrowdStrike-UnitedHealth-Slide"
    ],
-   "entry": "Dip to $35.30–35.79, or break above $39.14 on volume",
-   "entryMid": 35.54,
-   "stop": 34.7,
-   "t1": 36.95,
-   "t2": 37.79,
-   "exit": "$36.95 (half), $37.79 (rest)"
+   "entry": "Dip to $317.45–331.49, or break above $379.03 on volume",
+   "entryMid": 324.47,
+   "stop": 300.42,
+   "t1": 364.56,
+   "t2": 388.62,
+   "exit": "$364.56 (half), $388.62 (rest)"
+  },
+  {
+   "t": "ZS",
+   "name": "Zscaler",
+   "sector": "Cybersecurity",
+   "group": "sector",
+   "ref": 223.21,
+   "refNote": "close 2026-11-23",
+   "week": 17.0,
+   "news": "Jumped premarket on a major all-stock buyout by CrowdStrike valued at about $44 billion.",
+   "risk": "Deal-linked upside may be capped by the offer; deal terms and approvals pending.",
+   "sources": [
+    "https://www.cnbc.com/2026/11/23/stocks-moving-the-most-today-live-updates.html"
+   ],
+   "entry": "Dip to $215.43–220.88, or break above $247.90 on volume",
+   "entryMid": 218.15,
+   "stop": 208.82,
+   "t1": 233.71,
+   "t2": 243.05,
+   "exit": "$233.71 (half), $243.05 (rest)"
   },
   {
    "t": "INTC",
    "name": "Intel",
    "sector": "Semiconductors",
    "group": "sector",
-   "ref": 55.72,
-   "refNote": "close 2026-11-19",
-   "week": -9.0,
-   "news": "Shares rose in Thursday's premarket and session alongside a broad semiconductor bid. Intel was among the day's notable gainers during the AI-linked rally.",
-   "risk": "Move driven by sector sentiment rather than a company-specific catalyst.",
+   "ref": 57.8,
+   "refNote": "close 2026-11-23",
+   "week": 4.2,
+   "news": "Rose more than 6% at one point in premarket as the chip supply chain rebounded broadly.",
+   "risk": "Move is sector-driven rather than company-specific; reversal risk.",
    "sources": [
-    "https://www.benzinga.com/trading-ideas/movers/26/11/63429964/pdd-holdings-bellring-brands-everpure-and-other-big-stocks-moving-higher-on-thursday"
+    "https://ca.investing.com/news/stock-market-news/premarket-movers-chip-stocks-lead-ai-rebound-crowdstrike-falls-4975459"
    ],
-   "entry": "Dip to $53.53–55.06, or break above $61.34 on volume",
-   "entryMid": 54.29,
-   "stop": 51.66,
-   "t1": 58.68,
-   "t2": 61.32,
-   "exit": "$58.68 (half), $61.32 (rest)"
+   "entry": "Dip to $55.44–57.09, or break above $59.52 on volume",
+   "entryMid": 56.27,
+   "stop": 53.44,
+   "t1": 60.98,
+   "t2": 63.81,
+   "exit": "$60.98 (half), $63.81 (rest)"
   },
   {
-   "t": "NVDA",
-   "name": "NVDA",
+   "t": "CRDO",
+   "name": "CRDO",
    "sector": "Avoid / fade",
    "group": "avoid",
-   "ref": 145.98,
-   "week": -12.2,
-   "news": "Moved down 3% last session; no fresh positive catalyst verified in this brief. No levels given."
-  },
-  {
-   "t": "AMD",
-   "name": "AMD",
-   "sector": "Avoid / fade",
-   "group": "avoid",
-   "ref": 489.19,
-   "week": -16.4,
-   "news": "Fell 8% last session; no verified positive catalyst to support a long. No levels given."
-  },
-  {
-   "t": "GRAB",
-   "name": "GRAB",
-   "sector": "Avoid / fade",
-   "group": "avoid",
-   "ref": 2.93,
-   "week": -9.6,
-   "news": "Fell 7% last session; no verified upbeat catalyst found in searches. No levels given."
+   "ref": 122.79,
+   "week": 1.7,
+   "news": "No confirmed catalyst found in this session's searches; prior-session gain not verified. No levels given."
   }
  ]
 }
