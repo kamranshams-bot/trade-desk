@@ -1,193 +1,233 @@
 {
- "asOf": "Updated Wed 25 Nov 2026, 19:25 Dubai · prices from 2026-11-25 close · for the Wed 25 Nov session",
+ "asOf": "Updated Fri 27 Nov 2026, 18:52 Dubai · prices from 2026-11-27 close · for the Fri 27 Nov session",
  "kicker": "Dubai desk · US open 6:30pm Dubai (9:30am ET)",
- "barDate": "2026-11-25",
- "sessionDate": "2026-11-25",
+ "barDate": "2026-11-27",
+ "sessionDate": "2026-11-27",
  "stats": [
   [
    "S&P 500 (SPY)",
-   "-2.85%",
+   "+0.65%",
    "last session"
   ],
   [
    "Nasdaq-100 (QQQ)",
-   "-4.38%",
+   "+0.79%",
    "last session"
   ],
   [
    "10-yr yield",
-   "4.83%",
-   "-1.5% day"
+   "4.89%",
+   "+0.9% day"
   ],
   [
    "Oil (WTI)",
-   "$83",
-   "+1.8% day"
+   "$84",
+   "+0.5% day"
   ],
   [
    "Bitcoin",
-   "$57,798",
-   "-3.3% day"
+   "$59,151",
+   "-2.2% day"
   ],
   [
    "VIX",
-   "32.2",
-   "+22.2% day"
+   "26.6",
+   "-0.8% day"
   ]
  ],
  "notes": [
-  "Futures sharply lower; Nasdaq-100 futures down about 3% pre-open on AI selloff.",
-  "Rate hike talk and reported new US tariffs add macro uncertainty before Thanksgiving.",
-  "Dow closed above 50,000 Tuesday; tech weakness broad across AI and chip names.",
-  "Packed calendar today: PCE inflation and jobless claims at 8:30am ET."
+  "US indexes rose Friday on a holiday-shortened session; early close at 1pm ET.",
+  "Brazil-linked ADRs jumped on a fiscal package and election-related repricing.",
+  "Oil firm: Brent near $97 and WTI near $86 in premarket.",
+  "Light volumes expected after the holiday; a reversal risk remains for Brazil plays."
  ],
  "calendar": [
-  "Wed Nov 25: Dell and Nutanix post-earnings reactions; Deere reports today.",
-  "Wed Nov 25: Li Auto, Trip.com, Kanzhun (BZ) and GDS earnings.",
-  "Wed Nov 25: PCE price index and weekly jobless claims 8:30am ET.",
-  "Thu Nov 26: no notable earnings reports; US Thanksgiving holiday."
+  "Fri 27 Nov: NYSE and Nasdaq close early at 1pm ET; bond market closes 2pm ET.",
+  "No major earnings or economic releases on the calendar Friday.",
+  "Vertex povetacicept FDA decision pushed to no later than Feb 28, 2027.",
+  "Brazil runoff election risk remains a swing factor for Brazilian ADRs."
  ],
  "avoid": [
   {
-   "t": "DELL",
-   "reason": "Fell despite a strong beat; AI selloff and worst-month pressure weigh on the stock."
+   "t": "VRTX",
+   "reason": "Fell about 7% premarket after the FDA extended its review of its kidney drug, per coverage."
   },
   {
-   "t": "NVDA",
-   "reason": "Premarket slide of roughly 5 to 6% amid the AI selloff spreading through chip stocks."
+   "t": "FRHC",
+   "reason": "Fell sharply premarket on Friday; no verified catalyst found in searches."
   },
   {
-   "t": "AMBA",
-   "reason": "Dropped about 34% premarket after guidance was cut on rising memory costs."
+   "t": "PANW",
+   "reason": "Moved lower premarket; no verified negative catalyst found in searches."
   }
  ],
  "items": [
   {
-   "t": "KSS",
-   "name": "Kohl's Corp",
-   "sector": "Retail",
+   "t": "XP",
+   "name": "XP Inc.",
+   "sector": "Financials",
    "group": "core",
-   "ref": 27.0,
-   "refNote": "close 2026-11-25",
-   "week": 12.3,
-   "news": "Kohl's added about 19.5% in premarket trading as retailers rallied against the tech selloff after a reported move.",
-   "risk": "Retail gains can fade fast; catalyst not confirmed in sources found.",
+   "ref": 16.99,
+   "refNote": "close 2026-11-27",
+   "week": 24.2,
+   "news": "Premarket surge tied to Brazil's approved R$60bn fiscal package and an active R$1.5bn buyback that began November 17.",
+   "risk": "Brazil election reversal could unwind the rally; thin holiday volume.",
    "sources": [
-    "https://stockinvest.us/digest/digest-digest-us-premarket-2026-11-25"
+    "https://api.finexus.net/api/news/earnings/129953/html"
    ],
-   "entry": "Dip to $26.23–26.77, or break above $27.20 on volume",
-   "entryMid": 26.5,
-   "stop": 25.57,
-   "t1": 28.04,
-   "t2": 28.97,
-   "exit": "$28.04 (half), $28.97 (rest)"
-  },
-  {
-   "t": "HPQ",
-   "name": "HP Inc",
-   "sector": "Technology hardware",
-   "group": "core",
-   "ref": 30.83,
-   "refNote": "close 2026-11-25",
-   "week": 7.6,
-   "news": "HP reported fourth-quarter revenue above consensus, with AI PCs reaching nearly 60% of shipments in the period.",
-   "risk": "Heavy tech selloff and high implied move could reverse gains quickly.",
-   "sources": [
-    "https://pro.thestreet.com/markets/stocks/premarket"
-   ],
-   "entry": "Dip to $30.22–30.64, or break above $32.05 on volume",
-   "entryMid": 30.43,
-   "stop": 29.7,
-   "t1": 31.65,
-   "t2": 32.37,
-   "exit": "$31.65 (half), $32.37 (rest)"
-  },
-  {
-   "t": "BZ",
-   "name": "Kanzhun Ltd",
-   "sector": "Internet",
-   "group": "sector",
-   "ref": 13.87,
-   "refNote": "close 2026-11-25",
-   "week": 4.1,
-   "news": "Kanzhun is scheduled to report earnings on Wednesday, Nov 25, alongside several other China-linked names.",
-   "risk": "Earnings reaction unknown; China exposure and broad tech weakness.",
-   "sources": [
-    "https://www.schwab.com/learn/story/weekly-traders-outlook"
-   ],
-   "entry": "Dip to $13.42–13.73, or break above $14.08 on volume",
-   "entryMid": 13.57,
-   "stop": 13.03,
-   "t1": 14.48,
-   "t2": 15.03,
-   "exit": "$14.48 (half), $15.03 (rest)"
-  },
-  {
-   "t": "ANF",
-   "name": "Abercrombie & Fitch",
-   "sector": "Apparel retail",
-   "group": "sector",
-   "ref": 169.92,
-   "refNote": "close 2026-11-25",
-   "week": 15.6,
-   "news": "Abercrombie & Fitch rose about 19.7% in premarket trading, moving against the broader market selloff.",
-   "risk": "Catalyst behind the move not verified; retail sentiment may reverse.",
-   "sources": [
-    "https://stockinvest.us/digest/digest-digest-us-premarket-2026-11-25"
-   ],
-   "entry": "Dip to $165.15–168.49, or break above $178.38 on volume",
-   "entryMid": 166.82,
-   "stop": 161.1,
-   "t1": 176.36,
-   "t2": 182.08,
-   "exit": "$176.36 (half), $182.08 (rest)"
-  },
-  {
-   "t": "DKS",
-   "name": "Dick's Sporting Goods",
-   "sector": "Retail",
-   "group": "sector",
-   "ref": 157.21,
-   "refNote": "close 2026-11-25",
-   "week": 8.7,
-   "news": "Dick's Sporting Goods gained about 14.6% in premarket trading alongside other retailers.",
-   "risk": "Catalyst not verified in sources; sector-wide rally may fade.",
-   "sources": [
-    "https://stockinvest.us/digest/digest-digest-us-premarket-2026-11-25"
-   ],
-   "entry": "Dip to $153.64–156.14, or break above $158.23 on volume",
-   "entryMid": 154.89,
-   "stop": 150.59,
-   "t1": 162.05,
-   "t2": 166.34,
-   "exit": "$162.05 (half), $166.34 (rest)"
-  },
-  {
-   "t": "DELL",
-   "name": "DELL",
-   "sector": "Avoid / fade",
-   "group": "avoid",
-   "ref": 271.74,
-   "week": -13.2,
-   "news": "Fell despite a strong beat; AI selloff and worst-month pressure weigh on the stock. No levels given."
+   "entry": "Dip to $16.54–16.85, or break above $17.33 on volume",
+   "entryMid": 16.7,
+   "stop": 16.15,
+   "t1": 17.6,
+   "t2": 18.15,
+   "exit": "$17.60 (half), $18.15 (rest)"
   },
   {
    "t": "NVDA",
-   "name": "NVDA",
-   "sector": "Avoid / fade",
-   "group": "avoid",
-   "ref": 143.55,
-   "week": -4.9,
-   "news": "Premarket slide of roughly 5 to 6% amid the AI selloff spreading through chip stocks. No levels given."
+   "name": "NVIDIA",
+   "sector": "Semiconductors",
+   "group": "core",
+   "ref": 146.44,
+   "refNote": "close 2026-11-27",
+   "week": 0.3,
+   "news": "Board reinstated Jensen Huang as CEO after his November resignation; several analysts upgraded the stock to buy or outperform.",
+   "risk": "Prior-day rally was large; AI profitability worries could resurface.",
+   "sources": [
+    "https://www.cnbc.com/2026/11/23/nvidia-has-reinstated-ceo-jensen-huang-analysts-upgraded-the-stock.html"
+   ],
+   "entry": "Dip to $138.76–144.14, or break above $171.50 on volume",
+   "entryMid": 141.45,
+   "stop": 132.24,
+   "t1": 156.8,
+   "t2": 166.01,
+   "exit": "$156.80 (half), $166.01 (rest)"
   },
   {
-   "t": "AMBA",
-   "name": "AMBA",
+   "t": "VERA",
+   "name": "Vera Therapeutics",
+   "sector": "Biotech",
+   "group": "core",
+   "ref": 33.6,
+   "refNote": "close 2026-11-27",
+   "week": 25.6,
+   "news": "Shares rose after the FDA extended Vertex's povetacicept review to no later than Feb 28, 2027, easing competitive pressure on TRUTAKNA.",
+   "risk": "Thin premarket volume; high valuation; catalyst already priced in.",
+   "sources": [
+    "https://www.gurufocus.com/news/9220854/vera-therapeutics-vera-shares-surge-19-after-fda-delay-announcement-on-competitors-drug"
+   ],
+   "entry": "Dip to $32.60–33.30, or break above $35.49 on volume",
+   "entryMid": 32.95,
+   "stop": 31.76,
+   "t1": 34.94,
+   "t2": 36.13,
+   "exit": "$34.94 (half), $36.13 (rest)"
+  },
+  {
+   "t": "ITUB",
+   "name": "Itau Unibanco",
+   "sector": "Low-priced (under $10)",
+   "group": "low",
+   "ref": 7.78,
+   "refNote": "close 2026-11-27",
+   "week": 16.4,
+   "news": "Brazilian bank ADR rallied alongside peers on the fiscal and election-driven repricing of Brazilian assets.",
+   "risk": "Rally driven by currency and risk premium rather than new earnings.",
+   "sources": [
+    "https://kalkine.ca/news/financial/what-four-brazil-banks-surged-after-the-vote-itau-nyseitub-bradesco-nysebbd-nu-nysenu-xp-nasdaqxp-1"
+   ],
+   "entry": "Dip to $7.64–7.74, or break above $7.87 on volume",
+   "entryMid": 7.69,
+   "stop": 7.51,
+   "t1": 7.99,
+   "t2": 8.16,
+   "exit": "$7.99 (half), $8.16 (rest)"
+  },
+  {
+   "t": "BBD",
+   "name": "Banco Bradesco",
+   "sector": "Low-priced (under $10)",
+   "group": "low",
+   "ref": 2.81,
+   "refNote": "close 2026-11-27",
+   "week": 22.2,
+   "news": "ADR surged in premarket alongside XP on Brazil's fiscal package approval, per premarket coverage.",
+   "risk": "Brazil political reversal; slower earnings growth than peers.",
+   "sources": [
+    "https://api.finexus.net/api/news/earnings/129953/html"
+   ],
+   "entry": "Dip to $2.75–2.79, or break above $2.88 on volume",
+   "entryMid": 2.77,
+   "stop": 2.69,
+   "t1": 2.9,
+   "t2": 2.97,
+   "exit": "$2.90 (half), $2.97 (rest)"
+  },
+  {
+   "t": "NU",
+   "name": "Nu Holdings",
+   "sector": "Fintech",
+   "group": "sector",
+   "ref": 13.23,
+   "refNote": "close 2026-11-27",
+   "week": 11.9,
+   "news": "Digital bank ADR gained alongside Brazil peers as fiscal relief and election repricing lifted Brazilian shares.",
+   "risk": "Brazil tax rate of 42.5% and runoff election uncertainty.",
+   "sources": [
+    "https://finance.yahoo.com/markets/stocks/articles/nu-holdings-spikes-12-brazil-124525550.html"
+   ],
+   "entry": "Dip to $12.90–13.13, or break above $13.52 on volume",
+   "entryMid": 13.02,
+   "stop": 12.62,
+   "t1": 13.67,
+   "t2": 14.07,
+   "exit": "$13.67 (half), $14.07 (rest)"
+  },
+  {
+   "t": "KNTK",
+   "name": "Kinetik Holdings",
+   "sector": "Energy",
+   "group": "sector",
+   "ref": 59.52,
+   "refNote": "close 2026-11-27",
+   "week": 11.5,
+   "news": "Shares rose about 7.5% in premarket trading on Friday, per a pre-market gainers note; no specific catalyst verified.",
+   "risk": "Catalyst unverified; oil-price sensitivity; light holiday volume.",
+   "sources": [
+    "https://quantpartners.substack.com/p/morning-note-112726-black-friday"
+   ],
+   "entry": "Dip to $58.54–59.23, or break above $59.72 on volume",
+   "entryMid": 58.88,
+   "stop": 57.7,
+   "t1": 60.85,
+   "t2": 62.03,
+   "exit": "$60.85 (half), $62.03 (rest)"
+  },
+  {
+   "t": "VRTX",
+   "name": "VRTX",
    "sector": "Avoid / fade",
    "group": "avoid",
-   "ref": 34.83,
-   "week": -36.3,
-   "news": "Dropped about 34% premarket after guidance was cut on rising memory costs. No levels given."
+   "ref": 511.55,
+   "week": -1.7,
+   "news": "Fell about 7% premarket after the FDA extended its review of its kidney drug, per coverage. No levels given."
+  },
+  {
+   "t": "FRHC",
+   "name": "FRHC",
+   "sector": "Avoid / fade",
+   "group": "avoid",
+   "ref": 171.05,
+   "week": 10.8,
+   "news": "Fell sharply premarket on Friday; no verified catalyst found in searches. No levels given."
+  },
+  {
+   "t": "PANW",
+   "name": "PANW",
+   "sector": "Avoid / fade",
+   "group": "avoid",
+   "ref": 346.8,
+   "week": -4.1,
+   "news": "Moved lower premarket; no verified negative catalyst found in searches. No levels given."
   }
  ]
 }
